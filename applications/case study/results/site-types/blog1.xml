@@ -1,0 +1,2803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="123" top="213" right="668" bottom="247" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>How Google keeps your information secure
+ </Text>
+  </Block>
+  <Block left="123" top="247" right="668" bottom="1767" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>3/10/2008 09:31:00 AM 
+Posted by Douglas Merrill, VP of Engineering
+
+As many of you know, we spend a lot of time around here thinking about new products to help you run your life more efficiently, whether that’s organizing email in a better way, sharing pictures with friends, or collaborating in real time on documents. What you may not know is that we also spend a lot of time thinking about the security that goes into those products, and more specifically the ways we can protect you and your private information.
+
+While the chances are that you&apos;ll never have a security problem, we take security very seriously, and that&apos;s why we have some of the best engineers in the world working here to secure information. Much of their work is confidential, but we do want to share some of the ways we&apos;re protecting your data. There are a few things you should know about how we handle confidential information:
+
+Philosophy: First is our philosophy. At Google, security is a continuous process. We don&apos;t just &quot;check&quot; a product for security before we launch it -- we are thinking about security before the product is even created, and we are building it in throughout the product&apos;s development. Also critical is our belief in layered protection. It&apos;s much like securing your house. You put your most private information in a safe. You secure the safe in your house, which is protected with locks and possibly an alarm system. And then you have the neighborhood watch program or the local police monitoring your neighborhood. It&apos;s very similar at Google. Our most sensitive information is difficult to find or access (the safe). Our network and facilities (the house) are protected in both high- and low-tech ways: encryption, alarms, and other technology for our systems, and strong physical security at our facilities. And finally, we&apos;ve learned that when security is done right, it&apos;s done best as a community (the neighborhood); we encourage everyone to help us identify potential problems and solutions. Researchers who work at security and technology companies all over the world are constantly looking for security problems on the Internet, and we work closely with that community to find and fix potential problems.
+Technology: These layers of protection are built on the best security technology in the world. While we employ products developed by others in the security community, we build a lot of our security technology ourselves. Some of the most innovative components of our security architecture focus on automation and scale. These are important to us because we&apos;re handling searches, emails, and other activities for millions of users every day. To keep our security processes a step ahead, we automate the way we test our software for possible security vulnerabilities and the way we monitor for possible security attacks. We&apos;re also constantly seeking more ways to use encryption and other technical measures to protect your data, while still maintaining a great user experience.
+Process: In addition to technology, we have a set of processes that dictate how we secure confidential information at Google and who can access it. We carefully manage access to confidential information of any sort, and very few Googlers have access to what we consider very sensitive data. This is in no small part because there&apos;s very little reason for us to provide that access -- most of our processes are automated, and don&apos;t require much human intervention. Of course, the limited number of people who are granted access to sensitive data must have special approval. And while we hold ourselves to a very high standard, we also work to ensure that our processes meet (and in many cases exceed) industry standards. These include audits for Sarbanes-Oxley, SAS 70, PCI (payment card industry) compliance, and more. By working with independent auditors, who evaluate compliance with standards that hold hundreds of different companies to very rigorous requirements, we add another layer of checks and balances to our security processes.
+People: The most important part of our approach to security is our people. Google employs some of the best and brightest security engineers in the world. Many of our engineers came from very high-profile security environments, such as banks, credit card companies, and high-volume retail organizations, and a large number of them hold PhDs and patents in security and software engineering. As you can imagine, our engineers are smart and curious and are on the lookout for security anomalies and best practices in the industry. Our engineers have published hundreds of academic papers on technically detailed topics such as drive-by downloads that install malware (PDF file) or hostile virtualized environments. (You can find some of these papers here.) What&apos;s more, we cultivate a collaborative approach to security among all of our engineers, requiring everyone to pass a coding style review (which enables us to control the type of code used here and how it&apos;s used in order to prevent software problems) and ensuring that all code at Google is reviewed by multiple engineers so that it meets our software and security standards.
+
+And throughout the company, we use our own products. That means we protect your information with the same security that we use to protect our own company emails and documents. And while we continue to innovate with our products, we&apos;ll also continue to innovate in the world of security. For more on our approach to security, visit our Security and Product Safety page. </Text>
+  </Block>
+  <Block left="123" top="1748" right="668" bottom="1767" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="1792" right="229" bottom="1809" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels: security </Text>
+  </Block>
+  <Block left="123" top="1881" right="668" bottom="1915" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Google Calendar Sync
+ </Text>
+  </Block>
+  <Block left="123" top="1915" right="668" bottom="2643" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>3/05/2008 04:15:00 PM 
+Posted by Shirin Oskooi, Product Manager, Google Calendar
+
+I&apos;ve suffered major headaches trying to sync all my calendars. I used the Microsoft Outlook calendar on my desktop computer at home, but since I wanted to be able to access my schedule from anywhere, I also kept a copy of it on Google Calendar. When I traveled, I&apos;d import my Google Calendar data into my laptop&apos;s Outlook calendar so I could access it offline. This was not only annoying to maintain, but also quite error-prone. If I made updates on any of the copies of my calendar, I had to make sure to make those same exact changes to the other copies, too.
+
+This was my life for a whole year before we started working on Google Calendar Sync, a 2-way synching application between Google Calendar and the calendar in Microsoft Outlook. I was probably the most excited person on the team when we started developing it, because now I can access my calendar at home or on my laptop, on Google Calendar or in Outlook. When I add an event to the Outlook calendar on my laptop, Google Calendar Sync syncs it to my Google Calendar -- and since I also have Google Calendar Sync running on my desktop, the event then syncs from Google Calendar to Outlook calendar on my desktop. All of my calendar views are always up to date, and I can choose whichever one I want to use.</Text>
+  </Block>
+  <Block left="123" top="2624" right="668" bottom="2643" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="2713" right="668" bottom="2747" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Search within a site: A tale of teleportation
+ </Text>
+  </Block>
+  <Block left="123" top="2747" right="668" bottom="3458" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>3/05/2008 04:14:00 PM 
+Posted by Ben Lee, Software Engineer, and Jack Menzel, Product Manager
+
+Have you ever forgotten the exact address of a site that you wanted to visit? Not a problem - just type the name of the site into the Google search box and hopefully it appears at the top of the search results page.
+
+We call this &quot;teleporting&quot;, and we&apos;re pleased that we have been able to minimize the need to remember an alphabet soup of .coms, .nets, and .orgs out of everyone&apos;s lives. However, one of the trends we noticed while studying teleporting was that there were lots of searchers who would type the name of a specific website as if they wanted to teleport, but would then immediately issue another more a refined search within this site.
+
+For example, if someone is looking for official information about the Hubble Space Telescope on the NASA website, one might first search for [NASA] and then [NASA Hubble Telescope], like this:
+
+
+
+
+
+Through experimentation, we found that presenting users with a search box as part of the result increases their likelihood of finding the exact page they are looking for. So over the past few days we have been testing, and today we have fully rolled out, a search box that appears within some of the search results themselves. This feature will now occur when we detect a high probability that a user wants more refined search results within a specific site. Like the rest of our snippets, the sites that display the site search box are chosen algorithmically based on metrics that measure how useful the search box is to users.
+
+We hope that you will make use of the site search box in order to get the information you&apos;re looking for as quickly and easily as possible. </Text>
+  </Block>
+  <Block left="123" top="3439" right="668" bottom="3458" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="3483" right="223" bottom="3500" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels: search </Text>
+  </Block>
+  <Block left="123" top="3572" right="668" bottom="3606" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Desktop: More gadgets, more languages
+ </Text>
+  </Block>
+  <Block left="123" top="3606" right="668" bottom="3851" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>3/05/2008 11:34:00 AM 
+Posted by Ryan Tabone, Product Manager
+
+Desktop&apos;s last beta release made the beautiful gadgets in our Desktop gallery available for use in iGoogle. Today Google Desktop 5.5 goes out of beta and makes that same functionality available to 31 more languages, now including Thai and Indonesian.
+
+If you want to see how Desktop can help you stay connected internationally, read more about this latest release on the Google Desktop Blog. And remember, Google Desktop is not only about gadgets for your desktop and browser; it&apos;s a great way of searching files and launching applications too. </Text>
+  </Block>
+  <Block left="123" top="3832" right="668" bottom="3851" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="3876" right="223" bottom="3893" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels: search </Text>
+  </Block>
+  <Block left="123" top="3965" right="668" bottom="3999" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Why data matters
+ </Text>
+  </Block>
+  <Block left="123" top="3999" right="671" bottom="5912" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>3/04/2008 07:04:00 AM 
+Posted by Hal Varian, Chief Economist
+
+We often use this space to discuss how we treat user data and protect privacy. With the post below, we&apos;re beginning an occasional series that discusses how we harness the data we collect to improve our products and services for our users. We think it&apos;s appropriate to start with a post describing how data has been critical to the advancement of search technology. - Ed.
+
+Better data makes for better science. The history of information retrieval illustrates this principle well.
+
+Work in this area began in the early days of computing, with simple document retrieval based on matching queries with words and phrases in text files. Driven by the availability of new data sources, algorithms evolved and became more sophisticated. The arrival of the web presented new challenges for search, and now it is common to use information from web links and many other indicators as signals of relevance.
+
+Today&apos;s web search algorithms are trained to a large degree by the &quot;wisdom of the crowds&quot; drawn from the logs of billions of previous search queries. This brief overview of the history of search illustrates why using data is integral to making Google web search valuable to our users.
+
+A brief history of search
+
+Nowadays search is a hot topic, especially with the widespread use of the web, but the history of document search dates back to the 1950s. Search engines existed in those ancient times, but their primary use was to search a static collection of documents. In the early 60s, the research community gathered new data by digitizing abstracts of articles, enabling rapid progress in the field in the 60s and 70s. But by the late 80s, progress in this area had slowed down considerably.
+
+In order to stimulate research in information retrieval, the National Institute of Standards and Technology (NIST) launched the Text Retrieval Conference (TREC) in 1992. TREC introduced new data in the form of full-text documents and used human judges to classify whether or not particular documents were relevant to a set of queries. They released a sample of this data to researchers, who used it to train and improve their systems to find the documents relevant to a new set of queries and compare their results to TREC&apos;s human judgments and other researchers&apos; algorithms.
+
+The TREC data revitalized research on information retrieval. Having a standard, widely available, and carefully constructed set of data laid the groundwork for further innovation in this field. The yearly TREC conference fostered collaboration, innovation, and a measured dose of competition (and bragging rights) that led to better information retrieval.
+
+New ideas spread rapidly, and the algorithms improved. But with each new improvement, it became harder and harder to improve on last year&apos;s techniques, and progress eventually slowed down again.
+
+And then came the web. In its beginning stages, researchers used industry-standard algorithms based on the TREC research to find documents on the web. But the need for better search was apparent--now not just for researchers, but also for everyday users---and the web gave us lots of new data in the form of links that offered the possibility of new advances.
+
+There were developments on two fronts. On the commercial side, a few companies started offering web search engines, but no one was quite sure what business models would work.
+
+On the academic side, the National Science Foundation started a &quot;Digital Library Project&quot; which made grants to several universities. Two Stanford grad students in computer science named Larry Page and Sergey Brin worked on this project. Their insight was to recognize that existing search algorithms could be dramatically improved by using the special linking structure of web documents. Thus PageRank was born.
+
+How Google uses data
+
+PageRank offered a significant improvement on existing algorithms by ranking the relevance of a web page not by keywords alone but also by the quality and quantity of the sites that linked to it. If I have six links pointing to me from sites such as the Wall Street Journal, New York Times, and the House of Representatives, that carries more weight than 20 links from my old college buddies who happen to have web pages.
+
+Larry and Sergey initially tried to license their algorithm to some of the newly formed web search engines, but none were interested. Since they couldn&apos;t sell their algorithm, they decided to start a search engine themselves. The rest of the story is well-known.
+
+Over the years, Google has continued to invest in making search better. Our information retrieval experts have added more than 200 additional signals to the algorithms that determine the relevance of websites to a user&apos;s query.
+
+So where did those other 200 signals come from? What&apos;s the next stage of search, and what do we need to do to find even more relevant information online?
+
+We&apos;re constantly experimenting with our algorithm, tuning and tweaking on a weekly basis to come up with more relevant and useful results for our users.
+
+But in order to come up with new ranking techniques and evaluate if users find them useful, we have to store and analyze search logs. (Watch our videos to see exactly what data we store in our logs.) What results do people click on? How does their behavior change when we change aspects of our algorithm? Using data in the logs, we can compare how well we&apos;re doing now at finding useful information for you to how we did a year ago. If we don&apos;t keep a history, we have no good way to evaluate our progress and make improvements.
+
+To choose a simple example: the Google spell checker is based on our analysis of user searches compiled from our logs -- not a dictionary. Similarly, we&apos;ve had a lot of success in using query data to improve our information about geographic locations, enabling us to provide better local search.
+
+Storing and analyzing logs of user searches is how Google&apos;s algorithm learns to give you more useful results. Just as data availability has driven progress of search in the past, the data in our search logs will certainly be a critical component of future breakthroughs. </Text>
+  </Block>
+  <Block left="123" top="5893" right="668" bottom="5912" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="5937" right="277" bottom="5954" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels: privacy, search </Text>
+  </Block>
+  <Block left="123" top="6026" right="668" bottom="6060" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Summer of Code is back!
+ </Text>
+  </Block>
+  <Block left="123" top="6060" right="668" bottom="6424" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>3/03/2008 12:51:00 PM 
+Posted by Leslie Hawthorn, Program Manager, Open Source
+
+Google Summer of Code, our program to introduce students to open source software development is coming back. In the past three years, we&apos;ve seen more than 1500 students &apos;graduate&apos; from this program, working with 2000+ mentors across 90 countries to produce millions of lines of code. We&apos;re pleased to have funded more than $10M in open source development through Summer of Code, and we&apos;ve increased our funding for it this year by another $1M.
+
+Last year alone, more than 800 students successfully completed their projects. Each received $4500 as a stipend and an awesome T-shirt. We&apos;re looking forward to welcoming even more student participants and open source projects into the Google Summer of Code community this year.
+
+We&apos;re accepting applications from open source projects who&apos;d like to act as mentoring organizations through March 13th, and will begin taking student applications on March 24th. If you&apos;re interested in learning more, just subscribe to the program discussion list. We hope to see you there! </Text>
+  </Block>
+  <Block left="123" top="6405" right="668" bottom="6424" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="6449" right="338" bottom="6466" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels: developers, open source </Text>
+  </Block>
+  <Block left="123" top="6538" right="668" bottom="6572" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Hello, Pittsburgh
+ </Text>
+  </Block>
+  <Block left="123" top="6572" right="668" bottom="6919" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>2/28/2008 04:50:00 PM 
+Posted by Andrew Moore, Engineering Director
+
+On Tuesday, March 4, the Google Pittsburgh office will open its doors to the technical community for a special evening. We&apos;ll kick things off with some mingling over beer, wine and snacks, and then transition into a tech talk with one of our local engineers, Pat Stephenson.
+
+Pat will discuss the implementation of Dapper, a low-overhead system for monitoring the performance of large, distributed applications at Google, and the tools his team has built to analyze the data in a talk titled &quot;Dapper: It&apos;s 11 p.m. and do you know where your RPC is?&quot;
+
+We hope to create a collegial atmosphere where members of the technical community can learn from and get to know one another.
+
+If you&apos;re in the Pittsburgh area, please join us. Space is limited, however, so hurry and register. </Text>
+  </Block>
+  <Block left="123" top="6900" right="668" bottom="6919" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="6989" right="668" bottom="7023" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Bringing it all together
+ </Text>
+  </Block>
+  <Block left="123" top="7023" right="668" bottom="7989" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>2/28/2008 09:48:00 AM 
+Posted by Scott Johnston, Senior Product Manager (former VP of Products at JotSpot)
+
+Many of you have been waiting for JotSpot to re-emerge, integrated into Google -- and now it&apos;s happening. Here&apos;s the story:
+
+In the last 10 years, the way all of us work has changed. We&apos;ve grown accustomed to always being connected through email and instant messaging. Consequently, people are working together in teams more often, with larger groups, and with others who may be in different parts of the country or the world. We are shifting our focus from personal to team productivity. It&apos;s less about &quot;you&quot; and more about &quot;us.&quot;
+
+But with this explosion in collaboration, how do you bring together everything your team needs to work? How do you take information, whether it is on your desktop or online, and share it with specific groups of people -- your team, the company, the public?
+
+Meet Google Sites, the newest addition to the Google Apps product suite. It was designed to allow you to easily create a network of sites and share them with whomever you choose. Google Sites lets you pull together information from across Google Apps by embedding documents, spreadsheets, presentations, videos, and calendars in your sites. Of course, we also harness the power of Google search technology so your search results are always fast and relevant.
+
+What does it take to start using Google Sites? Just a click of a button -- that&apos;s it. Here&apos;s an overview with more detail:
+
+
+
+We&apos;re just finishing up the code to migrate existing JotSpot customer wikis to Google sites, so if you&apos;re already a JotSpot customer, you&apos;ll be hearing from us soon on how to make the switch.
+
+If you aren&apos;t a Google Apps customer yet and want to use Google Sites, sign up at http://sites.google.com. </Text>
+  </Block>
+  <Block left="123" top="8012" right="668" bottom="8031" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="8101" right="668" bottom="8135" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Google Health, a first look
+ </Text>
+  </Block>
+  <Block left="123" top="8135" right="668" bottom="9583" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>2/28/2008 06:30:00 AM 
+Posted by Marissa Mayer, VP, Search &amp; User Products
+
+It&apos;s been a busy week for the Google Health team. Last week we announced our partnership and pilot with the Cleveland Clinic. This week, the team has been at the HIMSS (Healthcare Information and Management Systems Society) conference in Orlando, Florida, where Eric Schmidt gave the closing keynote. Eric&apos;s keynote marks the first time we&apos;ve talked publicly about the product we&apos;ve been designing and building. His talk also offered a deeper view into our overall health strategy. (Watch the video.)
+
+
+Google Health aims to solve an urgent need that dovetails with our overall mission of organizing patient information and making it accessible and useful. Through our health offering, our users will be empowered to collect, store, and manage their own medical records online.
+
+For the healthcare industry, online personal health records (PHRs) aren&apos;t a new idea and, in some cases, online PHRs already exist for patients. Here&apos;s what we think sets Google Health apart:
+
+Privacy and Security - Due to the sensitive and personal nature of the data that will be stored in Google Health, we need to conduct our health service with the same privacy, security, and integrity users have come to expect in all our services. Google Health will protect the privacy of your health information by giving you complete control over your data. We won&apos;t sell or share your data without your explicit permission. Our privacy policy and practices have been developed in thoughtful collaboration with experts from the Google Health Advisory Council.
+
+Platform - One of the most exciting and innovative parts of Google Health is our platform strategy. We&apos;re assembling a directory of third-party services that interoperate with Google Health. Right now, this means you&apos;ll be able to automatically import information such as your doctors&apos; records, your prescription history, and your test results into Google Health in order to easily access and and control your data. Later, this platform strategy will mean that you will be able to interact with services and tools easily, and will be able to do things like schedule appointments, refill prescriptions, and start using new wellness tools.
+
+Portability - Our Internet presence ultimately means that through Google Health, you will be able to have access and control over your health data from anywhere. Through the Cleveland Clinic pilot, we have already found great use-cases in which, for example, people spend 6 months of the year in Ohio, and 6 months of the year in Florida or Arizona, and will now be able to move their health data between their various health providers seamlessly and with total control. Previously, this would have required carrying paper records back and forth. With Google Health, the user can simply import the data from each medical facility and then choose to share it with the other facilities. It&apos;s advances in data portability like this that we think can really make a difference in the quality of healthcare. The clearer and more comprehensive the information regarding your health becomes, the better your care will be.
+
+User focus - We aren&apos;t doctors or healthcare experts, but one thing Google can create is a clean, easy-to-use user experience that makes managing your health information straightforward and easy. We&apos;re still iterating and testing our user interface, but here is what the welcome screen looks like:
+
+Here is a screenshot deeper in the application:
+
+
+We&apos;re proud of the product that we&apos;ve designed and are continuing to build, but recognize that we are just at the initial stages of our &quot;launch early and iterate&quot; strategy. We look forward to the feedback we will receive from our Cleveland Clinic pilot, from all of you, and from the initial users of our service when we make it publicly available in the coming months.
+Update: Added link to video of Eric&apos;s talk; refreshed second screenshot.</Text>
+  </Block>
+  <Block left="123" top="9564" right="668" bottom="9583" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="123" top="9608" right="246" bottom="9625" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels: healthcare </Text>
+  </Block>
+  <Block left="123" top="9697" right="668" bottom="9731" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#cc6600" />
+    </Attributes>
+    <Text>Project CARE in San Francisco
+ </Text>
+  </Block>
+  <Block left="123" top="9731" right="668" bottom="10299" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>2/27/2008 09:30:00 AM 
+Posted by Craig Walker, Senior Product Manager
+
+As we mentioned last fall, GrandCentral&apos;s Project CARE initiative, which provides permanent telephone numbers and voicemail services to the homeless, has partnered with San Francisco&apos;s Project Homeless Connect (PHC) to support the city&apos;s homeless as they get back on their feet.
+
+Today, Mayor Gavin Newsom will announce plans to give every homeless person in San Francisco a local phone number and voicemail account through Project CARE. We&apos;re thrilled to be a part of this effort, and as a first step towards simplifying the process of setting up a phone number and voicemail, we&apos;re rolling out a website where shelters and agencies across the city can create new accounts. Project CARE will also be visiting both city-owned and private shelters to help introduce this new system, assist the staff in familiarizing with the process, and answer any questions.
+
+We&apos;re firm believers in the power of technology to improve the daily lives of individuals and communities as a whole, and we recognize that access to phone and voicemail services is one way that GrandCentral can help San Francisco&apos;s homeless stay connected with family, friends, social workers, health care providers, and potential employers.
+
+While we&apos;re excited to bring this technology to our local Bay Area community, our ultimate goal is to provide these invaluable services to cities and shelters across the country.
+
+If you&apos;re in San Francisco and would like to learn more about Project CARE&apos;s work with PHC, please join us at today&apos;s Project Homeless Connect 21 at the Billy Graham Civic Auditorium. If you can&apos;t make it to the event, check out Project Homeless Connect&apos;s website. </Text>
+  </Block>
+  <Block left="123" top="10280" right="668" bottom="10299" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Permalink Links to this post   </Text>
+  </Block>
+  <Block left="586" top="10369" right="668" bottom="10386" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>Older Posts </Text>
+  </Block>
+  <Block left="681" top="72" right="794" bottom="88" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#676767" />
+    </Attributes>
+    <Text>powered by</Text>
+  </Block>
+  <Block left="681" top="93" right="861" bottom="166" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text> Site Feed
+ 
+ </Text>
+  </Block>
+  <Block left="681" top="183" right="861" bottom="211" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Archives</Text>
+  </Block>
+  <Block left="681" top="215" right="866" bottom="240" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text> Archives March 2008 (6) February 2008 (36) January 2008 (15) December 2007 (30) November 2007 (23) October 2007 (30) September 2007 (17) August 2007 (18) July 2007 (22) June 2007 (28) May 2007 (25) April 2007 (31) March 2007 (35) February 2007 (21) January 2007 (20) December 2006 (24) November 2006 (31) October 2006 (33) September 2006 (26) August 2006 (32) July 2006 (18) June 2006 (25) May 2006 (19) April 2006 (20) March 2006 (20) February 2006 (26) January 2006 (18) December 2005 (18) November 2005 (20) October 2005 (20) September 2005 (27) August 2005 (20) July 2005 (14) June 2005 (11) May 2005 (18) April 2005 (16) March 2005 (21) February 2005 (7) January 2005 (7) December 2004 (11) November 2004 (6) October 2004 (15) September 2004 (7) August 2004 (2) July 2004 (4) June 2004 (5) May 2004 (7) April 2004 (1) </Text>
+  </Block>
+  <Block left="681" top="344" right="861" bottom="391" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Recent posts from more Google blogs</Text>
+  </Block>
+  <Block left="681" top="398" right="822" bottom="441" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Spanish Elections on YouTube</Text>
+  </Block>
+  <Block left="681" top="446" right="758" bottom="464" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>YouTube :: Blog</Text>
+  </Block>
+  <Block left="681" top="478" right="854" bottom="521" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>为“网站管理员工具”设计的iGoogle小工具</Text>
+  </Block>
+  <Block left="681" top="558" right="854" bottom="601" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Sites で簡単チームサイト作成 &amp; 公開</Text>
+  </Block>
+  <Block left="681" top="606" right="858" bottom="624" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google Enterprise Japan 公式ブログ</Text>
+  </Block>
+  <Block left="681" top="638" right="830" bottom="658" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Announcing Google I/O</Text>
+  </Block>
+  <Block left="681" top="663" right="767" bottom="681" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google Code Blog</Text>
+  </Block>
+  <Block left="681" top="695" right="858" bottom="784" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>오픈 소스 코드도 만들고 상금도 받는 구글 Summer of Code에 참여하세요</Text>
+  </Block>
+  <Block left="681" top="788" right="782" bottom="807" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google 한국 블로그</Text>
+  </Block>
+  <Block left="681" top="824" right="861" bottom="852" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Newest Google blogs</Text>
+  </Block>
+  <Block left="681" top="856" right="861" bottom="883" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google Grants Blog </Text>
+  </Block>
+  <Block left="681" top="883" right="861" bottom="910" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google Open Source Blog </Text>
+  </Block>
+  <Block left="681" top="910" right="861" bottom="937" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Inside AdWords - Deutsch </Text>
+  </Block>
+  <Block left="681" top="937" right="861" bottom="964" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>AdWords Blog - 한국 </Text>
+  </Block>
+  <Block left="681" top="981" right="861" bottom="1009" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labels</Text>
+  </Block>
+  <Block left="681" top="1013" right="861" bottom="1040" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>.org (14) </Text>
+  </Block>
+  <Block left="681" top="1040" right="861" bottom="1067" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>accessibility (17) </Text>
+  </Block>
+  <Block left="681" top="1067" right="861" bottom="1094" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>acquisition (6) </Text>
+  </Block>
+  <Block left="681" top="1094" right="861" bottom="1121" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>ads (28) </Text>
+  </Block>
+  <Block left="681" top="1121" right="861" bottom="1148" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Africa (1) </Text>
+  </Block>
+  <Block left="681" top="1148" right="861" bottom="1175" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>apps (230) </Text>
+  </Block>
+  <Block left="681" top="1175" right="861" bottom="1202" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>April 1 (3) </Text>
+  </Block>
+  <Block left="681" top="1202" right="861" bottom="1229" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Asia (10) </Text>
+  </Block>
+  <Block left="681" top="1229" right="861" bottom="1256" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>developers (57) </Text>
+  </Block>
+  <Block left="681" top="1256" right="861" bottom="1283" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>enterprise (29) </Text>
+  </Block>
+  <Block left="681" top="1283" right="861" bottom="1310" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>environment (15) </Text>
+  </Block>
+  <Block left="681" top="1310" right="861" bottom="1337" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Europe (20) </Text>
+  </Block>
+  <Block left="681" top="1337" right="861" bottom="1364" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google.org (1) </Text>
+  </Block>
+  <Block left="681" top="1364" right="861" bottom="1391" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>googlers and culture (116) </Text>
+  </Block>
+  <Block left="681" top="1391" right="861" bottom="1418" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>healthcare (9) </Text>
+  </Block>
+  <Block left="681" top="1418" right="861" bottom="1445" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>India (1) </Text>
+  </Block>
+  <Block left="681" top="1445" right="861" bottom="1472" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>innovation (1) </Text>
+  </Block>
+  <Block left="681" top="1472" right="861" bottom="1499" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Latin America (6) </Text>
+  </Block>
+  <Block left="681" top="1499" right="861" bottom="1526" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>mobile (37) </Text>
+  </Block>
+  <Block left="681" top="1526" right="861" bottom="1553" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>open source (2) </Text>
+  </Block>
+  <Block left="681" top="1553" right="861" bottom="1580" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>personalization (39) </Text>
+  </Block>
+  <Block left="681" top="1580" right="861" bottom="1607" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>policy and issues (76) </Text>
+  </Block>
+  <Block left="681" top="1607" right="861" bottom="1634" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>politics (7) </Text>
+  </Block>
+  <Block left="681" top="1634" right="861" bottom="1661" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>privacy (16) </Text>
+  </Block>
+  <Block left="681" top="1661" right="861" bottom="1688" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>recipe (6) </Text>
+  </Block>
+  <Block left="681" top="1688" right="861" bottom="1715" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>recruiting and hiring (25) </Text>
+  </Block>
+  <Block left="681" top="1715" right="861" bottom="1742" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>scholarships (11) </Text>
+  </Block>
+  <Block left="681" top="1742" right="861" bottom="1769" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>search (173) </Text>
+  </Block>
+  <Block left="681" top="1769" right="861" bottom="1796" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>security (1) </Text>
+  </Block>
+  <Block left="681" top="1796" right="861" bottom="1846" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>user experience and usability (19) </Text>
+  </Block>
+  <Block left="681" top="1846" right="861" bottom="1873" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>video (19) </Text>
+  </Block>
+  <Block left="681" top="1890" right="861" bottom="1918" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>We Love Feedback</Text>
+  </Block>
+  <Block left="681" top="1922" right="861" bottom="1991" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Do you want to comment on a post? Send us some email. </Text>
+  </Block>
+  <Block left="681" top="2008" right="861" bottom="2036" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>More Google</Text>
+  </Block>
+  <Block left="681" top="2040" right="861" bottom="2067" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Web Search </Text>
+  </Block>
+  <Block left="681" top="2067" right="861" bottom="2094" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Downloads </Text>
+  </Block>
+  <Block left="681" top="2094" right="861" bottom="2121" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Image Search </Text>
+  </Block>
+  <Block left="681" top="2121" right="861" bottom="2148" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Maps </Text>
+  </Block>
+  <Block left="681" top="2148" right="861" bottom="2175" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Labs </Text>
+  </Block>
+  <Block left="681" top="2175" right="861" bottom="2202" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>News </Text>
+  </Block>
+  <Block left="681" top="2202" right="861" bottom="2229" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Zeitgeist </Text>
+  </Block>
+  <Block left="681" top="2229" right="861" bottom="2256" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Mobile </Text>
+  </Block>
+  <Block left="681" top="2256" right="861" bottom="2283" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>More... </Text>
+  </Block>
+  <Block left="681" top="2300" right="861" bottom="2328" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>More Google Blogs</Text>
+  </Block>
+  <Block left="681" top="2335" right="801" bottom="2355" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>AdWords API Blog</Text>
+  </Block>
+  <Block left="681" top="2358" right="815" bottom="2378" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>AdWords Retail Tips</Text>
+  </Block>
+  <Block left="681" top="2381" right="814" bottom="2401" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>AdWords-Português</Text>
+  </Block>
+  <Block left="681" top="2404" right="825" bottom="2424" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>AJAX Search API Blog</Text>
+  </Block>
+  <Block left="681" top="2427" right="849" bottom="2470" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Analytics-日本版 公式ブログ</Text>
+  </Block>
+  <Block left="681" top="2473" right="841" bottom="2493" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Android Developers Blog</Text>
+  </Block>
+  <Block left="681" top="2496" right="769" bottom="2516" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogger Buzz</Text>
+  </Block>
+  <Block left="681" top="2519" right="831" bottom="2539" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogger Buzz -Español</Text>
+  </Block>
+  <Block left="681" top="2542" right="831" bottom="2562" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogger Buzz-Français</Text>
+  </Block>
+  <Block left="681" top="2565" right="819" bottom="2585" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogger Buzz-Italiano</Text>
+  </Block>
+  <Block left="681" top="2588" right="841" bottom="2608" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogger Buzz-Português</Text>
+  </Block>
+  <Block left="681" top="2611" right="768" bottom="2631" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogs of Note</Text>
+  </Block>
+  <Block left="681" top="2634" right="826" bottom="2654" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Blogs of Note-Español</Text>
+  </Block>
+  <Block left="681" top="2657" right="844" bottom="2700" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Burning Questions - The FeedBurner Weblog</Text>
+  </Block>
+  <Block left="681" top="2703" right="837" bottom="2746" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Custom Search Engine Blog</Text>
+  </Block>
+  <Block left="681" top="2749" right="780" bottom="2769" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Gears API Blog</Text>
+  </Block>
+  <Block left="681" top="2772" right="822" bottom="2792" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Analytics Blog</Text>
+  </Block>
+  <Block left="681" top="2795" right="798" bottom="2815" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Base Blog</Text>
+  </Block>
+  <Block left="681" top="2818" right="825" bottom="2838" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Base-Deutsch</Text>
+  </Block>
+  <Block left="681" top="2841" right="795" bottom="2861" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Blog-日本</Text>
+  </Block>
+  <Block left="681" top="2864" right="852" bottom="2884" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Checkout API Blog</Text>
+  </Block>
+  <Block left="681" top="2887" right="826" bottom="2907" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Checkout Blog</Text>
+  </Block>
+  <Block left="681" top="2910" right="834" bottom="2930" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Code (Updates)</Text>
+  </Block>
+  <Block left="681" top="2933" right="833" bottom="2976" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Code-Featured Projects</Text>
+  </Block>
+  <Block left="681" top="2979" right="796" bottom="2999" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google CPG Blog</Text>
+  </Block>
+  <Block left="681" top="3002" right="829" bottom="3022" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Data APIs Blog</Text>
+  </Block>
+  <Block left="681" top="3025" right="844" bottom="3045" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Desktop API Blog</Text>
+  </Block>
+  <Block left="681" top="3048" right="799" bottom="3068" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Docs Blog</Text>
+  </Block>
+  <Block left="681" top="3071" right="831" bottom="3091" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Enterprise Blog</Text>
+  </Block>
+  <Block left="681" top="3094" right="859" bottom="3137" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Enterprise Blog - 日本語</Text>
+  </Block>
+  <Block left="681" top="3140" right="863" bottom="3183" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Entertainment  Italia Blog</Text>
+  </Block>
+  <Block left="681" top="3186" right="816" bottom="3206" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Finance Blog</Text>
+  </Block>
+  <Block left="681" top="3209" right="802" bottom="3229" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Gmail Blog</Text>
+  </Block>
+  <Block left="681" top="3232" right="808" bottom="3252" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Grants Blog</Text>
+  </Block>
+  <Block left="681" top="3255" right="783" bottom="3275" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google LatLong</Text>
+  </Block>
+  <Block left="681" top="3278" right="791" bottom="3298" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Mac Blog</Text>
+  </Block>
+  <Block left="681" top="3301" right="825" bottom="3321" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Maps API Blog</Text>
+  </Block>
+  <Block left="681" top="3324" right="857" bottom="3344" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Mashup Editor Blog</Text>
+  </Block>
+  <Block left="681" top="3347" right="801" bottom="3367" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google News Blog</Text>
+  </Block>
+  <Block left="681" top="3370" right="834" bottom="3413" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Online Security Blog</Text>
+  </Block>
+  <Block left="681" top="3416" right="851" bottom="3436" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Open Source Blog</Text>
+  </Block>
+  <Block left="681" top="3439" right="810" bottom="3459" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Photos Blog</Text>
+  </Block>
+  <Block left="681" top="3462" right="847" bottom="3482" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Public Policy Blog</Text>
+  </Block>
+  <Block left="681" top="3485" right="828" bottom="3505" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Research Blog</Text>
+  </Block>
+  <Block left="681" top="3508" right="853" bottom="3528" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google SketchUp API Blog</Text>
+  </Block>
+  <Block left="681" top="3531" right="827" bottom="3551" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google SketchUp Blog</Text>
+  </Block>
+  <Block left="681" top="3554" right="794" bottom="3574" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Talkabout</Text>
+  </Block>
+  <Block left="681" top="3577" right="812" bottom="3597" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Testing Blog</Text>
+  </Block>
+  <Block left="681" top="3600" right="817" bottom="3643" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Testing Blog-Deutsch</Text>
+  </Block>
+  <Block left="681" top="3646" right="841" bottom="3666" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Google Web Toolkit Blog</Text>
+  </Block>
+  <Block left="681" top="3669" right="782" bottom="3689" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>google.org Blog</Text>
+  </Block>
+  <Block left="681" top="3692" right="782" bottom="3712" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense</Text>
+  </Block>
+  <Block left="681" top="3715" right="850" bottom="3735" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Deutsch</Text>
+  </Block>
+  <Block left="681" top="3738" right="848" bottom="3758" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Espanol</Text>
+  </Block>
+  <Block left="681" top="3761" right="852" bottom="3781" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Français</Text>
+  </Block>
+  <Block left="681" top="3784" right="840" bottom="3804" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Italiano</Text>
+  </Block>
+  <Block left="681" top="3807" right="795" bottom="3850" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Nederlands</Text>
+  </Block>
+  <Block left="681" top="3853" right="795" bottom="3896" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Portuguese</Text>
+  </Block>
+  <Block left="681" top="3899" right="842" bottom="3919" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Türkiye</Text>
+  </Block>
+  <Block left="681" top="3922" right="845" bottom="3942" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - Россия</Text>
+  </Block>
+  <Block left="681" top="3945" right="825" bottom="3965" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - 中文</Text>
+  </Block>
+  <Block left="681" top="3968" right="825" bottom="3988" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - 日本</Text>
+  </Block>
+  <Block left="681" top="3991" right="825" bottom="4011" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdSense - 한국</Text>
+  </Block>
+  <Block left="681" top="4014" right="784" bottom="4034" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdWords</Text>
+  </Block>
+  <Block left="681" top="4037" right="850" bottom="4057" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdWords - Español</Text>
+  </Block>
+  <Block left="681" top="4060" right="827" bottom="4080" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdWords - 日本</Text>
+  </Block>
+  <Block left="681" top="4083" right="827" bottom="4103" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdWords - 한국</Text>
+  </Block>
+  <Block left="681" top="4106" right="789" bottom="4149" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside AdWords-Nederlands</Text>
+  </Block>
+  <Block left="681" top="4152" right="857" bottom="4172" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside Google Book Search</Text>
+  </Block>
+  <Block left="681" top="4175" right="827" bottom="4195" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Inside Google Desktop</Text>
+  </Block>
+  <Block left="681" top="4198" right="832" bottom="4218" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Japan Partnership Blog</Text>
+  </Block>
+  <Block left="681" top="4221" right="788" bottom="4241" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Librarian Central</Text>
+  </Block>
+  <Block left="681" top="4244" right="771" bottom="4264" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>My Maps Blog</Text>
+  </Block>
+  <Block left="681" top="4267" right="817" bottom="4287" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>o blog oficial do orkut</Text>
+  </Block>
+  <Block left="681" top="4290" right="809" bottom="4310" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#800080" />
+    </Attributes>
+    <Text>Official Google Blog</Text>
+  </Block>
+  <Block left="681" top="4313" right="826" bottom="4356" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog -  América Latina</Text>
+  </Block>
+  <Block left="681" top="4359" right="856" bottom="4379" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog -  한국</Text>
+  </Block>
+  <Block left="681" top="4382" right="822" bottom="4425" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - Australia</Text>
+  </Block>
+  <Block left="681" top="4428" right="859" bottom="4448" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - Brasil</Text>
+  </Block>
+  <Block left="681" top="4451" right="851" bottom="4471" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - Italia</Text>
+  </Block>
+  <Block left="681" top="4474" right="822" bottom="4517" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - Polska</Text>
+  </Block>
+  <Block left="681" top="4520" right="822" bottom="4563" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - Česká republika</Text>
+  </Block>
+  <Block left="681" top="4566" right="822" bottom="4609" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - Россия</Text>
+  </Block>
+  <Block left="681" top="4612" right="852" bottom="4632" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Blog - 中国</Text>
+  </Block>
+  <Block left="681" top="4635" right="865" bottom="4678" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Gadgets API Blog</Text>
+  </Block>
+  <Block left="681" top="4681" right="854" bottom="4701" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Mobile Blog</Text>
+  </Block>
+  <Block left="681" top="4704" right="845" bottom="4747" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Notebook Blog</Text>
+  </Block>
+  <Block left="681" top="4750" right="861" bottom="4770" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Official Google Reader Blog</Text>
+  </Block>
+  <Block left="681" top="4773" right="816" bottom="4793" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>OpenSocial API Blog</Text>
+  </Block>
+  <Block left="681" top="4796" right="746" bottom="4816" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>orkut Blog</Text>
+  </Block>
+  <Block left="681" top="4819" right="816" bottom="4839" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>orkut Developer Blog</Text>
+  </Block>
+  <Block left="681" top="4842" right="824" bottom="4862" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Programa con Google</Text>
+  </Block>
+  <Block left="681" top="4865" right="826" bottom="4885" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Summer of Code Blog</Text>
+  </Block>
+  <Block left="681" top="4888" right="842" bottom="4908" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Webmaster Central Blog</Text>
+  </Block>
+  <Block left="681" top="4911" right="855" bottom="4954" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Webmaster Central Blog - Deutsche</Text>
+  </Block>
+  <Block left="681" top="4957" right="856" bottom="5000" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>Webmaster Central China-谷歌中文网站管理员博客</Text>
+  </Block>
+  <Block left="681" top="5003" right="798" bottom="5023" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube API Blog</Text>
+  </Block>
+  <Block left="681" top="5026" right="772" bottom="5046" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog</Text>
+  </Block>
+  <Block left="681" top="5049" right="841" bottom="5069" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog - Australia</Text>
+  </Block>
+  <Block left="681" top="5072" right="822" bottom="5092" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog - Brasil</Text>
+  </Block>
+  <Block left="681" top="5095" right="836" bottom="5115" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog - Canada</Text>
+  </Block>
+  <Block left="681" top="5118" right="825" bottom="5161" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog - Great Britain</Text>
+  </Block>
+  <Block left="681" top="5164" right="828" bottom="5184" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog - Ireland</Text>
+  </Block>
+  <Block left="681" top="5187" right="818" bottom="5230" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog - New Zealand</Text>
+  </Block>
+  <Block left="681" top="5233" right="807" bottom="5253" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#0000ff" />
+    </Attributes>
+    <Text>YouTube Blog-日本</Text>
+  </Block>
+  <Block left="681" top="5270" right="861" bottom="5298" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>What We&apos;re Reading</Text>
+  </Block>
+  <Block left="681" top="5302" right="861" bottom="5352" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Aaron Swartz&apos;s Google Weblog </Text>
+  </Block>
+  <Block left="681" top="5352" right="861" bottom="5379" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Ask.com Blog </Text>
+  </Block>
+  <Block left="681" top="5379" right="861" bottom="5406" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Charlene Li&apos;s Blog </Text>
+  </Block>
+  <Block left="681" top="5406" right="861" bottom="5433" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Dutch Cowboys (Dutch) </Text>
+  </Block>
+  <Block left="681" top="5433" right="861" bottom="5460" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Google Guide </Text>
+  </Block>
+  <Block left="681" top="5460" right="861" bottom="5487" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Jeremy Zawodny&apos;s Blog </Text>
+  </Block>
+  <Block left="681" top="5487" right="861" bottom="5514" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>John Battelle&apos;s Searchblog </Text>
+  </Block>
+  <Block left="681" top="5514" right="861" bottom="5541" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Marketing Pilgrim </Text>
+  </Block>
+  <Block left="681" top="5541" right="861" bottom="5568" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>MSN Search Weblog </Text>
+  </Block>
+  <Block left="681" top="5568" right="861" bottom="5618" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Nathan Weinberg&apos;s Inside Google </Text>
+  </Block>
+  <Block left="681" top="5618" right="861" bottom="5668" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Philipp Lenssen&apos;s Google Blogoscoped </Text>
+  </Block>
+  <Block left="681" top="5668" right="861" bottom="5695" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>OJO!Buscador (Spanish) </Text>
+  </Block>
+  <Block left="681" top="5695" right="861" bottom="5722" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Marketing Facts (Dutch) </Text>
+  </Block>
+  <Block left="681" top="5722" right="861" bottom="5772" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Robert Scoble&apos;s Scobleizer </Text>
+  </Block>
+  <Block left="681" top="5772" right="861" bottom="5799" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>PassingNotes </Text>
+  </Block>
+  <Block left="681" top="5799" right="861" bottom="5849" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Rael Dornfest&apos;s Raelity Bytes </Text>
+  </Block>
+  <Block left="681" top="5849" right="861" bottom="5876" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Pandia Search World </Text>
+  </Block>
+  <Block left="681" top="5876" right="861" bottom="5903" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>ResearchBuzz </Text>
+  </Block>
+  <Block left="681" top="5903" right="861" bottom="5930" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Resource Shelf </Text>
+  </Block>
+  <Block left="681" top="5930" right="861" bottom="5957" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Roodlich (Dutch) </Text>
+  </Block>
+  <Block left="681" top="5957" right="861" bottom="5984" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Blog </Text>
+  </Block>
+  <Block left="681" top="5984" right="861" bottom="6011" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Journal </Text>
+  </Block>
+  <Block left="681" top="6011" right="861" bottom="6038" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Land </Text>
+  </Block>
+  <Block left="681" top="6038" right="861" bottom="6065" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Lowdown </Text>
+  </Block>
+  <Block left="681" top="6065" right="861" bottom="6092" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Roundtable </Text>
+  </Block>
+  <Block left="681" top="6092" right="861" bottom="6119" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Watch Blog </Text>
+  </Block>
+  <Block left="681" top="6119" right="861" bottom="6169" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Search Engine Watch Forums </Text>
+  </Block>
+  <Block left="681" top="6169" right="861" bottom="6196" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Slashdot - Google </Text>
+  </Block>
+  <Block left="681" top="6196" right="861" bottom="6223" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Slashdot (Japanese) </Text>
+  </Block>
+  <Block left="681" top="6223" right="861" bottom="6250" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Traffick </Text>
+  </Block>
+  <Block left="681" top="6250" right="861" bottom="6277" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Voelspriet (Dutch) </Text>
+  </Block>
+  <Block left="681" top="6277" right="861" bottom="6304" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>WebmasterWorld </Text>
+  </Block>
+  <Block left="681" top="6304" right="861" bottom="6354" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>What&apos;s On Tonight (Allen Weiner) </Text>
+  </Block>
+  <Block left="681" top="6354" right="861" bottom="6381" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Yahoo Search Blog </Text>
+  </Block>
+  <Block left="681" top="6398" right="861" bottom="6426" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.35" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Blogs By Googlers</Text>
+  </Block>
+  <Block left="681" top="6430" right="861" bottom="6457" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>20-Something Finance </Text>
+  </Block>
+  <Block left="681" top="6457" right="861" bottom="6484" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Alexander Limi </Text>
+  </Block>
+  <Block left="681" top="6484" right="861" bottom="6511" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Beyond Satire </Text>
+  </Block>
+  <Block left="681" top="6511" right="861" bottom="6538" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Bikin&apos; my Bloggin&apos; </Text>
+  </Block>
+  <Block left="681" top="6538" right="861" bottom="6565" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Bladam 2.0 </Text>
+  </Block>
+  <Block left="681" top="6565" right="861" bottom="6592" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Bolinfest Changeblog </Text>
+  </Block>
+  <Block left="681" top="6592" right="861" bottom="6619" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Bricoleur </Text>
+  </Block>
+  <Block left="681" top="6619" right="861" bottom="6669" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Catspaw&apos;s Guide to the Inevitably Insane </Text>
+  </Block>
+  <Block left="681" top="6669" right="861" bottom="6696" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Christian Pezzin </Text>
+  </Block>
+  <Block left="681" top="6696" right="861" bottom="6746" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Confessions of a Digital Packrat </Text>
+  </Block>
+  <Block left="681" top="6746" right="861" bottom="6773" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Continuations </Text>
+  </Block>
+  <Block left="681" top="6773" right="861" bottom="6800" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Donal Mountain&apos;s notes </Text>
+  </Block>
+  <Block left="681" top="6800" right="861" bottom="6850" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Dr. Razavi&apos;s Good-to-Know-Info </Text>
+  </Block>
+  <Block left="681" top="6850" right="861" bottom="6877" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Ego Food </Text>
+  </Block>
+  <Block left="681" top="6877" right="861" bottom="6904" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Erica&apos;s Joys </Text>
+  </Block>
+  <Block left="681" top="6904" right="861" bottom="6931" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Fury.com </Text>
+  </Block>
+  <Block left="681" top="6931" right="861" bottom="6958" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Gayle Laakman </Text>
+  </Block>
+  <Block left="681" top="6958" right="861" bottom="6985" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Grokster </Text>
+  </Block>
+  <Block left="681" top="6985" right="861" bottom="7012" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>iBanjo </Text>
+  </Block>
+  <Block left="681" top="7012" right="861" bottom="7062" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>It Has Come to My Attention </Text>
+  </Block>
+  <Block left="681" top="7062" right="861" bottom="7112" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Joe Beda Eighty Percent.net </Text>
+  </Block>
+  <Block left="681" top="7112" right="861" bottom="7139" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Kimbalina </Text>
+  </Block>
+  <Block left="681" top="7139" right="861" bottom="7166" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Kraneland </Text>
+  </Block>
+  <Block left="681" top="7166" right="861" bottom="7193" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Lorem Ipsum </Text>
+  </Block>
+  <Block left="681" top="7193" right="861" bottom="7220" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Marked for Dearth </Text>
+  </Block>
+  <Block left="681" top="7220" right="861" bottom="7270" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Marketing w Internecie (Polish) </Text>
+  </Block>
+  <Block left="681" top="7270" right="861" bottom="7297" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Massless </Text>
+  </Block>
+  <Block left="681" top="7297" right="861" bottom="7347" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Matt Cutts: Gadgets, Google and SEO </Text>
+  </Block>
+  <Block left="681" top="7347" right="861" bottom="7374" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Nanaze </Text>
+  </Block>
+  <Block left="681" top="7374" right="861" bottom="7401" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Otaku </Text>
+  </Block>
+  <Block left="681" top="7401" right="861" bottom="7428" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Ovidiu Predescu&apos;s Weblog </Text>
+  </Block>
+  <Block left="681" top="7428" right="861" bottom="7455" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>P@ Log </Text>
+  </Block>
+  <Block left="681" top="7455" right="861" bottom="7482" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>persistent.info </Text>
+  </Block>
+  <Block left="681" top="7482" right="861" bottom="7509" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Peter Fleischer: Privacy? </Text>
+  </Block>
+  <Block left="681" top="7509" right="861" bottom="7536" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Piaw&apos;s Blog </Text>
+  </Block>
+  <Block left="681" top="7536" right="861" bottom="7563" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Reza Behforooz </Text>
+  </Block>
+  <Block left="681" top="7563" right="861" bottom="7590" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Shumans.com </Text>
+  </Block>
+  <Block left="681" top="7590" right="861" bottom="7617" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>snarfed.org </Text>
+  </Block>
+  <Block left="681" top="7617" right="861" bottom="7644" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>So Many Games </Text>
+  </Block>
+  <Block left="681" top="7644" right="861" bottom="7671" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Sowbug </Text>
+  </Block>
+  <Block left="681" top="7671" right="861" bottom="7698" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Stevey&apos;s Blog Rants </Text>
+  </Block>
+  <Block left="681" top="7698" right="861" bottom="7725" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Technical Revenue </Text>
+  </Block>
+  <Block left="681" top="7725" right="861" bottom="7752" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>techno.blog </Text>
+  </Block>
+  <Block left="681" top="7752" right="861" bottom="7779" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>The Other Eighty Percent </Text>
+  </Block>
+  <Block left="681" top="7779" right="861" bottom="7806" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Vedana </Text>
+  </Block>
+  <Block left="681" top="7806" right="861" bottom="7833" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Xenomachina </Text>
+  </Block>
+  <Block left="681" top="7833" right="861" bottom="7860" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Zovirl Industries </Text>
+  </Block>
+  <Block left="681" top="7860" right="861" bottom="7975" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>
+Google Blog is powered by Blogger. Start your own weblog.</Text>
+  </Block>
+  <Block left="118" top="10444" right="878" bottom="10478" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>Copyright © 2008 Google Inc. All rights reserved.
+Privacy Policy | Terms of Service </Text>
+  </Block>
+
+</Page>

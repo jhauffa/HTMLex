@@ -1,0 +1,2956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="58" top="7" right="931" bottom="27" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Welcome to Doom9&apos;s Forum, THE in-place to be for everyone interested in DVD conversion.</Text>
+  </Block>
+  <Block left="16" top="50" right="980" bottom="90" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Before you start posting please read the forum rules. By posting to this forum you agree to abide by the rules.</Text>
+  </Block>
+  <Block left="20" top="130" right="724" bottom="150" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Doom9&apos;s Forum</Text>
+  </Block>
+  <Block left="731" top="112" right="982" bottom="168" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>User NameRemember Me?
+Password
+    </Text>
+  </Block>
+  <Block left="113" top="173" right="161" bottom="186" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Register</Text>
+  </Block>
+  <Block left="320" top="173" right="342" bottom="186" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>FAQ</Text>
+  </Block>
+  <Block left="547" top="173" right="625" bottom="186" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Today&apos;s Posts</Text>
+  </Block>
+  <Block left="772" top="170" right="983" bottom="189" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Search </Text>
+  </Block>
+  <Block left="14" top="212" right="982" bottom="244" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Welcome to the Doom9&apos;s Forum.</Text>
+  </Block>
+  <Block left="14" top="245" right="982" bottom="317" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If this is your first visit, be sure to check out the FAQ by clicking the link above. You may have to register before you can post: click the register link above to proceed. To start viewing messages, select the forum that you want to visit from the selection below. </Text>
+  </Block>
+  <Block left="56" top="341" right="502" bottom="362" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#999999" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Forum</Text>
+  </Block>
+  <Block left="503" top="341" right="746" bottom="362" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#999999" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Last Post</Text>
+  </Block>
+  <Block left="747" top="341" right="809" bottom="362" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#999999" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Threads</Text>
+  </Block>
+  <Block left="810" top="341" right="883" bottom="362" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#999999" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Posts</Text>
+  </Block>
+  <Block left="884" top="341" right="982" bottom="362" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#999999" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Moderator</Text>
+  </Block>
+  <Block left="14" top="363" right="982" bottom="395" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Announcements and Chat </Text>
+  </Block>
+  <Block left="62" top="402" right="496" bottom="422" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>General Discussion </Text>
+  </Block>
+  <Block left="62" top="422" right="496" bottom="435" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything that does not match one of the other categories.</Text>
+  </Block>
+  <Block left="509" top="405" right="740" bottom="418" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ReClock DirectShow filter :... </Text>
+  </Block>
+  <Block left="509" top="418" right="575" bottom="431" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by leeperry </Text>
+  </Block>
+  <Block left="509" top="418" right="740" bottom="431" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 13:52  </Text>
+  </Block>
+  <Block left="747" top="396" right="809" bottom="441" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7,008</Text>
+  </Block>
+  <Block left="810" top="396" right="883" bottom="441" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>54,018</Text>
+  </Block>
+  <Block left="890" top="412" right="976" bottom="425" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wilbert </Text>
+  </Block>
+  <Block left="62" top="448" right="496" bottom="468" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>News </Text>
+  </Block>
+  <Block left="62" top="468" right="496" bottom="481" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Latest news in the digital video arena.</Text>
+  </Block>
+  <Block left="509" top="451" right="740" bottom="464" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ireland ISP sued by major... </Text>
+  </Block>
+  <Block left="509" top="464" right="590" bottom="477" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Sharktooth </Text>
+  </Block>
+  <Block left="509" top="464" right="740" bottom="477" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:05  </Text>
+  </Block>
+  <Block left="747" top="442" right="809" bottom="487" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>421</Text>
+  </Block>
+  <Block left="810" top="442" right="883" bottom="487" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>455</Text>
+  </Block>
+  <Block left="62" top="494" right="496" bottom="514" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum / Site Suggestions &amp; Help </Text>
+  </Block>
+  <Block left="62" top="514" right="496" bottom="540" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If you have a suggestion for this forum/site then please post here and we will get back to you.</Text>
+  </Block>
+  <Block left="509" top="504" right="740" bottom="517" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Donationware </Text>
+  </Block>
+  <Block left="509" top="517" right="586" bottom="530" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by mikenadia </Text>
+  </Block>
+  <Block left="509" top="517" right="740" bottom="530" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Yesterday 11:31  </Text>
+  </Block>
+  <Block left="747" top="488" right="809" bottom="546" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>693</Text>
+  </Block>
+  <Block left="810" top="488" right="883" bottom="546" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3,662</Text>
+  </Block>
+  <Block left="14" top="547" right="982" bottom="579" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> General </Text>
+  </Block>
+  <Block left="62" top="586" right="496" bottom="606" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Decrypting </Text>
+  </Block>
+  <Block left="62" top="606" right="496" bottom="619" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>How do I get the files on my (HD)DVD / Blu-Ray disc to my harddisk?</Text>
+  </Block>
+  <Block left="509" top="589" right="740" bottom="602" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DVD Decrypter Not Ripping... </Text>
+  </Block>
+  <Block left="509" top="602" right="587" bottom="615" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by pdontthink </Text>
+  </Block>
+  <Block left="509" top="602" right="740" bottom="615" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 11:01  </Text>
+  </Block>
+  <Block left="747" top="580" right="809" bottom="625" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,703</Text>
+  </Block>
+  <Block left="810" top="580" right="883" bottom="625" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>27,588</Text>
+  </Block>
+  <Block left="62" top="632" right="496" bottom="652" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Newbies </Text>
+  </Block>
+  <Block left="62" top="652" right="496" bottom="665" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If you&apos;re new to DVD ripping please post your questions here.</Text>
+  </Block>
+  <Block left="509" top="635" right="740" bottom="648" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>What is this weird... </Text>
+  </Block>
+  <Block left="509" top="648" right="590" bottom="661" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Sharktooth </Text>
+  </Block>
+  <Block left="509" top="648" right="740" bottom="661" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:13  </Text>
+  </Block>
+  <Block left="747" top="626" right="809" bottom="671" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7,717</Text>
+  </Block>
+  <Block left="810" top="626" right="883" bottom="671" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>37,813</Text>
+  </Block>
+  <Block left="890" top="635" right="976" bottom="661" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>killingspree, ammck55, jel </Text>
+  </Block>
+  <Block left="62" top="678" right="496" bottom="698" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DVD2AVI / DGIndex </Text>
+  </Block>
+  <Block left="62" top="698" right="496" bottom="711" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If it uses DVD2AVI or DGIndex here&apos;s where you discuss it.</Text>
+  </Block>
+  <Block left="509" top="681" right="740" bottom="694" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DGMPGDec 1.5.0 release... </Text>
+  </Block>
+  <Block left="509" top="694" right="574" bottom="707" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by neuron2 </Text>
+  </Block>
+  <Block left="509" top="694" right="740" bottom="707" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 13:20  </Text>
+  </Block>
+  <Block left="747" top="672" right="809" bottom="717" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,177</Text>
+  </Block>
+  <Block left="810" top="672" right="883" bottom="717" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>10,812</Text>
+  </Block>
+  <Block left="890" top="681" right="976" bottom="707" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>neuron2, Cyberia </Text>
+  </Block>
+  <Block left="62" top="727" right="496" bottom="747" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Audio encoding </Text>
+  </Block>
+  <Block left="62" top="747" right="496" bottom="760" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything around audio de/encoding</Text>
+  </Block>
+  <Block left="509" top="730" right="740" bottom="743" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>need help reencoding a he-aac... </Text>
+  </Block>
+  <Block left="509" top="743" right="596" bottom="756" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by SpAwN_gUy </Text>
+  </Block>
+  <Block left="509" top="743" right="740" bottom="756" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 09:54  </Text>
+  </Block>
+  <Block left="747" top="718" right="809" bottom="769" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6,334</Text>
+  </Block>
+  <Block left="810" top="718" right="883" bottom="769" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>51,597</Text>
+  </Block>
+  <Block left="890" top="724" right="976" bottom="763" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>pacohaas, DSPguru, KpeX </Text>
+  </Block>
+  <Block left="62" top="776" right="496" bottom="796" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Subtitles </Text>
+  </Block>
+  <Block left="62" top="796" right="496" bottom="809" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>How to make, edit and display subtitles.</Text>
+  </Block>
+  <Block left="509" top="779" right="740" bottom="792" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>HD subtitle ripping (SUPread) </Text>
+  </Block>
+  <Block left="509" top="792" right="562" bottom="805" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by jamos </Text>
+  </Block>
+  <Block left="509" top="792" right="740" bottom="805" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:53  </Text>
+  </Block>
+  <Block left="747" top="770" right="809" bottom="815" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3,509</Text>
+  </Block>
+  <Block left="810" top="770" right="883" bottom="815" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>18,107</Text>
+  </Block>
+  <Block left="890" top="786" right="976" bottom="799" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ukendt </Text>
+  </Block>
+  <Block left="62" top="822" right="496" bottom="842" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Linux, Mac OS X, &amp; Co </Text>
+  </Block>
+  <Block left="62" top="842" right="496" bottom="868" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about DVD backups on *nix based operating systems like Linux, OS X, etc.</Text>
+  </Block>
+  <Block left="509" top="832" right="740" bottom="845" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ubuntu UDF patch </Text>
+  </Block>
+  <Block left="509" top="845" right="570" bottom="858" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by ilikenwf </Text>
+  </Block>
+  <Block left="509" top="845" right="740" bottom="858" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 01:51  </Text>
+  </Block>
+  <Block left="747" top="816" right="809" bottom="874" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>719</Text>
+  </Block>
+  <Block left="810" top="816" right="883" bottom="874" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>5,485</Text>
+  </Block>
+  <Block left="890" top="832" right="976" bottom="858" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>KpeX, Neo Neko, mrbass </Text>
+  </Block>
+  <Block left="14" top="875" right="982" bottom="920" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Capturing and Editing Video 
+All about capturing (HD)TV, video, and editing (e.g. cutting) of existing video sources</Text>
+  </Block>
+  <Block left="62" top="930" right="496" bottom="950" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Avisynth Usage </Text>
+  </Block>
+  <Block left="62" top="950" right="496" bottom="963" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Anything and everything about using Avisynth</Text>
+  </Block>
+  <Block left="509" top="933" right="740" bottom="946" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DarkDB - small helping script... </Text>
+  </Block>
+  <Block left="509" top="946" right="582" bottom="959" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by McCauley </Text>
+  </Block>
+  <Block left="509" top="946" right="740" bottom="959" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:46  </Text>
+  </Block>
+  <Block left="747" top="921" right="809" bottom="972" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7,366</Text>
+  </Block>
+  <Block left="810" top="921" right="883" bottom="972" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>79,010</Text>
+  </Block>
+  <Block left="890" top="927" right="976" bottom="966" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>neuron2, Wilbert, sh0dan </Text>
+  </Block>
+  <Block left="62" top="979" right="496" bottom="999" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Avisynth Development </Text>
+  </Block>
+  <Block left="62" top="999" right="496" bottom="1025" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum for core and filter development, new feature discussion, and advanced topics</Text>
+  </Block>
+  <Block left="509" top="989" right="740" bottom="1002" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>FFmpegSource </Text>
+  </Block>
+  <Block left="509" top="1002" right="574" bottom="1015" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Myrsloik </Text>
+  </Block>
+  <Block left="509" top="1002" right="740" bottom="1015" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 11:13  </Text>
+  </Block>
+  <Block left="747" top="973" right="809" bottom="1031" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,098</Text>
+  </Block>
+  <Block left="810" top="973" right="883" bottom="1031" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>18,758</Text>
+  </Block>
+  <Block left="890" top="982" right="976" bottom="1021" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>neuron2, Richard Berg, sh0dan </Text>
+  </Block>
+  <Block left="62" top="1038" right="496" bottom="1058" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Capturing Video </Text>
+  </Block>
+  <Block left="62" top="1058" right="496" bottom="1071" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about capturing VHS, and other analogue sources.</Text>
+  </Block>
+  <Block left="509" top="1041" right="740" bottom="1054" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Deinterlacing question </Text>
+  </Block>
+  <Block left="509" top="1054" right="574" bottom="1067" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by neuron2 </Text>
+  </Block>
+  <Block left="509" top="1054" right="740" bottom="1067" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 13:25  </Text>
+  </Block>
+  <Block left="747" top="1032" right="809" bottom="1077" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3,052</Text>
+  </Block>
+  <Block left="810" top="1032" right="883" bottom="1077" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>19,933</Text>
+  </Block>
+  <Block left="890" top="1048" right="976" bottom="1061" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>jggimi </Text>
+  </Block>
+  <Block left="62" top="1084" right="496" bottom="1104" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DV </Text>
+  </Block>
+  <Block left="62" top="1104" right="496" bottom="1117" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>everything about the DV format you can imagine..</Text>
+  </Block>
+  <Block left="509" top="1087" right="740" bottom="1100" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>error in the DV faq about... </Text>
+  </Block>
+  <Block left="509" top="1100" right="563" bottom="1113" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by facialz </Text>
+  </Block>
+  <Block left="509" top="1100" right="740" bottom="1113" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>9th March 2008 17:03  </Text>
+  </Block>
+  <Block left="747" top="1078" right="809" bottom="1123" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,191</Text>
+  </Block>
+  <Block left="810" top="1078" right="883" bottom="1123" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8,904</Text>
+  </Block>
+  <Block left="890" top="1094" right="976" bottom="1107" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>bb </Text>
+  </Block>
+  <Block left="62" top="1130" right="496" bottom="1150" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>HDTV / DVB / TiVo </Text>
+  </Block>
+  <Block left="62" top="1150" right="496" bottom="1163" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about capturing and processing digital broadcast sources</Text>
+  </Block>
+  <Block left="509" top="1133" right="740" bottom="1146" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Audio sync gradually lost... </Text>
+  </Block>
+  <Block left="509" top="1146" right="557" bottom="1159" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by tre31 </Text>
+  </Block>
+  <Block left="509" top="1146" right="740" bottom="1159" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 12:37  </Text>
+  </Block>
+  <Block left="747" top="1124" right="809" bottom="1169" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,239</Text>
+  </Block>
+  <Block left="810" top="1124" right="883" bottom="1169" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8,057</Text>
+  </Block>
+  <Block left="890" top="1140" right="976" bottom="1153" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>neuron2 </Text>
+  </Block>
+  <Block left="62" top="1176" right="496" bottom="1196" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>NLE - Non Linear Editing </Text>
+  </Block>
+  <Block left="62" top="1196" right="496" bottom="1209" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is where you discuss NL video editing.</Text>
+  </Block>
+  <Block left="509" top="1179" right="740" bottom="1192" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Adobe Premiere and editing of... </Text>
+  </Block>
+  <Block left="509" top="1192" right="570" bottom="1205" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by arminio </Text>
+  </Block>
+  <Block left="509" top="1192" right="740" bottom="1205" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Yesterday 10:03  </Text>
+  </Block>
+  <Block left="747" top="1170" right="809" bottom="1215" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>384</Text>
+  </Block>
+  <Block left="810" top="1170" right="883" bottom="1215" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,139</Text>
+  </Block>
+  <Block left="890" top="1186" right="976" bottom="1199" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Arky </Text>
+  </Block>
+  <Block left="62" top="1222" right="496" bottom="1242" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>VirtualDub, VDubMod &amp; AviDemux </Text>
+  </Block>
+  <Block left="62" top="1242" right="496" bottom="1268" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>VirtualDub, VDubMod and AviDemux related discussions (focused on editing)</Text>
+  </Block>
+  <Block left="509" top="1232" right="740" bottom="1245" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>big bug with vdub-mpeg2 </Text>
+  </Block>
+  <Block left="509" top="1245" right="575" bottom="1258" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by gizmo27 </Text>
+  </Block>
+  <Block left="509" top="1245" right="740" bottom="1258" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Yesterday 21:54  </Text>
+  </Block>
+  <Block left="747" top="1216" right="809" bottom="1274" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,680</Text>
+  </Block>
+  <Block left="810" top="1216" right="883" bottom="1274" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>14,073</Text>
+  </Block>
+  <Block left="890" top="1238" right="976" bottom="1251" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>foxyshadis </Text>
+  </Block>
+  <Block left="62" top="1281" right="496" bottom="1301" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>New and alternative a/v containers </Text>
+  </Block>
+  <Block left="62" top="1301" right="496" bottom="1327" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about new audio and video container formats like OGM, Matroska and MP4</Text>
+  </Block>
+  <Block left="509" top="1291" right="740" bottom="1304" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>mkv2vob: New App to Remux MKV... </Text>
+  </Block>
+  <Block left="509" top="1304" right="563" bottom="1317" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Shayx </Text>
+  </Block>
+  <Block left="509" top="1304" right="740" bottom="1317" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 13:06  </Text>
+  </Block>
+  <Block left="747" top="1275" right="809" bottom="1333" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,456</Text>
+  </Block>
+  <Block left="810" top="1275" right="883" bottom="1333" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>34,198</Text>
+  </Block>
+  <Block left="890" top="1284" right="976" bottom="1323" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>avih, Neo Neko, Koepi, bond, Hiro2k </Text>
+  </Block>
+  <Block left="14" top="1334" right="982" bottom="1379" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Video Encoding 
+All about video encoding, codecs, and video encoding tools</Text>
+  </Block>
+  <Block left="62" top="1389" right="496" bottom="1409" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DivX Encoding </Text>
+  </Block>
+  <Block left="62" top="1409" right="496" bottom="1422" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about the DivX (3/4/5/6) MPEG-4 ASP codec</Text>
+  </Block>
+  <Block left="509" top="1392" right="740" bottom="1405" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Stage6 Shut Down On 28th of... </Text>
+  </Block>
+  <Block left="509" top="1405" right="621" bottom="1418" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Shinigami-Sama </Text>
+  </Block>
+  <Block left="509" top="1405" right="740" bottom="1418" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 04:42  </Text>
+  </Block>
+  <Block left="747" top="1380" right="809" bottom="1431" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3,392</Text>
+  </Block>
+  <Block left="810" top="1380" right="883" bottom="1431" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>25,165</Text>
+  </Block>
+  <Block left="890" top="1386" right="976" bottom="1425" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Koepi, manono, jggimi </Text>
+  </Block>
+  <Block left="62" top="1441" right="496" bottom="1461" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>(Auto) Gordian Knot </Text>
+  </Block>
+  <Block left="62" top="1461" right="496" bottom="1474" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about release versions of GKnot and Auto GK</Text>
+  </Block>
+  <Block left="509" top="1444" right="740" bottom="1457" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Audio and Subtitle Trouble </Text>
+  </Block>
+  <Block left="509" top="1457" right="545" bottom="1470" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by gkt </Text>
+  </Block>
+  <Block left="509" top="1457" right="740" bottom="1470" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 12:23  </Text>
+  </Block>
+  <Block left="747" top="1432" right="809" bottom="1483" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>5,051</Text>
+  </Block>
+  <Block left="810" top="1432" right="883" bottom="1483" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>37,430</Text>
+  </Block>
+  <Block left="890" top="1438" right="976" bottom="1477" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>TheWEF, manono, jggimi, len0x </Text>
+  </Block>
+  <Block left="62" top="1493" right="496" bottom="1513" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>XviD </Text>
+  </Block>
+  <Block left="62" top="1513" right="496" bottom="1526" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All your XviD MPEG-4 ASP codec related issues belong here.</Text>
+  </Block>
+  <Block left="509" top="1496" right="740" bottom="1509" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Howto check XVID Video for... </Text>
+  </Block>
+  <Block left="509" top="1509" right="577" bottom="1522" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by ronnylov </Text>
+  </Block>
+  <Block left="509" top="1509" right="740" bottom="1522" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 13:46  </Text>
+  </Block>
+  <Block left="747" top="1484" right="809" bottom="1535" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4,348</Text>
+  </Block>
+  <Block left="810" top="1484" right="883" bottom="1535" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>53,650</Text>
+  </Block>
+  <Block left="890" top="1490" right="976" bottom="1529" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Nic, Teegedeck, Koepi </Text>
+  </Block>
+  <Block left="62" top="1542" right="496" bottom="1562" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MPEG-4 Encoder GUIs </Text>
+  </Block>
+  <Block left="62" top="1562" right="496" bottom="1575" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about GUIs such as MeGUI, RealAnime, staxrip, etc.</Text>
+  </Block>
+  <Block left="509" top="1545" right="740" bottom="1558" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>AutoMKV 0.95c -... </Text>
+  </Block>
+  <Block left="509" top="1558" right="586" bottom="1571" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by delacroixp </Text>
+  </Block>
+  <Block left="509" top="1558" right="740" bottom="1571" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 12:02  </Text>
+  </Block>
+  <Block left="747" top="1536" right="809" bottom="1581" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>856</Text>
+  </Block>
+  <Block left="810" top="1536" right="883" bottom="1581" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>30,780</Text>
+  </Block>
+  <Block left="890" top="1552" right="976" bottom="1565" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>bond </Text>
+  </Block>
+  <Block left="62" top="1588" right="496" bottom="1608" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MPEG-4 AVC </Text>
+  </Block>
+  <Block left="62" top="1608" right="496" bottom="1621" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about MPEG-4 AVC (aka H.264) codecs like NeroDigital AVC, x264, etc.</Text>
+  </Block>
+  <Block left="509" top="1591" right="740" bottom="1604" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>x264 Release 745 problem! </Text>
+  </Block>
+  <Block left="509" top="1604" right="571" bottom="1617" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Henrikx </Text>
+  </Block>
+  <Block left="509" top="1604" right="740" bottom="1617" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:23  </Text>
+  </Block>
+  <Block left="747" top="1582" right="809" bottom="1627" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,653</Text>
+  </Block>
+  <Block left="810" top="1582" right="883" bottom="1627" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>52,516</Text>
+  </Block>
+  <Block left="890" top="1598" right="976" bottom="1611" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>bond </Text>
+  </Block>
+  <Block left="62" top="1637" right="496" bottom="1657" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>New and alternative video codecs </Text>
+  </Block>
+  <Block left="62" top="1657" right="496" bottom="1683" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MPEG-4 ASP (Nerodigital ASP, 3ivX, HDX4), WMV9/VC-1, RealVideo (RV9/RV10) VP6/7, Snow, Theora, Dirac, etc.</Text>
+  </Block>
+  <Block left="509" top="1647" right="740" bottom="1660" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ffdshow tryouts project: ... </Text>
+  </Block>
+  <Block left="509" top="1660" right="636" bottom="1673" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Inventive Software </Text>
+  </Block>
+  <Block left="509" top="1660" right="740" bottom="1673" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 13:54  </Text>
+  </Block>
+  <Block left="747" top="1628" right="809" bottom="1692" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,309</Text>
+  </Block>
+  <Block left="810" top="1628" right="883" bottom="1692" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>45,700</Text>
+  </Block>
+  <Block left="890" top="1634" right="976" bottom="1686" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>karl_lillevold, bond, Hiro2k, avih, Neo Neko, Koepi </Text>
+  </Block>
+  <Block left="62" top="1702" right="496" bottom="1722" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MPEG-2 Encoding </Text>
+  </Block>
+  <Block left="62" top="1722" right="496" bottom="1748" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about encoding video using CCE, Procoder, TMPG, QuEnc, HC, and other MPEG-2 encoder tools</Text>
+  </Block>
+  <Block left="509" top="1712" right="740" bottom="1725" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>CCE and DUALCORE Performance </Text>
+  </Block>
+  <Block left="509" top="1725" right="565" bottom="1738" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by jdobbs </Text>
+  </Block>
+  <Block left="509" top="1725" right="740" bottom="1738" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 11:53  </Text>
+  </Block>
+  <Block left="747" top="1693" right="809" bottom="1757" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>5,159</Text>
+  </Block>
+  <Block left="810" top="1693" right="883" bottom="1757" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>34,100</Text>
+  </Block>
+  <Block left="890" top="1699" right="976" bottom="1751" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Eyes`Only, Arky, auenf, foxyshadis, Trahald </Text>
+  </Block>
+  <Block left="14" top="1758" right="982" bottom="1803" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> (HD) DVD, Blu-ray &amp; (S)VCD 
+All about the creation of (HD) DVDs, Blu-ray discs and (S)VCDs - excluding video and audio encoding</Text>
+  </Block>
+  <Block left="62" top="1813" right="496" bottom="1833" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>One click DVD backup solutions </Text>
+  </Block>
+  <Block left="62" top="1833" right="496" bottom="1846" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about DVD2One, DVD95Copy, DVD Shrink and Instant Copy.</Text>
+  </Block>
+  <Block left="509" top="1816" right="740" bottom="1829" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Repeated error in Shrink on... </Text>
+  </Block>
+  <Block left="509" top="1829" right="568" bottom="1842" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by blutach </Text>
+  </Block>
+  <Block left="509" top="1829" right="740" bottom="1842" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Yesterday 01:27  </Text>
+  </Block>
+  <Block left="747" top="1804" right="809" bottom="1855" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,739</Text>
+  </Block>
+  <Block left="810" top="1804" right="883" bottom="1855" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>24,197</Text>
+  </Block>
+  <Block left="890" top="1810" right="976" bottom="1849" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>mrbass, jdobbs, wmansir </Text>
+  </Block>
+  <Block left="62" top="1862" right="496" bottom="1882" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DVD Rebuilder </Text>
+  </Block>
+  <Block left="62" top="1882" right="496" bottom="1895" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about DVD Rebuilder - the CCE/RejiG/QuEnc 1 click app</Text>
+  </Block>
+  <Block left="509" top="1865" right="740" bottom="1878" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Godfather </Text>
+  </Block>
+  <Block left="509" top="1878" right="568" bottom="1891" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by auldyin </Text>
+  </Block>
+  <Block left="509" top="1878" right="740" bottom="1891" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:56  </Text>
+  </Block>
+  <Block left="747" top="1856" right="809" bottom="1901" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3,810</Text>
+  </Block>
+  <Block left="810" top="1856" right="883" bottom="1901" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>47,627</Text>
+  </Block>
+  <Block left="890" top="1865" right="976" bottom="1891" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>jdobbs, wmansir </Text>
+  </Block>
+  <Block left="62" top="1908" right="496" bottom="1948" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DoitFast4U, BatchCCEWS, ScenAid &amp; NuMenu4u </Text>
+  </Block>
+  <Block left="62" top="1948" right="496" bottom="1961" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>tools for doing full DVD backup the way it&apos;s supposed to be</Text>
+  </Block>
+  <Block left="509" top="1921" right="740" bottom="1934" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Big 3 Tools and 64 bits OS </Text>
+  </Block>
+  <Block left="509" top="1934" right="571" bottom="1947" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by rmtaibo </Text>
+  </Block>
+  <Block left="509" top="1934" right="740" bottom="1947" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8th March 2008 14:09  </Text>
+  </Block>
+  <Block left="747" top="1902" right="809" bottom="1967" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,800</Text>
+  </Block>
+  <Block left="810" top="1902" right="883" bottom="1967" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>15,812</Text>
+  </Block>
+  <Block left="890" top="1908" right="976" bottom="1960" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>D3s7, jel, influenza, Eyes`Only, Trahald, Zeul </Text>
+  </Block>
+  <Block left="62" top="1977" right="496" bottom="1997" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>(HD) DVD &amp; Blu-ray authoring </Text>
+  </Block>
+  <Block left="62" top="1997" right="496" bottom="2010" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Here you can discuss basic authoring for SD &amp; HD disc formats</Text>
+  </Block>
+  <Block left="509" top="1980" right="740" bottom="1993" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>How to: Remux HD MKV to BD... </Text>
+  </Block>
+  <Block left="509" top="1993" right="571" bottom="2006" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by B4tm4n </Text>
+  </Block>
+  <Block left="509" top="1993" right="740" bottom="2006" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:36  </Text>
+  </Block>
+  <Block left="747" top="1968" right="809" bottom="2019" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6,098</Text>
+  </Block>
+  <Block left="810" top="1968" right="883" bottom="2019" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>33,376</Text>
+  </Block>
+  <Block left="890" top="1974" right="976" bottom="2013" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Arky, Eyes`Only, mpucoder </Text>
+  </Block>
+  <Block left="62" top="2026" right="496" bottom="2046" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Advanced authoring </Text>
+  </Block>
+  <Block left="62" top="2046" right="496" bottom="2085" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is where your advanced questions go. Multiangle, seamless branching, register programming, that kind of stuff. Strictly no basic DVD authoring tools like SpruceUP, DVDit, DVDQB, etc.</Text>
+  </Block>
+  <Block left="509" top="2042" right="740" bottom="2055" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Spruce MPX-3000 card </Text>
+  </Block>
+  <Block left="509" top="2055" right="569" bottom="2068" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by crusty1 </Text>
+  </Block>
+  <Block left="509" top="2055" right="740" bottom="2068" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 08:21  </Text>
+  </Block>
+  <Block left="747" top="2020" right="809" bottom="2091" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,930</Text>
+  </Block>
+  <Block left="810" top="2020" right="883" bottom="2091" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>10,998</Text>
+  </Block>
+  <Block left="890" top="2029" right="976" bottom="2081" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>auenf, Arky, Eyes`Only, easy2Bcheesy, jdobbs </Text>
+  </Block>
+  <Block left="62" top="2098" right="496" bottom="2118" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>IFO/VOB Editors </Text>
+  </Block>
+  <Block left="62" top="2118" right="496" bottom="2144" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>all about PgcEdit, IfoEdit, VobEdit, MenuEdit, DVD Remake, VobBlanker and similar applications.</Text>
+  </Block>
+  <Block left="509" top="2108" right="740" bottom="2121" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Solution for Muxman error... </Text>
+  </Block>
+  <Block left="509" top="2121" right="604" bottom="2134" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by EuropeanMan </Text>
+  </Block>
+  <Block left="509" top="2121" right="740" bottom="2134" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 05:57  </Text>
+  </Block>
+  <Block left="747" top="2092" right="809" bottom="2150" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4,505</Text>
+  </Block>
+  <Block left="810" top="2092" right="883" bottom="2150" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>38,065</Text>
+  </Block>
+  <Block left="890" top="2101" right="976" bottom="2140" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>mpucoder, jdobbs, blutach </Text>
+  </Block>
+  <Block left="62" top="2157" right="496" bottom="2177" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DVD burning </Text>
+  </Block>
+  <Block left="62" top="2177" right="496" bottom="2203" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about burning DVD±R/Ws, creating DVD images, playback problems, disc capacity, etc.</Text>
+  </Block>
+  <Block left="509" top="2167" right="740" bottom="2180" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kodak DVD+R Blank Disks. </Text>
+  </Block>
+  <Block left="509" top="2180" right="590" bottom="2193" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by setarip_old </Text>
+  </Block>
+  <Block left="509" top="2180" right="740" bottom="2193" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 04:25  </Text>
+  </Block>
+  <Block left="747" top="2151" right="809" bottom="2209" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3,525</Text>
+  </Block>
+  <Block left="810" top="2151" right="883" bottom="2209" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>21,598</Text>
+  </Block>
+  <Block left="890" top="2160" right="976" bottom="2199" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>atreides93, LIGHTNING UK! </Text>
+  </Block>
+  <Block left="62" top="2216" right="496" bottom="2256" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DVD2SVCD, FAVC, AVI2DVD and generic (S)VCD encoding and authoring </Text>
+  </Block>
+  <Block left="62" top="2256" right="496" bottom="2282" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is the place where you can ask most all your AVI to DVD, VCD and SVCD related questions</Text>
+  </Block>
+  <Block left="509" top="2236" right="740" bottom="2249" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DVDforger: new version 0.6.1... </Text>
+  </Block>
+  <Block left="509" top="2249" right="577" bottom="2262" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by marioval </Text>
+  </Block>
+  <Block left="509" top="2249" right="740" bottom="2262" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:08  </Text>
+  </Block>
+  <Block left="747" top="2210" right="809" bottom="2288" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8,001</Text>
+  </Block>
+  <Block left="810" top="2210" right="883" bottom="2288" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>48,778</Text>
+  </Block>
+  <Block left="890" top="2223" right="976" bottom="2275" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>dvd2svcd, r6d2, Nick, ammck55, D3s7 </Text>
+  </Block>
+  <Block left="14" top="2289" right="982" bottom="2334" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Hardware &amp; Software 
+All about Hardware used for topics discussed on this board and software media players</Text>
+  </Block>
+  <Block left="62" top="2341" right="496" bottom="2361" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Software players </Text>
+  </Block>
+  <Block left="62" top="2361" right="496" bottom="2374" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about software based media players (DVD, DivX, XviD, AVI, etc.)</Text>
+  </Block>
+  <Block left="509" top="2344" right="740" bottom="2357" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Media Player Classic Home... </Text>
+  </Block>
+  <Block left="509" top="2357" right="583" bottom="2370" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by manuel74 </Text>
+  </Block>
+  <Block left="509" top="2357" right="740" bottom="2370" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:56  </Text>
+  </Block>
+  <Block left="747" top="2335" right="809" bottom="2380" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,365</Text>
+  </Block>
+  <Block left="810" top="2335" right="883" bottom="2380" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>19,291</Text>
+  </Block>
+  <Block left="890" top="2351" right="976" bottom="2364" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>foxyshadis </Text>
+  </Block>
+  <Block left="62" top="2387" right="496" bottom="2407" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Hardware players </Text>
+  </Block>
+  <Block left="62" top="2407" right="496" bottom="2433" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All about standalone media players (DVD, SVCD, VCD, MPEG-4 (DivX, XviD, etc.))</Text>
+  </Block>
+  <Block left="509" top="2397" right="740" bottom="2410" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>PS3 &amp; NAS &amp; bludiscs </Text>
+  </Block>
+  <Block left="509" top="2410" right="595" bottom="2423" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by Beastie Boy </Text>
+  </Block>
+  <Block left="509" top="2410" right="740" bottom="2423" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 14:42  </Text>
+  </Block>
+  <Block left="747" top="2381" right="809" bottom="2439" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,182</Text>
+  </Block>
+  <Block left="810" top="2381" right="883" bottom="2439" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>9,158</Text>
+  </Block>
+  <Block left="890" top="2403" right="976" bottom="2416" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>foxyshadis </Text>
+  </Block>
+  <Block left="62" top="2446" right="496" bottom="2466" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>PC Hard &amp; Software </Text>
+  </Block>
+  <Block left="62" top="2466" right="496" bottom="2479" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>General PC hardware and software talk.</Text>
+  </Block>
+  <Block left="509" top="2449" right="740" bottom="2462" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ad-hoc WLAN: Also for... </Text>
+  </Block>
+  <Block left="509" top="2462" right="588" bottom="2475" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by the_hofers </Text>
+  </Block>
+  <Block left="509" top="2462" right="740" bottom="2475" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Today 06:05  </Text>
+  </Block>
+  <Block left="747" top="2440" right="809" bottom="2485" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2,602</Text>
+  </Block>
+  <Block left="810" top="2440" right="883" bottom="2485" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>16,640</Text>
+  </Block>
+  <Block left="14" top="2486" right="982" bottom="2518" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Programming and Hacking </Text>
+  </Block>
+  <Block left="62" top="2525" right="496" bottom="2545" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Development </Text>
+  </Block>
+  <Block left="62" top="2545" right="496" bottom="2571" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Everything about hacking/programming software to be used for DVD backups</Text>
+  </Block>
+  <Block left="509" top="2535" right="740" bottom="2548" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>video format changed (320x240... </Text>
+  </Block>
+  <Block left="509" top="2548" right="574" bottom="2561" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by neuron2 </Text>
+  </Block>
+  <Block left="509" top="2548" right="740" bottom="2561" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Yesterday 13:46  </Text>
+  </Block>
+  <Block left="747" top="2519" right="809" bottom="2577" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,145</Text>
+  </Block>
+  <Block left="810" top="2519" right="883" bottom="2577" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8,346</Text>
+  </Block>
+  <Block left="890" top="2535" right="976" bottom="2561" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DaveEL, foxyshadis </Text>
+  </Block>
+  <Block left="62" top="2584" right="496" bottom="2604" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Translations </Text>
+  </Block>
+  <Block left="62" top="2604" right="496" bottom="2617" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Coordinate translations of the Doom9 site</Text>
+  </Block>
+  <Block left="509" top="2587" right="740" bottom="2600" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ongoing Translation Projects... </Text>
+  </Block>
+  <Block left="509" top="2600" right="552" bottom="2613" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>by ibrik </Text>
+  </Block>
+  <Block left="509" top="2600" right="740" bottom="2613" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13th December 2007 18:04  </Text>
+  </Block>
+  <Block left="747" top="2578" right="809" bottom="2623" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>67</Text>
+  </Block>
+  <Block left="810" top="2578" right="883" bottom="2623" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dadada" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1,191</Text>
+  </Block>
+  <Block left="890" top="2594" right="976" bottom="2607" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Scipio </Text>
+  </Block>
+  <Block left="361" top="2630" right="638" bottom="2643" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mark Forums Read     View Forum Leaders </Text>
+  </Block>
+  <Block left="14" top="2693" right="982" bottom="2725" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#a2c0df" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>What&apos;s Going On?</Text>
+  </Block>
+  <Block left="14" top="2726" right="982" bottom="2747" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#999999" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text> Doom9&apos;s Forum Statistics </Text>
+  </Block>
+  <Block left="63" top="2756" right="976" bottom="2769" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Threads: 117,090, Posts: 1,029,855, Members: 133,166 </Text>
+  </Block>
+  <Block left="63" top="2769" right="976" bottom="2782" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Welcome to our newest member, 00fanfan00</Text>
+  </Block>
+  <Block left="47" top="2814" right="230" bottom="2848" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>  Forum Contains New Posts</Text>
+  </Block>
+  <Block left="47" top="2848" right="230" bottom="2882" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>  Forum Contains No New Posts</Text>
+  </Block>
+  <Block left="47" top="2882" right="230" bottom="2916" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>  Forum is Closed for Posting</Text>
+  </Block>
+  <Block left="12" top="2938" right="984" bottom="2951" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All times are GMT +1. The time now is 14:57.</Text>
+  </Block>
+  <Block left="805" top="2977" right="982" bottom="2990" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Doom9.org - Archive - Top </Text>
+  </Block>
+  <Block left="12" top="3016" right="984" bottom="3042" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Powered by vBulletin® Version 3.6.7
+Copyright ©2000 - 2008, Jelsoft Enterprises Ltd. </Text>
+  </Block>
+
+</Page>

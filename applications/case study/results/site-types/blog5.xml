@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="159" top="40" right="766" bottom="65" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12.15" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bruce Schneier</Text>
+  </Block>
+  <Block left="25" top="105" right="119" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Home </Text>
+  </Block>
+  <Block left="25" top="134" right="119" bottom="163" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Blog </Text>
+  </Block>
+  <Block left="25" top="163" right="119" bottom="206" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Crypto-Gram Newsletter </Text>
+  </Block>
+  <Block left="25" top="206" right="119" bottom="235" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Books </Text>
+  </Block>
+  <Block left="25" top="235" right="119" bottom="278" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Essays and Op Eds </Text>
+  </Block>
+  <Block left="25" top="278" right="119" bottom="335" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Computer Security Articles </Text>
+  </Block>
+  <Block left="25" top="335" right="119" bottom="378" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>News and Interviews </Text>
+  </Block>
+  <Block left="25" top="378" right="119" bottom="421" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Audio and Video </Text>
+  </Block>
+  <Block left="25" top="421" right="119" bottom="464" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Speaking Schedule </Text>
+  </Block>
+  <Block left="25" top="464" right="119" bottom="507" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Password Safe </Text>
+  </Block>
+  <Block left="25" top="507" right="119" bottom="578" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Cryptography and Computer Security Resources </Text>
+  </Block>
+  <Block left="25" top="578" right="119" bottom="621" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Contact Information </Text>
+  </Block>
+  <Block left="159" top="99" right="766" bottom="121" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.65" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Schneier on Security</Text>
+  </Block>
+  <Block left="159" top="125" right="766" bottom="141" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>A blog covering security and security technology.</Text>
+  </Block>
+  <Block left="159" top="160" right="766" bottom="178" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Privacy and Power</Text>
+  </Block>
+  <Block left="159" top="180" right="766" bottom="292" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>When I write and speak about privacy, I am regularly confronted with the mutual disclosure argument. Explained in books like David Brin&apos;s The Transparent Society, the argument goes something like this: In a world of ubiquitous surveillance, you&apos;ll know all about me, but I will also know all about you. The government will be watching us, but we&apos;ll also be watching the government. This is different than before, but it&apos;s not automatically worse. And because I know your secrets, you can&apos;t use my secrets as a weapon against me.</Text>
+  </Block>
+  <Block left="159" top="305" right="766" bottom="369" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This might not be everybody&apos;s idea of utopia -- and it certainly doesn&apos;t address the inherent value of privacy -- but this theory has a glossy appeal, and could easily be mistaken for a way out of the problem of technology&apos;s continuing erosion of privacy. Except it doesn&apos;t work, because it ignores the crucial dissimilarity of power. </Text>
+  </Block>
+  <Block left="159" top="382" right="766" bottom="414" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>You cannot evaluate the value of privacy and disclosure unless you account for the relative power levels of the discloser and the disclosee.</Text>
+  </Block>
+  <Block left="159" top="427" right="766" bottom="491" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If I disclose information to you, your power with respect to me increases. One way to address this power imbalance is for you to similarly disclose information to me. We both have less privacy, but the balance of power is maintained. But this mechanism fails utterly if you and I have different power levels to begin with. </Text>
+  </Block>
+  <Block left="159" top="504" right="766" bottom="600" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>An example will make this clearer. You&apos;re stopped by a police officer, who demands to see identification. Divulging your identity will give the officer enormous power over you: He or she can search police databases using the information on your ID; he or she can create a police record attached to your name; he or she can put you on this or that secret terrorist watch list. Asking to see the officer&apos;s ID in return gives you no comparable power over him or her. The power imbalance is too great, and mutual disclosure does not make it OK.</Text>
+  </Block>
+  <Block left="159" top="613" right="766" bottom="661" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>You can think of your existing power as the exponent in an equation that determines the value, to you, of more information. The more power you have, the more additional power you derive from the new data.</Text>
+  </Block>
+  <Block left="159" top="674" right="766" bottom="706" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Another example: When your doctor says &quot;take off your clothes,&quot; it makes no sense for you to say, &quot;You first, doc.&quot; The two of you are not engaging in an interaction of equals.</Text>
+  </Block>
+  <Block left="159" top="719" right="766" bottom="831" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is the principle that should guide decision-makers when they consider installing surveillance cameras or launching data-mining programs. It&apos;s not enough to open the efforts to public scrutiny. All aspects of government work best when the relative power between the governors and the governed remains as small as possible -- when liberty is high and control is low. Forced openness in government reduces the relative power differential between the two, and is generally good. Forced openness in laypeople increases the relative power, and is generally bad.</Text>
+  </Block>
+  <Block left="159" top="844" right="766" bottom="924" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Seventeen-year-old Erik Crespo was arrested in 2005 in connection with a shooting in a New York City elevator. There&apos;s no question that he committed the shooting; it was captured on surveillance-camera videotape. But he claimed that while being interrogated, Detective Christopher Perino tried to talk him out of getting a lawyer, and told him that he had to sign a confession before he could see a judge.</Text>
+  </Block>
+  <Block left="159" top="937" right="766" bottom="1017" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Perino denied, under oath, that he ever questioned Crespo. But Crespo had received an MP3 player as a Christmas gift, and surreptitiously recorded the questioning. The defense brought a transcript and CD into evidence. Shortly thereafter, the prosecution offered Crespo a better deal than originally proffered (seven years rather than 15). Crespo took the deal, and Perino was separately indicted on charges of perjury.</Text>
+  </Block>
+  <Block left="159" top="1030" right="766" bottom="1142" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Without that recording, it was the detective&apos;s word against Crespo&apos;s. And who would believe a murder suspect over a New York City detective? That power imbalance was reduced only because Crespo was smart enough to press the &quot;record&quot; button on his MP3 player. Why aren&apos;t all interrogations recorded? Why don&apos;t defendants have the right to those recordings, just as they have the right to an attorney? Police routinely record traffic stops from their squad cars for their own protection; that video record shouldn&apos;t stop once the suspect is no longer a threat.</Text>
+  </Block>
+  <Block left="159" top="1155" right="766" bottom="1219" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Cameras make sense when trained on police, and in offices where lawmakers meet with lobbyists, and wherever government officials wield power over the people. Open-government laws, giving the public access to government records and meetings of governmental bodies, also make sense. These all foster liberty. </Text>
+  </Block>
+  <Block left="159" top="1232" right="766" bottom="1296" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ubiquitous surveillance programs that affect everyone without probable cause or warrant, like the National Security Agency&apos;s warrantless eavesdropping programs or various proposals to monitor everything on the internet, foster control. And no one is safer in a political system of control.</Text>
+  </Block>
+  <Block left="159" top="1309" right="766" bottom="1325" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This essay originally appeared on Wired.com.</Text>
+  </Block>
+  <Block left="159" top="1336" right="766" bottom="1349" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 11, 2008 at 06:09 AM • 14 Comments • 1 Blog Reaction </Text>
+  </Block>
+  <Block left="159" top="1384" right="766" bottom="1402" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Israel Implementing IFF System for Commercial Aircraft</Text>
+  </Block>
+  <Block left="159" top="1404" right="766" bottom="1436" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Israel is implementing an IFF (identification, friend or foe) system for commercial aircraft, designed to differentiate legitimate planes from terrorist-controlled planes.</Text>
+  </Block>
+  <Block left="159" top="1449" right="766" bottom="1529" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The news article implies that it&apos;s a basic challenge-and-response system. Ground control issues some kind of alphanumeric challenge to the plane. The pilot types the challenge into some hand-held computer device, and reads back the reply. Authentication is achieved by 1) physical possession of the device, and 2) typing a legitimate PIN into the device to activate it.</Text>
+  </Block>
+  <Block left="159" top="1542" right="766" bottom="1590" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The article talks about a distress mode, where the pilot signals that a terrorist is holding a gun to his head. Likely, that&apos;s done by typing a special distress PIN into the device, and reading back whatever the screen displays.</Text>
+  </Block>
+  <Block left="159" top="1603" right="766" bottom="1667" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The military has had this sort of system -- first paper-based, and eventually computer-based -- for decades. The critical issue with using this on commercial aircraft is how to deal with user error. The system has to be easy enough to use, and the parts hard enough to lose, that there won&apos;t be a lot of false alarms.</Text>
+  </Block>
+  <Block left="159" top="1678" right="766" bottom="1691" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 10, 2008 at 12:24 PM • 32 Comments • 3 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="1726" right="766" bottom="1744" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Security Products: Suites vs. Best-of-Breed</Text>
+  </Block>
+  <Block left="159" top="1746" right="766" bottom="1826" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>We know what we don&apos;t like about buying consolidated product suites: one great product and a bunch of mediocre ones. And we know what we don&apos;t like about buying best-of-breed: multiple vendors, multiple interfaces, and multiple products that don&apos;t work well together. The security industry has gone back and forth between the two, as a new generation of IT security professionals rediscovers the downsides of each solution. </Text>
+  </Block>
+  <Block left="159" top="1839" right="766" bottom="1887" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The real problem is that neither solution really works, and we continually fool ourselves into believing whatever we don&apos;t have is better than what we have at the time. And the real solution is to buy results, not products. </Text>
+  </Block>
+  <Block left="159" top="1900" right="766" bottom="1980" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Honestly, no one wants to buy IT security. People want to buy whatever they want -- connectivity, a Web presence, email, networked applications, whatever -- and they want it to be secure. That they&apos;re forced to spend money on IT security is an artifact of the youth of the computer industry. And sooner or later the need to buy security will disappear. </Text>
+  </Block>
+  <Block left="159" top="1993" right="766" bottom="2073" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>It will disappear because IT vendors are starting to realize they have to provide security as part of whatever they&apos;re selling. It will disappear because organizations are starting to buy services instead of products, and demanding security as part of those services. It will disappear because the security industry will disappear as a consumer category, and will instead market to the IT industry. </Text>
+  </Block>
+  <Block left="159" top="2086" right="766" bottom="2198" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The critical driver here is outsourcing. Outsourcing is the ultimate consolidator, because the customer no longer cares about the details. If I buy my network services from a large IT infrastructure company, I don&apos;t care if it secures things by installing the hot new intrusion prevention systems, by configuring the routers and servers as to obviate the need for network-based security, or if it uses magic security dust given to it by elven kings. I just want a contract that specifies a level and quality of service, and my vendor can figure it out. </Text>
+  </Block>
+  <Block left="159" top="2211" right="766" bottom="2243" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>IT is infrastructure. Infrastructure is always outsourced. And the details of how the infrastructure works are left to the companies that provide it. </Text>
+  </Block>
+  <Block left="159" top="2256" right="766" bottom="2368" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is the future of IT, and when that happens we&apos;re going to start to see a type of consolidation we haven&apos;t seen before. Instead of large security companies gobbling up small security companies, both large and small security companies will be gobbled up by non-security companies. It&apos;s already starting to happen. In 2006, IBM bought ISS. The same year BT bought my company, Counterpane, and last year it bought INS. These aren&apos;t large security companies buying small security companies; these are non-security companies buying large and small security companies. </Text>
+  </Block>
+  <Block left="159" top="2381" right="766" bottom="2397" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If I were Symantec and McAfee, I would be preparing myself for a buyer. </Text>
+  </Block>
+  <Block left="159" top="2410" right="766" bottom="2474" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is good consolidation. Instead of having to choose between a single product suite that isn&apos;t very good or a best-of-breed set of products that don&apos;t work well together, we can ignore the issue completely. We can just find an infrastructure provider that will figure it out and make it work -- who cares how?</Text>
+  </Block>
+  <Block left="159" top="2487" right="766" bottom="2519" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This essay originally appeared as the second half of a point/counterpoint with Marcus Ranum in Information Security. Here&apos;s Marcus&apos;s half.</Text>
+  </Block>
+  <Block left="159" top="2530" right="766" bottom="2543" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 10, 2008 at 06:33 AM • 24 Comments • 6 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="2578" right="766" bottom="2596" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Friday Squid Blogging: Squid T-Shirts</Text>
+  </Block>
+  <Block left="159" top="2598" right="766" bottom="2614" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Nice. Not as good.</Text>
+  </Block>
+  <Block left="159" top="2625" right="766" bottom="2638" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 07, 2008 at 03:19 PM • 4 Comments • 7 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="2673" right="766" bottom="2691" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Me in the News</Text>
+  </Block>
+  <Block left="159" top="2693" right="766" bottom="2725" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>I had an op-ed published in the Minneapolis Star Tribune on national ID, and they also ran a small Q&amp;A.</Text>
+  </Block>
+  <Block left="159" top="2736" right="766" bottom="2749" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 07, 2008 at 02:47 PM • 2 Comments • 7 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="2784" right="766" bottom="2802" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>My Talk on &quot;Dual Use Technologies&quot;</Text>
+  </Block>
+  <Block left="159" top="2804" right="766" bottom="2820" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This is video from my talk at CPSR&apos;s Technology in Wartime conference.</Text>
+  </Block>
+  <Block left="159" top="2831" right="766" bottom="2844" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 07, 2008 at 02:16 PM • 2 Comments • 8 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="2879" right="766" bottom="2897" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>TSA&apos;s Ideal Laptop Bag</Text>
+  </Block>
+  <Block left="159" top="2899" right="766" bottom="2915" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This seems not to be a joke.</Text>
+  </Block>
+  <Block left="209" top="2938" right="716" bottom="3482" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The Transportation Security Administration is interested in evaluating -- and eventually approving –- the design of certain laptop bags, so travelers would be permitted to pass through security checkpoints without having to remove their laptops. 
+[...]
+To accomplish this, the TSA RFI pointed out that the laptop bag would need to meet the following requirements: 
+The carrying bag cannot exceed any one of the proposed dimensions – 16 inches in height, 24 inches wide and 36 inches long. 
+The materials that make up the bag cannot degrade the quality of the X-ray image of the laptop. 
+No straps, pockets, zippers, handles or closures of the bag can interfere with the image of the laptop. 
+No electronics, chargers, batteries, wires, paper products, pens or other contents of the bag can shield the image of the laptop.
+TSA is inviting bag designers and manufacturers to come up with creative ways to meet these design requirements, but it has also suggested three concepts of its own: 
+A bag that would open completely, and lie horizontally on the X-ray belt, such that one side with hold only the laptop. 
+A bag that would open completely, leaving the laptop standing vertically, supported by clips. 
+A bag that would pull apart in separate compartments, with one compartment containing only the laptop.</Text>
+  </Block>
+  <Block left="159" top="3505" right="766" bottom="3521" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Doesn&apos;t sound like a particularly useful laptop bag.</Text>
+  </Block>
+  <Block left="159" top="3532" right="766" bottom="3545" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 07, 2008 at 10:42 AM • 66 Comments • 6 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="3580" right="766" bottom="3598" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Progress</Text>
+  </Block>
+  <Block left="159" top="3600" right="766" bottom="3616" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>A whole article about a bomb in Times Square without ever mentioning the &quot;t&quot; word.</Text>
+  </Block>
+  <Block left="159" top="3629" right="766" bottom="3645" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Along with this, maybe we&apos;re turning a corner. Probably not....</Text>
+  </Block>
+  <Block left="159" top="3656" right="766" bottom="3669" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 07, 2008 at 06:37 AM • 35 Comments • 5 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="3704" right="766" bottom="3722" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>TSA Gangstaz</Text>
+  </Block>
+  <Block left="159" top="3724" right="766" bottom="3740" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wow.</Text>
+  </Block>
+  <Block left="159" top="3751" right="766" bottom="3764" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 06, 2008 at 01:56 PM • 23 Comments • 9 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="3799" right="766" bottom="3817" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Risk of Knowing Too Much About Risk</Text>
+  </Block>
+  <Block left="159" top="3819" right="766" bottom="3835" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Interesting:</Text>
+  </Block>
+  <Block left="209" top="3858" right="716" bottom="4470" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Dread is a powerful force. The problem with dread is that it leads to terrible decision-making. 
+Slovic says all of this results from how our brains process risk, which is in two ways. The first is intuitive, emotional and experience based. Not only do we fear more what we can&apos;t control, but we also fear more what we can imagine or what we experience. This seems to be an evolutionary survival mechanism. In the presence of uncertainty, fear is a valuable defense. Our brains react emotionally, generate anxiety and tell us, &quot;Remember the news report that showed what happened when those other kids took the bus? Don&apos;t put your kids on the bus.&quot;
+The second way we process risk is analytical: we use probability and statistics to override, or at least prioritize, our dread. That is, our brain plays devil&apos;s advocate with its initial intuitive reaction, and tries to say, &quot;I know it seems scary, but eight times as many people die in cars as they do on buses. In fact, only one person dies on a bus for every 500 million miles buses travel. Buses are safer than cars.&quot;
+Unfortunately for us, that&apos;s often not the voice that wins. Intuitive risk processors can easily overwhelm analytical ones, especially in the presence of those etched-in images, sounds and experiences. Intuition is so strong, in fact, that if you presented someone who had experienced a bus accident with factual risk analysis about the relative safety of buses over cars, it&apos;s highly possible that they&apos;d still choose to drive their kids to school, because their brain washes them in those dreadful images and reminds them that they control a car but don&apos;t control a bus. A car just feels safer. &quot;We have to work real hard in the presence of images to get the analytical part of risk response to work in our brains,&quot; says Slovic. &quot;It&apos;s not easy at all.&quot;
+And we&apos;re making it harder by disclosing more risks than ever to more people than ever. Not only does all of this disclosure make us feel helpless, but it also gives us ever more of those images and experiences that trigger the intuitive response without analytical rigor to override the fear. Slovic points to several recent cases where reason has lost to fear: The sniper who terrorized Washington D.C.; pathogenic threats like MRSA and brain-eating amoeba. Even the widely publicized drunk-driving death of a baseball player this year led to decisions that, from a risk perspective, were irrational.</Text>
+  </Block>
+  <Block left="159" top="4493" right="766" bottom="4506" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 06, 2008 at 06:24 AM • 33 Comments • 11 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="4541" right="766" bottom="4559" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>SurveillanceSaver</Text>
+  </Block>
+  <Block left="159" top="4561" right="766" bottom="4577" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SurveillanceSaver:</Text>
+  </Block>
+  <Block left="209" top="4600" right="716" bottom="4632" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SurveillanceSaver is a screensaver for OS X and Windows that shows live images of over 400 network surveillance cameras worldwide.</Text>
+  </Block>
+  <Block left="159" top="4655" right="766" bottom="4668" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 05, 2008 at 02:23 PM • 22 Comments • 10 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="4703" right="766" bottom="4721" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9.1" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#800000" />
+    </Attributes>
+    <Text>Creating and Entrapping Terrorists</Text>
+  </Block>
+  <Block left="159" top="4723" right="766" bottom="4771" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>When I wrote this essay -- &quot;Portrait of the Modern Terrorist as an Idiot&quot; -- I thought a lot about the government inventing terrorist plotters and entrapping them, to make the world seem scarier. Since then, it&apos;s been on my list of topics to write about someday.</Text>
+  </Block>
+  <Block left="159" top="4784" right="766" bottom="4816" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Rolling Stone has this excellent article on the topic, about the Joint Terrorism Task Forces in the U.S.:</Text>
+  </Block>
+  <Block left="209" top="4839" right="716" bottom="6043" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>But a closer inspection of the cases brought by JTTFs reveals that most of the prosecutions had one thing in common: The defendants posed little if any demonstrable threat to anyone or anything. According to a study by the Center on Law and Security at the New York University School of Law, only ten percent of the 619 &quot;terrorist&quot; cases brought by the federal government have resulted in convictions on &quot;terrorism-related&quot; charges -- a category so broad as to be meaningless. In the past year, none of the convictions involved jihadist terror plots targeting America. &quot;The government releases selective figures,&quot; says Karen Greenberg, director of the center. &quot;They have never even defined &apos;terrorism.&apos; They keep us in the dark over statistics.&quot; 
+Indeed, Shareef is only one of many cases where the JTTFs have employed dubious means to reach even more dubious ends. In Buffalo, the FBI spent eighteen months tracking the &quot;Lackawanna Six&quot; -- a half-dozen men from the city&apos;s large Muslim population who had been recruited by an Al Qaeda operative in early 2001 to undergo training in Afghanistan. Only two lasted the six-week course; the rest pretended to be hurt or left early. Despite extensive surveillance, the FBI found no evidence that the men ever discussed, let alone planned, an attack -- but that didn&apos;t stop federal agents from arresting the suspects with great fanfare and accusing them of operating an &quot;Al Qaeda-trained terrorist cell on American soil.&quot; Fearing they would be designated as &quot;enemy combatants&quot; and disappeared into the legal void created by the Patriot Act, all six pleaded guilty to aiding Al Qaeda and were sentenced to at least seven years in prison.
+In other cases, the use of informants has led the government to flirt with outright entrapment. In Brooklyn, a Guyanese immigrant and former cargo handler named Russell Defreitas was arrested last spring for plotting to blow up fuel tanks at JFK International Airport. In fact, before he encountered the might of the JTTF, Defreitas was a vagrant who sold incense on the streets of Queens and spent his spare time checking pay phones for quarters. He had no hope of instigating a terrorist plot of the magnitude of the alleged attack on JFK -- until he received the help of a federal informant known only as &quot;Source,&quot; a convicted drug dealer who was cooperating with federal agents to get his sentence reduced. Backed by the JTTF, Defreitas suddenly obtained the means to travel to the Caribbean, conduct Google Earth searches of JFK&apos;s grounds and build a complex, multifaceted, international terror conspiracy -- albeit one that was impossible to actually pull off. After Defreitas was arrested, U.S. Attorney Roslynn Mauskopf called it &quot;one of the most chilling plots imaginable.&quot;
+Using informants to gin up terrorist conspiracies is a radical departure from the way the FBI has traditionally used cooperating sources against organized crime or drug dealers, where a pattern of crime is well established before the investigation begins. Now, in new-age terror cases, the JTTFs simply want to establish that suspects are predisposed to be terrorists -- even if they are completely unable or ill-equipped to act on that predisposition. High-tech video and audio evidence, coupled with anti-terror hysteria, has made it effectively impossible for suspects to use the legal defense of entrapment. The result in many cases has been guilty pleas -- and no scrutiny of government conduct.
+In most cases, because no trial is ever held, few details emerge beyond the spare and slanted descriptions in the indictments. When facts do come to light during a trial, they cast doubt on the seriousness of the underlying case. The &quot;Albany Pizza&quot; case provides a stark example. Known as a &quot;sting case,&quot; the investigation began in June 2003 when U.S. soldiers raided an &quot;enemy camp&quot; in Iraq and seized a notebook containing the name of an imam in Albany -- one Yassin Aref. To snare Aref, the JTTF dispatched a Pakistani immigrant named Shahed &quot;Malik&quot; Hussain, who was facing years in prison for a driver&apos;s-license scam. Instead of approaching Aref directly, federal agents sent Malik to befriend Mohammed Hossain, a Bangladeshi immigrant who went to the same mosque as Aref. Hossain, an American citizen who ran a place called Little Italy Pizzeria in Albany, had no connections whatsoever to terrorism or any form of radical Islam. After the attacks on 9/11, he had been quoted in the local paper saying, &quot;I am proud to be an American.&quot; But enticed by Malik, Hossain soon found himself caught up in a government-concocted terror plot. Posing as an arms dealer, Malik told Hossain that a surface-to-air missile was needed for an attack on a Pakistani diplomat in New York. He offered Hossain $5,000 in cash to help him launder $50,000 -- a deal Hossain claims he never properly grasped. According to Muslim tradition, a witness is needed for significant financial transactions. Thus, the JTTF reached out for Hossain&apos;s imam and the true target of the sting -- Aref.</Text>
+  </Block>
+  <Block left="159" top="6066" right="766" bottom="6079" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Posted on March 05, 2008 at 06:25 AM • 30 Comments • 9 Blog Reactions </Text>
+  </Block>
+  <Block left="159" top="6109" right="766" bottom="6122" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Powered by Movable Type 3.2. Photo at top by Steve Woit. </Text>
+  </Block>
+  <Block left="159" top="6138" right="766" bottom="6155" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Schneier.com is a personal website. Opinions expressed are not necessarily those of BT Counterpane. </Text>
+  </Block>
+  <Block left="791" top="348" right="986" bottom="384" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#cccccc" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Blog Menu</Text>
+  </Block>
+  <Block left="791" top="384" right="986" bottom="2013" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Search
+
+blog only
+whole site
+ 
+Recent Entries
+Privacy and Power 
+Israel Implementing IFF System for Commercial Aircraft 
+Security Products: Suites vs. Best-of-Breed 
+Friday Squid Blogging: Squid T-Shirts 
+Me in the News 
+My Talk on &quot;Dual Use Technologies&quot; 
+TSA&apos;s Ideal Laptop Bag 
+Progress 
+TSA Gangstaz 
+Risk of Knowing Too Much About Risk 
+Comments
+100 Latest Comments 
+Archives
+March 2008 
+February 2008 
+January 2008 
+December 2007 
+November 2007 
+October 2007 
+September 2007 
+August 2007 
+July 2007 
+June 2007 
+May 2007 
+April 2007 
+March 2007 
+February 2007 
+January 2007 
+December 2006 
+November 2006 
+October 2006 
+September 2006 
+August 2006 
+July 2006 
+June 2006 
+May 2006 
+April 2006 
+March 2006 
+February 2006 
+January 2006 
+December 2005 
+November 2005 
+October 2005 
+September 2005 
+August 2005 
+July 2005 
+June 2005 
+May 2005 
+April 2005 
+March 2005 
+February 2005 
+January 2005 
+December 2004 
+November 2004 
+October 2004 
+Translation
+German translation </Text>
+  </Block>
+  <Block left="791" top="2025" right="986" bottom="2061" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#cccccc" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Syndication</Text>
+  </Block>
+  <Block left="791" top="2061" right="986" bottom="2109" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>RSS 1.0 (full text) 
+RSS 2.0 (excerpts) </Text>
+  </Block>
+  <Block left="791" top="2121" right="986" bottom="2173" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#cccccc" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Crypto-Gram Newsletter</Text>
+  </Block>
+  <Block left="791" top="2173" right="986" bottom="2305" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.05" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If you prefer to receive Bruce Schneier&apos;s comments on security as a monthly e-mail digest, subscribe to Schneier on Security&apos;s sister publication, Crypto-Gram. 
+read more </Text>
+  </Block>
+  <Block left="791" top="2317" right="986" bottom="2353" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#cccccc" />
+      <Attribute name="realFontSize" value="7.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Books</Text>
+  </Block>
+
+</Page>

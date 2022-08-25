@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="421" top="61" right="490" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>meebo.com </Text>
+  </Block>
+  <Block left="500" top="61" right="534" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>about </Text>
+  </Block>
+  <Block left="544" top="61" right="571" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>blog </Text>
+  </Block>
+  <Block left="581" top="61" right="632" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>products </Text>
+  </Block>
+  <Block left="642" top="61" right="682" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>privacy </Text>
+  </Block>
+  <Block left="692" top="61" right="755" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>meebo me </Text>
+  </Block>
+  <Block left="765" top="61" right="792" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>help </Text>
+  </Block>
+  <Block left="802" top="61" right="839" bottom="76" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>jobs </Text>
+  </Block>
+  <Block left="118" top="120" right="323" bottom="133" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>The time now is Tue Mar 11, 2008 5:58 am</Text>
+  </Block>
+  <Block left="118" top="133" right="293" bottom="147" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4d6480" />
+    </Attributes>
+    <Text>forum.meebo.com Forum Index</Text>
+  </Block>
+  <Block left="770" top="134" right="878" bottom="147" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4d6480" />
+    </Attributes>
+    <Text>View unanswered posts</Text>
+  </Block>
+  <Block left="295" top="160" right="354" bottom="184" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4f4f4f" />
+    </Attributes>
+    <Text>Search </Text>
+  </Block>
+  <Block left="354" top="160" right="439" bottom="184" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4f4f4f" />
+    </Attributes>
+    <Text>Memberlist </Text>
+  </Block>
+  <Block left="439" top="160" right="526" bottom="184" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4f4f4f" />
+    </Attributes>
+    <Text>Usergroups </Text>
+  </Block>
+  <Block left="526" top="160" right="594" bottom="184" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4f4f4f" />
+    </Attributes>
+    <Text>Register </Text>
+  </Block>
+  <Block left="594" top="160" right="651" bottom="184" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4f4f4f" />
+    </Attributes>
+    <Text>Profile </Text>
+  </Block>
+  <Block left="651" top="160" right="706" bottom="184" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4f4f4f" />
+    </Attributes>
+    <Text>Log in </Text>
+  </Block>
+  <Block left="109" top="183" right="639" bottom="211" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4d6380" />
+    </Attributes>
+    <Text> Forum </Text>
+  </Block>
+  <Block left="640" top="183" right="690" bottom="211" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4d6380" />
+    </Attributes>
+    <Text> Topics </Text>
+  </Block>
+  <Block left="691" top="183" right="741" bottom="211" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4d6380" />
+    </Attributes>
+    <Text> Posts </Text>
+  </Block>
+  <Block left="742" top="183" right="887" bottom="211" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4d6380" />
+    </Attributes>
+    <Text> Last Post </Text>
+  </Block>
+  <Block left="171" top="214" right="340" bottom="250" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>meebo news 
+announcements from the meebo team </Text>
+  </Block>
+  <Block left="376" top="212" right="639" bottom="252" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="659" top="223" right="671" bottom="241" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13</Text>
+  </Block>
+  <Block left="707" top="223" right="725" bottom="241" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>280</Text>
+  </Block>
+  <Block left="755" top="219" right="873" bottom="245" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Fri Oct 19, 2007 9:50 am
+yuie </Text>
+  </Block>
+  <Block left="171" top="255" right="278" bottom="291" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>general discussion 
+all things meebo </Text>
+  </Block>
+  <Block left="376" top="253" right="639" bottom="293" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="653" top="264" right="677" bottom="282" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2342</Text>
+  </Block>
+  <Block left="701" top="264" right="731" bottom="282" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11018</Text>
+  </Block>
+  <Block left="751" top="260" right="878" bottom="286" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tue Mar 11, 2008 4:11 am
+justink </Text>
+  </Block>
+  <Block left="171" top="296" right="317" bottom="332" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>features/bugs 
+report a bug, request a feature </Text>
+  </Block>
+  <Block left="376" top="294" right="639" bottom="334" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="653" top="305" right="677" bottom="323" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4781</Text>
+  </Block>
+  <Block left="701" top="305" right="731" bottom="323" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>16295</Text>
+  </Block>
+  <Block left="751" top="301" right="878" bottom="327" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tue Mar 11, 2008 3:10 am
+ilgaspa </Text>
+  </Block>
+  <Block left="171" top="337" right="258" bottom="373" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>off topic 
+for everything else </Text>
+  </Block>
+  <Block left="376" top="335" right="639" bottom="375" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="653" top="346" right="677" bottom="364" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2375</Text>
+  </Block>
+  <Block left="701" top="346" right="731" bottom="364" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>53309</Text>
+  </Block>
+  <Block left="751" top="342" right="878" bottom="368" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tue Mar 11, 2008 5:23 am
+ZodiacN64 </Text>
+  </Block>
+  <Block left="171" top="378" right="334" bottom="414" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>meebo me feature requests 
+request new features for meebo me </Text>
+  </Block>
+  <Block left="376" top="376" right="639" bottom="416" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="656" top="387" right="674" bottom="405" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>795</Text>
+  </Block>
+  <Block left="704" top="387" right="728" bottom="405" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2222</Text>
+  </Block>
+  <Block left="747" top="383" right="882" bottom="409" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Mon Mar 10, 2008 10:52 am
+GuntherNSons </Text>
+  </Block>
+  <Block left="171" top="419" right="263" bottom="455" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>meebo me bugs 
+spot that bug! </Text>
+  </Block>
+  <Block left="376" top="417" right="639" bottom="457" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="656" top="428" right="674" bottom="446" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>300</Text>
+  </Block>
+  <Block left="707" top="428" right="725" bottom="446" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>907</Text>
+  </Block>
+  <Block left="751" top="424" right="878" bottom="450" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tue Mar 11, 2008 4:26 am
+daisu </Text>
+  </Block>
+  <Block left="171" top="460" right="335" bottom="496" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>meebo rooms 
+feature requests? bugs? let us know! </Text>
+  </Block>
+  <Block left="376" top="458" right="639" bottom="498" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="656" top="469" right="674" bottom="487" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>244</Text>
+  </Block>
+  <Block left="704" top="469" right="728" bottom="487" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1046</Text>
+  </Block>
+  <Block left="751" top="465" right="878" bottom="491" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tue Mar 11, 2008 5:12 am
+enzovalenzetti </Text>
+  </Block>
+  <Block left="171" top="501" right="285" bottom="537" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>meebo applications 
+features/bugs </Text>
+  </Block>
+  <Block left="376" top="499" right="639" bottom="539" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="662" top="510" right="668" bottom="528" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>0</Text>
+  </Block>
+  <Block left="713" top="510" right="719" bottom="528" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>0</Text>
+  </Block>
+  <Block left="794" top="512" right="834" bottom="525" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>No Posts</Text>
+  </Block>
+  <Block left="171" top="542" right="316" bottom="578" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468ad" />
+    </Attributes>
+    <Text>application development 
+for help, tips and tricks </Text>
+  </Block>
+  <Block left="376" top="540" right="639" bottom="580" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderators mule, Jake_Watkins, Weakoz, ted, GoldenSue, yuie, Coreyherk30 </Text>
+  </Block>
+  <Block left="659" top="551" right="671" bottom="569" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>34</Text>
+  </Block>
+  <Block left="710" top="551" right="722" bottom="569" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>94</Text>
+  </Block>
+  <Block left="751" top="547" right="878" bottom="573" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tue Mar 11, 2008 3:45 am
+tasehagi </Text>
+  </Block>
+  <Block left="698" top="584" right="828" bottom="597" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>All times are GMT - 8 Hours</Text>
+  </Block>
+  <Block left="114" top="608" right="195" bottom="626" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4468a3" />
+    </Attributes>
+    <Text>Who is Online</Text>
+  </Block>
+  <Block left="171" top="635" right="513" bottom="687" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Our users have posted a total of 85171 articles
+We have 37001 registered users
+
+In total there are 60 users online :: 0 Registered, 0 Hidden and 60 Guests</Text>
+  </Block>
+  <Block left="112" top="719" right="149" bottom="737" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Log in</Text>
+  </Block>
+  <Block left="228" top="746" right="770" bottom="785" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Username:     Password:       Log me on automatically each visit       </Text>
+  </Block>
+  <Block left="367" top="820" right="413" bottom="833" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>New posts</Text>
+  </Block>
+  <Block left="478" top="820" right="539" bottom="833" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>No new posts</Text>
+  </Block>
+  <Block left="604" top="820" right="677" bottom="833" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Forum is locked</Text>
+  </Block>
+  <Block left="2" top="862" right="762" bottom="919" depth="2">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#677788" />
+    </Attributes>
+    <Text>Copyright © 2005-2007 meebo, Inc. All rights reserved. Forum powered by phpBB. </Text>
+  </Block>
+
+</Page>

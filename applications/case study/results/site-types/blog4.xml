@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="148" top="140" right="195" bottom="172" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Home </Text>
+  </Block>
+  <Block left="195" top="140" right="264" bottom="172" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Sign up </Text>
+  </Block>
+  <Block left="264" top="140" right="308" bottom="172" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Tour </Text>
+  </Block>
+  <Block left="495" top="150" right="610" bottom="162" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>How to use the Blog </Text>
+  </Block>
+  <Block left="163" top="182" right="632" bottom="202" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>9 March 2008 </Text>
+  </Block>
+  <Block left="163" top="212" right="632" bottom="232" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Respecting the Rules and breaking the silence </Text>
+  </Block>
+  <Block left="163" top="255" right="632" bottom="1641" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>
+Click to see the video
+
+
+The ceremonial surrounding the President includes the use of the “warning”. The severe action of the President of the Republic is always preceded by an intense internal rumbling. The warning is Napolitano’s final resource and he uses it sparingly. Just in serious circumstances. When he is obliged to guarantee respect for the Rules. Then he breaks his silence and warns. Immediately before that, the sky becomes black, the Honour Guard of the President go to the bar in via Nazionale and his wife takes the dog to the Parioli. 
+The Rules that Napolitano watches over are guaranteeing the political-economic-constitutional-lawmaking framework. Those who govern us must operate with serenity of mind. 
+Rule number one: politicians are above the law. 
+Rule number two: the conflict of interests does not exist. 
+Rule number three:the “par condicio” only applies to Veltrusconi. 
+Rule number four: the public concessionaire of 3 TV channels, Silvio Berlusconi, can be a candidate at the elections. 
+Rule number five: the referendum on the election law is optional, and in fact, it will happen a year after the elections. 
+Rule number six: the popular initiative laws to expel convicted felons from Parliament can/must be ignored and the 350,000 signatures from citizens buried in the cellars of the Senate. 
+Rule number seven: the election law that does not allow for the choice of candidates is constitutional. 
+Rule number eight: Bassolino, D’Alema and Fassino are companions who make mistakes. 
+Rule number nine: Corrado Calabrò, president of the Communications Authority is “super partes” and also a good person. 
+Rule number ten: The Head of State who minds his own business will live for a hundred years. 
+Anyone who allows themselves to query the Rules “is lacking in respect”. At a certain age you sleep in the afternoon and the “violent tones” are not good for our former democracy. 
+
+V2-day, 25 April, for freedom of information: 
+1. Put your photos on www.flickr.com with the tag V2-day
+2. Put your videos on www.youtube.com with the tag V2-day
+3. Give your support to V2 day
+
+
+Click to see the video</Text>
+  </Block>
+  <Block left="163" top="1664" right="632" bottom="1727" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Posted by Beppe Grillo at 03:38 PM in Wailing Wall | Comments (10)
+Post a comment | Sign up | Send to a friend | GrilloNews | TrackBack (0) |
+View blog reactions </Text>
+  </Block>
+  <Block left="163" top="1752" right="632" bottom="1772" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>8 March 2008 </Text>
+  </Block>
+  <Block left="163" top="1782" right="632" bottom="1802" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Nero Prodi and the eco-bales </Text>
+  </Block>
+  <Block left="163" top="2157" right="260" bottom="2173" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#376088" />
+    </Attributes>
+    <Text>Click the video</Text>
+  </Block>
+  <Block left="163" top="2198" right="632" bottom="4206" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Nero Prodi has now decided that SEVEN MILLION TONS of “eco-bales” must be burned in the Acerra thermodestructor. No one knows exactly what is in these “eco-bales”. They were sealed without their contents being checked. They could contain virtually anything. Toxic waste, expired medicines or even radioactive waste. Burning them would mean speeding up the death sentences for the people living in the Acerra area, as well as others nearby. As a matter of fact, the area is already being called the “Triangle of death” because of the number of tumours diagnosed in the residents. One death more or less, what does it matter? It is a political gamble, as well as an economic one. If the citizens of Campania don’t complain, then they die while, if they die, they can no longer complain. Write the name of Nero Prodi, but read the name Impregilo. The women of Giugliano set themselves alight in desperation, yet Deputy King Bassolino is still there.
+Herewith a letter written by Alex Zanotelli.
+
+
+
+
+The thermodestruction of fundamental human rights.”It is with absolute horror that we learn of the decision taken by Prime Minister Romano Prodi regarding the Campania eco-bales, namely, at least 7 million tons (which have little or nothing to do with eco-anything, but are in fact nothing other than refuse, nothing more and nothing less), stacked mainly at Giugliano. We are talking about the provisions contained in ordinance No. 3657, dated 20 February 2008: “Urgent provisions to address the refuse emergency in the Campania Region”. The provision that is most astonishing is the one contained in art.4, namely that: “In order to speed up the initiatives aimed at overcoming the state of emergency and, in particular, to enable the speedy commissioning of the Acerra thermodestruction plant, authorisation is hereby granted for the treatment and disposal of the refuse bearing the “Cer” codes 191212, 190501 and 190503 (the Campania eco-bales, the non-stabilised organic portion, in other words the ex-fos material, and the non-compliant compost) at the aforesaid plant, nevertheless complying with the levels of pollutant emissions previously established in the authorisation provision. What this means is that the eco-bales of refuse produced by the Campania Cdr, which do not comply with the established statutory requirements, may be burned in the Acerra incinerator. (This facility at Acerra now, for the first time ever, being labelled THERMODESTRUCTION by the Government!)
+This decision, which is totally contrary to the concept of community rights and also contrary to ordinary and accounting jurisprudence, is an exceptionally serious matter indeed.
+How come, after the Government has fallen, Prodi now promulgates this nefarious ordinance, and this so soon after another equally serious provision to re-introduce, against the Parliament’s wishes, the CIP/6 levy to fund the three new incinerators planned for the Campania Region?
+It is clearly evident that what actually lies at the bottom of this provision is nothing other than financial and contractual reasoning, because it will enable the aspirant operators of the Acerra plant to keep the tariffs high, thereby making tender participation more attractive. From a financial perspective, the Acerra plant will be kept going not only by means of the CIP/6 subsidies, but also by the simple shredding, compacting and selecting of the refuse, rather than by processing quality Compost from refuse, in other words, simple Compost from refuse. The objective appears to be to prevent the desertion of the tender, thus riding roughshod over the citizens’ rights and undermining a sacred human right, namely the right to life itself.
+This ordinance, which would permit the Acerra incinerator to incinerate any kind of refuse, and this in an area that is already being called the “Triangle of death”, is nothing other than a crime against humanity because it would compromise the health of the area’s residents, which has already been seriously undermined. We say no to this kind of profit seeking, because it places the interests of the FEW before everyone’s health.
+We therefore demand that the ordinance be retracted immediately. We are ready to challenge it in any national or European court.
+At this point in the electoral campaign, we ask all candidates standing for the position of Premier to reveal their stand regarding this vitally important ordinance. It is a matter of life or death for everyone.” Alex Zanotelli, Gerardo Marotta, Alberto Lucarelli, Guido Donadone, Raffaele Raimondi, Ugo Mattei
+
+Click the image</Text>
+  </Block>
+  <Block left="163" top="4229" right="632" bottom="4292" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Posted by Beppe Grillo at 07:30 PM in Health/Medicine | Comments (5)
+Post a comment | Sign up | Send to a friend | GrilloNews | TrackBack (0) |
+1 blog reaction </Text>
+  </Block>
+  <Block left="163" top="4317" right="632" bottom="4337" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>7 March 2008 </Text>
+  </Block>
+  <Block left="163" top="4347" right="632" bottom="4367" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Upon the death of Brother Clemente </Text>
+  </Block>
+  <Block left="658" top="187" right="842" bottom="223" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Support V2DAY of April 25th 2008</Text>
+  </Block>
+  <Block left="658" top="348" right="842" bottom="384" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>GRILLORAMA
+Books and DVDs </Text>
+  </Block>
+  <Block left="658" top="509" right="842" bottom="532" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Get informed</Text>
+  </Block>
+  <Block left="658" top="759" right="842" bottom="782" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Beppe Grillo&apos;s Friends </Text>
+  </Block>
+  <Block left="658" top="986" right="842" bottom="1022" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>The videos of beppegrillo.it</Text>
+  </Block>
+  <Block left="658" top="1037" right="838" bottom="1322" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> The video | The post </Text>
+  </Block>
+  <Block left="658" top="1332" right="842" bottom="1355" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Initiatives</Text>
+  </Block>
+  <Block left="658" top="1463" right="842" bottom="1486" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Links</Text>
+  </Block>
+  <Block left="658" top="1508" right="838" bottom="1639" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Internazionale (in Italian) 
+The Italian map of power (in Italian) 
+Manual of torture 
+Oracle of Actors 
+Skype
+The Blogosphere and the Media
+Wikipedia 
+Zopa </Text>
+  </Block>
+  <Block left="658" top="1662" right="842" bottom="1685" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#c4d6e6" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Archive</Text>
+  </Block>
+  <Block left="658" top="1708" right="838" bottom="1734" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> - Choose a category - Citizen Primaries Ecology Economics Energy Health/Medicine Information Modern Slaves Politics Technology/Internet The Caste of Newspapers Transport/Getting About Wailing Wall </Text>
+  </Block>
+  <Block left="658" top="1757" right="838" bottom="1783" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> - Choose a month - March 2008 February 2008 January 2008 December 2007 November 2007 October 2007 September 2007 August 2007 July 2007 June 2007 May 2007 April 2007 March 2007 February 2007 January 2007 December 2006 November 2006 October 2006 September 2006 August 2006 July 2006 June 2006 May 2006 April 2006 March 2006 February 2006 January 2006 December 2005 November 2005 October 2005 </Text>
+  </Block>
+  <Block left="221" top="22654" right="538" bottom="22674" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>This weblog uses the Creative Commons License |</Text>
+  </Block>
+  <Block left="538" top="22654" right="591" bottom="22674" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Privacy |</Text>
+  </Block>
+  <Block left="591" top="22654" right="774" bottom="22674" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Credits: Casaleggio Associati</Text>
+  </Block>
+  <Block left="348" top="22682" right="445" bottom="22717" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>
+(Info)</Text>
+  </Block>
+
+</Page>

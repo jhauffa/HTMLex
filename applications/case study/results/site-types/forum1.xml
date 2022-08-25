@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="2" top="2" right="994" bottom="112" depth="2">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text> Contact Contribute Forum Support Download Documentation    </Text>
+  </Block>
+  <Block left="100" top="90" right="133" bottom="103" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5c8696" />
+    </Attributes>
+    <Text>Home</Text>
+  </Block>
+  <Block left="25" top="117" right="766" bottom="149" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="14.8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Forums</Text>
+  </Block>
+  <Block left="75" top="172" right="766" bottom="195" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Login to post a new forum topic.</Text>
+  </Block>
+  <Block left="25" top="218" right="493" bottom="248" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Forum</Text>
+  </Block>
+  <Block left="493" top="218" right="553" bottom="248" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Topics</Text>
+  </Block>
+  <Block left="553" top="218" right="609" bottom="248" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Posts</Text>
+  </Block>
+  <Block left="609" top="218" right="766" bottom="248" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Last post</Text>
+  </Block>
+  <Block left="29" top="263" right="85" bottom="280" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>General</Text>
+  </Block>
+  <Block left="35" top="286" right="756" bottom="304" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Important: no support questions here!</Text>
+  </Block>
+  <Block left="59" top="320" right="250" bottom="337" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>News and announcements</Text>
+  </Block>
+  <Block left="65" top="343" right="483" bottom="361" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For news and announcements to the Drupal community at large.</Text>
+  </Block>
+  <Block left="493" top="314" right="553" bottom="371" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1199</Text>
+  </Block>
+  <Block left="553" top="314" right="609" bottom="371" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>12820</Text>
+  </Block>
+  <Block left="609" top="314" right="766" bottom="371" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2 hours 33 min ago
+by tonyhrx</Text>
+  </Block>
+  <Block left="59" top="377" right="195" bottom="394" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>General discussion</Text>
+  </Block>
+  <Block left="65" top="400" right="483" bottom="436" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For less technical discussions about the Drupal project. Not for support questions!</Text>
+  </Block>
+  <Block left="493" top="371" right="553" bottom="446" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>13850</Text>
+  </Block>
+  <Block left="553" top="371" right="609" bottom="446" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>57675</Text>
+  </Block>
+  <Block left="609" top="371" right="766" bottom="446" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>12 min 59 sec ago
+by add1sun</Text>
+  </Block>
+  <Block left="59" top="452" right="182" bottom="469" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Drupal showcase</Text>
+  </Block>
+  <Block left="65" top="475" right="483" bottom="511" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Showcase your site to others, maybe share a little about it - modules, theme, why you used Drupal.</Text>
+  </Block>
+  <Block left="493" top="446" right="553" bottom="521" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3043</Text>
+  </Block>
+  <Block left="553" top="446" right="609" bottom="521" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>14659</Text>
+  </Block>
+  <Block left="609" top="446" right="766" bottom="521" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3 hours 15 min ago
+by themegarden.org</Text>
+  </Block>
+  <Block left="59" top="527" right="109" bottom="544" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Events</Text>
+  </Block>
+  <Block left="65" top="550" right="483" bottom="568" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For events, conferences and other Drupal happenings.</Text>
+  </Block>
+  <Block left="493" top="521" right="553" bottom="578" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>258</Text>
+  </Block>
+  <Block left="553" top="521" right="609" bottom="578" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1369</Text>
+  </Block>
+  <Block left="609" top="521" right="766" bottom="578" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>5 hours 15 min ago
+by cuibap</Text>
+  </Block>
+  <Block left="59" top="584" right="192" bottom="601" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Usability feedback</Text>
+  </Block>
+  <Block left="65" top="607" right="483" bottom="625" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For interface guidelines, mockups, and usability feedback.</Text>
+  </Block>
+  <Block left="493" top="578" right="553" bottom="645" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>814</Text>
+  </Block>
+  <Block left="553" top="578" right="609" bottom="645" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3848</Text>
+  </Block>
+  <Block left="609" top="578" right="766" bottom="645" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>7 hours 31 min ago
+by k9gardner</Text>
+  </Block>
+  <Block left="29" top="660" right="86" bottom="677" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Support</Text>
+  </Block>
+  <Block left="35" top="683" right="756" bottom="719" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Try searching the forums first or a specific project&apos;s bug reports. Remember all support on this site is on a volunteer basis, so please visit the forum tips for posting hints.</Text>
+  </Block>
+  <Block left="59" top="735" right="243" bottom="752" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Pre installation questions</Text>
+  </Block>
+  <Block left="65" top="758" right="483" bottom="776" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Is Drupal a viable solution for my website?</Text>
+  </Block>
+  <Block left="493" top="729" right="553" bottom="786" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2802</Text>
+  </Block>
+  <Block left="553" top="729" right="609" bottom="786" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>11489</Text>
+  </Block>
+  <Block left="609" top="729" right="766" bottom="786" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>39 min 2 sec ago
+by gpk</Text>
+  </Block>
+  <Block left="59" top="792" right="214" bottom="809" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Installation problems</Text>
+  </Block>
+  <Block left="65" top="815" right="483" bottom="833" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For problems with installing a new Drupal site.</Text>
+  </Block>
+  <Block left="493" top="786" right="553" bottom="843" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>8203</Text>
+  </Block>
+  <Block left="553" top="786" right="609" bottom="843" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>34392</Text>
+  </Block>
+  <Block left="609" top="786" right="766" bottom="843" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1 hour 53 min ago
+by HamishDobbie</Text>
+  </Block>
+  <Block left="59" top="849" right="192" bottom="866" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Upgrade problems</Text>
+  </Block>
+  <Block left="65" top="872" right="483" bottom="890" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For problems with upgrading an existing Drupal site.</Text>
+  </Block>
+  <Block left="493" top="843" right="553" bottom="900" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2241</Text>
+  </Block>
+  <Block left="553" top="843" right="609" bottom="900" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>8917</Text>
+  </Block>
+  <Block left="609" top="843" right="766" bottom="900" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>25 min 27 sec ago
+by pobster</Text>
+  </Block>
+  <Block left="59" top="906" right="176" bottom="923" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Post installation</Text>
+  </Block>
+  <Block left="65" top="929" right="483" bottom="947" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Drupal is up and running but how do I ...?</Text>
+  </Block>
+  <Block left="493" top="900" right="553" bottom="957" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>48336</Text>
+  </Block>
+  <Block left="553" top="900" right="609" bottom="957" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>175120</Text>
+  </Block>
+  <Block left="609" top="900" right="766" bottom="957" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>7 min 9 sec ago
+by d2f</Text>
+  </Block>
+  <Block left="59" top="963" right="209" bottom="980" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Converting to Drupal</Text>
+  </Block>
+  <Block left="65" top="986" right="483" bottom="1004" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Need help migrating your site to Drupal?</Text>
+  </Block>
+  <Block left="493" top="957" right="553" bottom="1014" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>977</Text>
+  </Block>
+  <Block left="553" top="957" right="609" bottom="1014" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3902</Text>
+  </Block>
+  <Block left="609" top="957" right="766" bottom="1014" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>20 hours 45 min ago
+by GreenLED</Text>
+  </Block>
+  <Block left="59" top="1020" right="198" bottom="1037" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Hosting companies</Text>
+  </Block>
+  <Block left="65" top="1043" right="483" bottom="1061" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For questions about commercial Drupal hosting.</Text>
+  </Block>
+  <Block left="493" top="1014" right="553" bottom="1071" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>585</Text>
+  </Block>
+  <Block left="553" top="1014" right="609" bottom="1071" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>4683</Text>
+  </Block>
+  <Block left="609" top="1014" right="766" bottom="1071" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>7 hours 19 min ago
+by greggles</Text>
+  </Block>
+  <Block left="59" top="1077" right="206" bottom="1094" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Paid Drupal services</Text>
+  </Block>
+  <Block left="65" top="1100" right="483" bottom="1118" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Consulting, contracts, RFPs, jobs, bounties, and more. </Text>
+  </Block>
+  <Block left="493" top="1071" right="553" bottom="1128" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3089</Text>
+  </Block>
+  <Block left="553" top="1071" right="609" bottom="1128" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>9083</Text>
+  </Block>
+  <Block left="609" top="1071" right="766" bottom="1128" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3 hours 14 min ago
+by gareth_w</Text>
+  </Block>
+  <Block left="59" top="1134" right="211" bottom="1151" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Module development</Text>
+  </Block>
+  <Block left="65" top="1157" right="483" bottom="1175" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For assistance with module development.</Text>
+  </Block>
+  <Block left="493" top="1128" right="553" bottom="1185" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>11190</Text>
+  </Block>
+  <Block left="553" top="1128" right="609" bottom="1185" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>40192</Text>
+  </Block>
+  <Block left="609" top="1128" right="766" bottom="1185" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>21 min 18 sec ago
+by m.gribaudo</Text>
+  </Block>
+  <Block left="59" top="1191" right="208" bottom="1208" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Theme development</Text>
+  </Block>
+  <Block left="65" top="1214" right="483" bottom="1232" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For assistance with theme development.</Text>
+  </Block>
+  <Block left="493" top="1185" right="553" bottom="1242" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>6218</Text>
+  </Block>
+  <Block left="553" top="1185" right="609" bottom="1242" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>23969</Text>
+  </Block>
+  <Block left="609" top="1185" right="766" bottom="1242" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2 hours 22 min ago
+by gavin_s</Text>
+  </Block>
+  <Block left="59" top="1248" right="148" bottom="1265" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Translations</Text>
+  </Block>
+  <Block left="65" top="1271" right="483" bottom="1289" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For translating the Drupal user interface.</Text>
+  </Block>
+  <Block left="493" top="1242" right="553" bottom="1309" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>586</Text>
+  </Block>
+  <Block left="553" top="1242" right="609" bottom="1309" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2117</Text>
+  </Block>
+  <Block left="609" top="1242" right="766" bottom="1309" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>5 hours 14 min ago
+by ygerasimov</Text>
+  </Block>
+  <Block left="29" top="1324" right="113" bottom="1341" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Deprecated</Text>
+  </Block>
+  <Block left="35" top="1347" right="756" bottom="1383" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Forums that are no longer actively used. Please see the module issue queue or the appropriate group on http://groups.drupal.org</Text>
+  </Block>
+  <Block left="59" top="1418" right="285" bottom="1435" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Development (working groups)</Text>
+  </Block>
+  <Block left="65" top="1441" right="756" bottom="1459" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Important: no support questions here!</Text>
+  </Block>
+  <Block left="89" top="1475" right="257" bottom="1492" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Database compatibility</Text>
+  </Block>
+  <Block left="95" top="1498" right="483" bottom="1516" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For problems and solutions related to database compatibility.</Text>
+  </Block>
+  <Block left="493" top="1469" right="553" bottom="1526" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>252</Text>
+  </Block>
+  <Block left="553" top="1469" right="609" bottom="1526" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>792</Text>
+  </Block>
+  <Block left="609" top="1469" right="766" bottom="1526" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>53 min 39 sec ago
+by rootbalans</Text>
+  </Block>
+  <Block left="89" top="1532" right="200" bottom="1549" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Documentation</Text>
+  </Block>
+  <Block left="95" top="1555" right="483" bottom="1591" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Everything documentation related, ranging from end-user documentation to marketing material.</Text>
+  </Block>
+  <Block left="493" top="1526" right="553" bottom="1601" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>267</Text>
+  </Block>
+  <Block left="553" top="1526" right="609" bottom="1601" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1243</Text>
+  </Block>
+  <Block left="609" top="1526" right="766" bottom="1601" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>23 hours 56 min ago
+by TonyV</Text>
+  </Block>
+  <Block left="89" top="1607" right="172" bottom="1624" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Drupal core</Text>
+  </Block>
+  <Block left="95" top="1630" right="483" bottom="1648" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For everything related to the main Drupal distribution.</Text>
+  </Block>
+  <Block left="493" top="1601" right="553" bottom="1658" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1475</Text>
+  </Block>
+  <Block left="553" top="1601" right="609" bottom="1658" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>6299</Text>
+  </Block>
+  <Block left="609" top="1601" right="766" bottom="1658" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>43 min 53 sec ago
+by Barry Ramage</Text>
+  </Block>
+  <Block left="89" top="1664" right="269" bottom="1681" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Drupal.org infrastructure</Text>
+  </Block>
+  <Block left="95" top="1687" right="483" bottom="1723" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For anything related to maintenance of drupal.org, including the website, the mailing lists, and the CVS repositories.</Text>
+  </Block>
+  <Block left="493" top="1658" right="553" bottom="1733" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>557</Text>
+  </Block>
+  <Block left="553" top="1658" right="609" bottom="1733" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2804</Text>
+  </Block>
+  <Block left="609" top="1658" right="766" bottom="1733" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>48 min 4 sec ago
+by Hiveminds</Text>
+  </Block>
+  <Block left="89" top="1739" right="341" bottom="1756" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Media and document management</Text>
+  </Block>
+  <Block left="95" top="1762" right="483" bottom="1798" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For everything related to documents, images, audio and video.</Text>
+  </Block>
+  <Block left="493" top="1733" right="553" bottom="1808" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>434</Text>
+  </Block>
+  <Block left="553" top="1733" right="609" bottom="1808" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1974</Text>
+  </Block>
+  <Block left="609" top="1733" right="766" bottom="1808" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>14 hours 38 min ago
+by thomasmurphy</Text>
+  </Block>
+  <Block left="89" top="1814" right="291" bottom="1831" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Performance and scalability</Text>
+  </Block>
+  <Block left="95" top="1837" right="483" bottom="1873" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>For problems and solutions related to performance and scalability.</Text>
+  </Block>
+  <Block left="493" top="1808" right="553" bottom="1883" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>329</Text>
+  </Block>
+  <Block left="553" top="1808" right="609" bottom="1883" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1672</Text>
+  </Block>
+  <Block left="609" top="1808" right="766" bottom="1883" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#edf1f3" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>3 days 9 hours ago
+by elfs</Text>
+  </Block>
+  <Block left="89" top="1889" right="329" bottom="1906" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Social software and communities</Text>
+  </Block>
+  <Block left="95" top="1912" right="483" bottom="1948" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Everything groups, user interaction, moderation, rating, profile management, etc.</Text>
+  </Block>
+  <Block left="493" top="1883" right="553" bottom="1959" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>479</Text>
+  </Block>
+  <Block left="553" top="1883" right="609" bottom="1959" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>1934</Text>
+  </Block>
+  <Block left="609" top="1883" right="766" bottom="1959" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>2 days 3 hours ago
+by illSleepWheniDie</Text>
+  </Block>
+  <Block left="786" top="118" right="984" bottom="139" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#0174bb" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>User login</Text>
+  </Block>
+  <Block left="791" top="158" right="977" bottom="347" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text>Username: *
+  
+Password: *
+  
+ 
+Create new account
+Request new password
+ </Text>
+  </Block>
+  <Block left="786" top="367" right="984" bottom="388" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#0174bb" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>New forum topics</Text>
+  </Block>
+  <Block left="808" top="394" right="971" bottom="426" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Add a tab to a module edit page</Text>
+  </Block>
+  <Block left="808" top="429" right="949" bottom="461" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Implementing Paid Access area</Text>
+  </Block>
+  <Block left="808" top="464" right="943" bottom="480" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Page Title Module?</Text>
+  </Block>
+  <Block left="808" top="483" right="962" bottom="515" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Drupal handicap(?) - adding sub-menus</Text>
+  </Block>
+  <Block left="808" top="518" right="955" bottom="566" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Error 500 - Internal server error (1and1 hosting)</Text>
+  </Block>
+  <Block left="808" top="569" right="952" bottom="601" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Drupal 6 and image module</Text>
+  </Block>
+  <Block left="808" top="604" right="972" bottom="620" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>drpal.org spam attack </Text>
+  </Block>
+  <Block left="808" top="623" right="931" bottom="655" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Accesslog Crash Problem</Text>
+  </Block>
+  <Block left="808" top="658" right="972" bottom="706" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>jQuery plugin to lazy load other plugins. Small and easy to use.</Text>
+  </Block>
+  <Block left="808" top="709" right="975" bottom="725" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>remove Read more link</Text>
+  </Block>
+  <Block left="808" top="728" right="945" bottom="744" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>calling form in loop</Text>
+  </Block>
+  <Block left="808" top="747" right="976" bottom="779" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>JVL media player can&apos;t read jvl files in drupal</Text>
+  </Block>
+  <Block left="808" top="782" right="961" bottom="798" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Member page gallery</Text>
+  </Block>
+  <Block left="808" top="801" right="957" bottom="849" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Is it possible to bulk add categories in version 5.7</Text>
+  </Block>
+  <Block left="808" top="852" right="958" bottom="916" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>custom $base_url is ignored in form urls. (create node for example)</Text>
+  </Block>
+  <Block left="808" top="919" right="939" bottom="951" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Changes made to modules installed</Text>
+  </Block>
+  <Block left="808" top="954" right="957" bottom="986" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Add image to image gallery</Text>
+  </Block>
+  <Block left="808" top="989" right="973" bottom="1021" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Change the taxonomy automaticly</Text>
+  </Block>
+  <Block left="808" top="1024" right="954" bottom="1072" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Garland Header not Rendering in IE7 for some people</Text>
+  </Block>
+  <Block left="808" top="1075" right="964" bottom="1107" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#027ac6" />
+    </Attributes>
+    <Text>Chage the taxonomy automaticly</Text>
+  </Block>
+  <Block left="939" top="1117" right="977" bottom="1133" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfedf7" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#0062a0" />
+    </Attributes>
+    <Text>more</Text>
+  </Block>
+  <Block left="2" top="1988" right="994" bottom="2064" depth="2">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#1b87ca" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#003150" />
+    </Attributes>
+    <Text> 
+Drupal is a registered trademark of Dries Buytaert.</Text>
+  </Block>
+
+</Page>

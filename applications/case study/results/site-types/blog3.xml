@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="62" top="141" right="103" bottom="165" depth="22">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Help </Text>
+  </Block>
+  <Block left="103" top="141" right="169" bottom="165" depth="22">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Guidelines </Text>
+  </Block>
+  <Block left="169" top="141" right="235" bottom="165" depth="22">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Subscribe by email </Text>
+  </Block>
+  <Block left="59" top="188" right="239" bottom="214" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#346080" />
+    </Attributes>
+    <Text>Notices</Text>
+  </Block>
+  <Block left="64" top="224" right="233" bottom="332" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#fffaf4" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#346080" />
+    </Attributes>
+    <Text>» See our new Second Life Planned Outages Calendar.
+
+» Report bugs in our Issue Tracker.</Text>
+  </Block>
+  <Block left="59" top="373" right="239" bottom="399" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#346080" />
+    </Attributes>
+    <Text>Quality Metrics</Text>
+  </Block>
+  <Block left="59" top="399" right="249" bottom="1655" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Curious about Second Life&apos;s stability and performance and what we&apos;re doing to improve it?
+
+See our Second Life Grid Quality Metrics!
+
+
+
+ 
+
+ 
+Office Hours
+
+» Meet Lindens in Second Life</Text>
+  </Block>
+  <Block left="59" top="507" right="226" bottom="543" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>See our Second Life Grid Quality Metrics!</Text>
+  </Block>
+  <Block left="59" top="1397" right="239" bottom="1423" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#346080" />
+    </Attributes>
+    <Text>Office Hours</Text>
+  </Block>
+  <Block left="59" top="1619" right="210" bottom="1655" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>» Meet Lindens in Second Life</Text>
+  </Block>
+  <Block left="747" top="206" right="927" bottom="257" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Categories
+ Select Category -Miscellaneous  (432) Announcements &amp; News  (793) Beta Test Grid  (76) Blog Improvements  (16) Bugs &amp; Fixes  (210) Community  (478) Concierge  (93) Creativity &amp; Ideas  (98) Customer Service  (186) Development  (112) Economy  (45) Education  (7) Events  (35) Forums  (5) Games  (16) Interviews  (7) Land  (55) Marketing  (18) Movies &amp; Machinima  (10) Music  (13) New Releases  (168) Off-Topic  (6) Operations  (79) Other Blogs  (5) Q&amp;A  (12) Quality Assurance  (46) Resident Experience  (242) Scripting  (23) Security  (25) Service Metrics  (8) Service Status  (311) Support Stats  (3) Tips &amp; Tricks  (50) Volunteers  (7) Web Development  (20) Website Status  (63) </Text>
+  </Block>
+  <Block left="747" top="287" right="927" bottom="338" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Archives
+ Select Month March 2008  (32) February 2008  (86) January 2008  (76) December 2007  (65) November 2007  (85) October 2007  (68) September 2007  (44) August 2007  (59) July 2007  (52) June 2007  (60) May 2007  (49) April 2007  (48) March 2007  (70) February 2007  (55) January 2007  (70) December 2006  (76) November 2006  (68) October 2006  (89) September 2006  (102) August 2006  (66) July 2006  (15) June 2006  (9) May 2006  (16) April 2006  (8) March 2006  (11) February 2006  (8) January 2006  (7) December 2005  (20) November 2005  (12) October 2005  (3) September 2005  (6) August 2005  (9) July 2005  (3) June 2005  (2) May 2005  (4) April 2005  (7) March 2005  (5) February 2005  (1) January 2005  (4) December 2004  (1) November 2004  (6) October 2004  (8) </Text>
+  </Block>
+  <Block left="747" top="338" right="942" bottom="509" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>
+
+ 
+A resource offering tools and support for 3D content creation.</Text>
+  </Block>
+  <Block left="747" top="539" right="927" bottom="565" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10.8" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#346080" />
+    </Attributes>
+    <Text>Meta</Text>
+  </Block>
+  <Block left="775" top="571" right="927" bottom="583" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Log in </Text>
+  </Block>
+  <Block left="775" top="589" right="927" bottom="601" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Entries RSS </Text>
+  </Block>
+  <Block left="775" top="607" right="927" bottom="619" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Comments RSS </Text>
+  </Block>
+  <Block left="775" top="625" right="927" bottom="637" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>WordPress.com </Text>
+  </Block>
+  <Block left="268" top="114" right="722" bottom="185" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[RESOLVED] Account Detail Reports Lagging by Roughly Five Hours
+Monday, March 10th, 2008 at 10:13 AM by: Teeple Linden </Text>
+  </Block>
+  <Block left="275" top="208" right="715" bottom="226" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[10:15 a.m. PST –teeple]</Text>
+  </Block>
+  <Block left="275" top="249" right="715" bottom="285" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Reporting is back in synch with in world transactions now.  Thanks for your patience!</Text>
+  </Block>
+  <Block left="275" top="310" right="424" bottom="324" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>[9:54 a.m. PST –teeple]</Text>
+  </Block>
+  <Block left="275" top="351" right="716" bottom="383" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>The databases have almost finished resynchronizing. Reporting lag is down to about 15 minutes and closing…</Text>
+  </Block>
+  <Block left="275" top="410" right="319" bottom="424" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>***** </Text>
+  </Block>
+  <Block left="275" top="451" right="711" bottom="519" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>[8:08 a.m. PST –teeple] We’ve placed an unusually heavy reporting load on one of our databases this morning, and as a result, resident transactions are taking roughly five hours to become visible on the Website.</Text>
+  </Block>
+  <Block left="275" top="546" right="706" bottom="596" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>The transactions are being captured properly. This is just a synchronization issue between the database instances, and should correct itself later this morning.</Text>
+  </Block>
+  <Block left="275" top="623" right="504" bottom="637" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>We apologize for the inconvenience.</Text>
+  </Block>
+  <Block left="274" top="682" right="413" bottom="697" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: -Miscellaneous</Text>
+  </Block>
+  <Block left="685" top="690" right="705" bottom="706" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>71 </Text>
+  </Block>
+  <Block left="268" top="758" right="722" bottom="829" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>PARCEL MEDIA Video Tutorials: How to play movies, webpages, &amp; more!
+Monday, March 10th, 2008 at 9:00 AM by: Torley Linden </Text>
+  </Block>
+  <Block left="275" top="852" right="715" bottom="906" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>I hope you’ve already read Jeska’s post on the new PARCEL MEDIA features in our 1.19.1 Release Candidate viewer! To use ‘em, you’ll need to:</Text>
+  </Block>
+  <Block left="275" top="1048" right="715" bottom="1084" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>I made 3 video tutorials to help you master these new features:
+ </Text>
+  </Block>
+  <Block left="275" top="1107" right="715" bottom="1161" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>1. How to play movies, webpages, &amp; more on your land - A friendly intro to existing media options (good if you’ve new to all of this) and I showcase what’s fresh!</Text>
+  </Block>
+  <Block left="291" top="1554" right="548" bottom="1568" depth="21">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>DOWNLOAD HIGH-QUALITY VERSION</Text>
+  </Block>
+  <Block left="275" top="1593" right="453" bottom="1607" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="1652" right="656" bottom="1667" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Community, Creativity &amp; Ideas, Resident Experience, Tips &amp; Tricks</Text>
+  </Block>
+  <Block left="685" top="1660" right="705" bottom="1676" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>32 </Text>
+  </Block>
+  <Block left="268" top="1728" right="722" bottom="1799" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[RESOLVED] A number of regions currently unreachable
+Monday, March 10th, 2008 at 7:00 AM by: Matthew Linden </Text>
+  </Block>
+  <Block left="275" top="1822" right="715" bottom="1858" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[UPDATE 11:14 a.m. PST - rika] The problem has been resolved. Thank you for your patience with this issue.</Text>
+  </Block>
+  <Block left="275" top="1881" right="715" bottom="1935" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[UPDATE 8:20 a.m. PST –teeple] There’s a Linden network engineer at the co-location site this morning; hopefully this will be resolved very shortly. We apologize for the protracted inconvenience.</Text>
+  </Block>
+  <Block left="275" top="1958" right="715" bottom="1976" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>***</Text>
+  </Block>
+  <Block left="275" top="2001" right="695" bottom="2033" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>We have identified that, due to some network issues, around 480 regions are currently unreachable by residents.</Text>
+  </Block>
+  <Block left="275" top="2060" right="713" bottom="2092" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#808080" />
+    </Attributes>
+    <Text>We’re sorry for this inconvenience but be assured that we’re actively working on this right now.</Text>
+  </Block>
+  <Block left="274" top="2129" right="628" bottom="2161" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Announcements &amp; News, Concierge, Resident Experience, Service Status</Text>
+  </Block>
+  <Block left="685" top="2145" right="701" bottom="2161" depth="31">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>off</Text>
+  </Block>
+  <Block left="268" top="2213" right="722" bottom="2284" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[RESOLVED] Events page not allowing residents to add new events
+Monday, March 10th, 2008 at 2:49 AM by: Matthew Linden </Text>
+  </Block>
+  <Block left="275" top="2307" right="715" bottom="2343" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[RESOLVED - 12:30pm PST] The issue has been resolved and you should be able to post events as normal.</Text>
+  </Block>
+  <Block left="275" top="2366" right="715" bottom="2420" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>It appears that residents are unable to add forthcoming events to our Events page at the moment. Sincere apologies for that. We’ll try to get that resolved as soon as we can.</Text>
+  </Block>
+  <Block left="275" top="2443" right="715" bottom="2461" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Best Wishes to you.</Text>
+  </Block>
+  <Block left="274" top="2496" right="656" bottom="2528" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: -Miscellaneous, Customer Service, Resident Experience, Service Status, Website Status</Text>
+  </Block>
+  <Block left="685" top="2512" right="701" bottom="2528" depth="31">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>off</Text>
+  </Block>
+  <Block left="268" top="2580" right="722" bottom="2633" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Resolved] In world services interrupted
+Sunday, March 9th, 2008 at 11:44 AM by: Kate Linden </Text>
+  </Block>
+  <Block left="275" top="2656" right="715" bottom="2728" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Resolved 3:15 PM] Let’s try this again!  The database is happy again and all in world services are clear to resume.  Please give some time for transactions to catch up. If you still have a transaction that did not go through, please submit a support ticket.</Text>
+  </Block>
+  <Block left="275" top="2751" right="715" bottom="2787" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 2:47 PM] This issue is not yet resolved. Please continue to refrain from conducting Land and L$ transactions.</Text>
+  </Block>
+  <Block left="275" top="2810" right="715" bottom="2846" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 2:19 PM] In world services are beginning to resume. Some transactions were delayed and are catching up.</Text>
+  </Block>
+  <Block left="275" top="2869" right="715" bottom="2923" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 1:58 PM] Residents are reporting in world services are not all functioning yet. We are looking into this and will update you as soon as we have information.</Text>
+  </Block>
+  <Block left="275" top="2946" right="715" bottom="3000" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 1:26 PM] In world services have resumed. You are clear to conduct Land and L$ transactions again. Thank you for your cooperation.</Text>
+  </Block>
+  <Block left="275" top="3023" right="715" bottom="3059" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 12:48 PM] Please refrain from land and L$ transactions until we give an all clear.</Text>
+  </Block>
+  <Block left="275" top="3082" right="715" bottom="3136" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>We are experiencing a temporary interruption of In World Services which include Teleporting, L$ Balance loading, groups not loading. We are working to correct this and will update you shortly.</Text>
+  </Block>
+  <Block left="274" top="3171" right="626" bottom="3203" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: -Miscellaneous, Bugs &amp; Fixes, Customer Service, Resident Experience, Service Status</Text>
+  </Block>
+  <Block left="685" top="3187" right="701" bottom="3203" depth="31">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>off</Text>
+  </Block>
+  <Block left="268" top="3255" right="722" bottom="3308" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>What are you doing next Saturday?
+Saturday, March 8th, 2008 at 2:01 PM by: harmonylinden </Text>
+  </Block>
+  <Block left="275" top="3331" right="715" bottom="3403" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>We’d like to invite all adult Second Life concierge-level residents to join us for a party on March 15th! Instead of celebrating the Ides of March by killing Caesar, come and hang out with the Concierge team and other concierge customers.</Text>
+  </Block>
+  <Block left="275" top="3428" right="453" bottom="3442" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="3487" right="390" bottom="3502" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Concierge</Text>
+  </Block>
+  <Block left="681" top="3495" right="709" bottom="3511" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>150 </Text>
+  </Block>
+  <Block left="268" top="3563" right="722" bottom="3616" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[RESOLVED] Abuse Report Message Confusion
+Friday, March 7th, 2008 at 8:56 PM by: Twilight Linden </Text>
+  </Block>
+  <Block left="275" top="3639" right="715" bottom="3711" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[4:30pm PST 2008-03-08] We’ve discovered the error that was ultimately responsible for residents receiving the aforementioned message. It has been corrected and you should no longer see this message. -Chiyo</Text>
+  </Block>
+  <Block left="275" top="3734" right="716" bottom="3842" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>We are aware Abuse Reports on the mainland are displaying a message saying that the AR is going to the estate owner, not Linden Lab, but please be assured they are still being received by our Governance Team. The cause is currently being investigated. We will follow up with further information as it becomes available. </Text>
+  </Block>
+  <Block left="274" top="3885" right="659" bottom="3900" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Announcements &amp; News, Customer Service, Resident Experience</Text>
+  </Block>
+  <Block left="685" top="3893" right="701" bottom="3909" depth="31">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>off</Text>
+  </Block>
+  <Block left="268" top="3961" right="722" bottom="4032" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Havok4 Early Adopter Update - RC0 of the New Second Life Simulator with 15 Fixes - 2008-03-07
+Friday, March 7th, 2008 at 6:01 PM by: Sidewinder Linden </Text>
+  </Block>
+  <Block left="275" top="4057" right="359" bottom="4071" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Quick Status</Text>
+  </Block>
+  <Block left="275" top="4096" right="715" bottom="4222" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The Havok4-based Second Life simulator v1.19.1.81747 has been deployed to both the Beta Preview and the over 500 Early Adopter regions. This version resolves 15 of the remaining issues and brings us to the point of having a first release candidate of the simulator. More fixes are still in process - this is not the last build - but we are getting much closer to a version that can be integrated with release and become the next Second Life simulator.</Text>
+  </Block>
+  <Block left="275" top="4245" right="715" bottom="4317" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>We are getting close to a release-ready version of the new Havok4-based simulator. The team will be continuing to work on issues. I will be posting more information about expected timetables soon (but not with this blog post…)</Text>
+  </Block>
+  <Block left="275" top="4340" right="715" bottom="4484" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The team is committed to the quality of this new simulator version, and will be remaining together to work issues after the Havok4 simulator is released to Second Life at large. (We will not practice “release and run” with this simulator, just as you have seen that we do not practice “post and run” on the blog… We’ll still be around ;). We are trying to get the benefits of reduced simulator crash rates out to all of Second Life as soon as it is reasonable, and will clean up lower level issues going forward from that point.</Text>
+  </Block>
+  <Block left="275" top="4509" right="701" bottom="4541" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Why Did We Not Deploy This Version To Beta Preview First This Time?</Text>
+  </Block>
+  <Block left="275" top="4566" right="715" bottom="4674" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The original plan was to deploy this build to the Beta Preview only, and test it over the weekend before deploying it to the Havok4 Early Adopter regions. As a result of a recent security exploit and the accompanying fix, I decided that it would be better to bypass the Beta Preview period than to leave the exploit “in the wild” with our Early Adopters.</Text>
+  </Block>
+  <Block left="275" top="4697" right="715" bottom="4841" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>I hope that we have caught any major issues that might be in this build, and that you will understand this decision is based on a security first philosophy, even though it may risk some other problems. If we missed something major, the back-out plan will be to pave over the Havok4 Early Adopter regions with the current Second Life simulator temporarily. I will be on and offline for the next several hours and will be making that call later on tonight (keep this version online or pave it over with the release version).</Text>
+  </Block>
+  <Block left="275" top="4866" right="510" bottom="4880" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>What Has Changed In This Version?</Text>
+  </Block>
+  <Block left="275" top="4905" right="715" bottom="4959" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Changes in this build include (SVC items were submitted on the public jira issue tracker / DEV items are internally discovered issues / there are a few in this list that were fixed without jira tracking #’s…).</Text>
+  </Block>
+  <Block left="275" top="4982" right="715" bottom="5000" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>*** Resolved security exploit</Text>
+  </Block>
+  <Block left="275" top="5025" right="453" bottom="5039" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="5084" right="607" bottom="5099" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Announcements &amp; News, Beta Test Grid, Bugs &amp; Fixes</Text>
+  </Block>
+  <Block left="681" top="5092" right="709" bottom="5108" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>126 </Text>
+  </Block>
+  <Block left="268" top="5160" right="722" bottom="5213" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Search Ranking Update
+Friday, March 7th, 2008 at 5:29 PM by: Stephany Linden </Text>
+  </Block>
+  <Block left="275" top="5236" right="715" bottom="5344" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Four days ago, Resident Phil Deakins reported a drop in the search ranking for his low prim furniture business. Phil, my apologies for using you as our example! The drop in search ranking followed Phil’s purchase of additional land, which he joined to existing land. You can see Phil’s original, more detailed description at: http://forums.secondlife.com/showthread.php?t=244502.</Text>
+  </Block>
+  <Block left="275" top="5367" right="715" bottom="5457" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>I apologize for the lengthy and somewhat technical nature of this post, but I want to be clear about what happened and what we are doing to fix it. The search team has also created updated documentation on parcel joins for the Second Life wiki and the Knowledge Base.</Text>
+  </Block>
+  <Block left="275" top="5480" right="715" bottom="5588" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>New Search and Land Parcel IDs
+The new search pays attention to land parcel ID, unlike most human beings do. This means that Top Picks or a Landmark, for example, may point to a new SL business in its correct, current location, while behind the scenes search is looking at land parcel ID instead - and the two don’t necessarily match following a parcel join.</Text>
+  </Block>
+  <Block left="275" top="5613" right="453" bottom="5627" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="5672" right="413" bottom="5687" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: -Miscellaneous</Text>
+  </Block>
+  <Block left="685" top="5680" right="705" bottom="5696" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>98 </Text>
+  </Block>
+  <Block left="268" top="5748" right="722" bottom="5819" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Linden Department of Public Works: Construction Update
+Friday, March 7th, 2008 at 5:08 PM by: Michael Linden </Text>
+  </Block>
+  <Block left="275" top="5842" right="715" bottom="5950" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Work proceeds apace on the Bay City regions as LDPW Moles build their little hearts out and we expect to be nearing completion by month’s end. So far they’ve show themselves to be as industrious, professional and fun loving as any insectivore you’re likely to meet and the content being created is certainly on pace to set the standard in these new urban spaces.</Text>
+  </Block>
+  <Block left="275" top="5973" right="715" bottom="6207" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Thoughts on scripting:
+
+– Bay City has a couple of major scripting requirements, drawbridges and the trolleys. The physical trolleys will run at a fixed height, and at a fixed north-south distance in each Region they’re in — thus they should move pretty smoothly over Region boundaries. Scripting will deal with starting and stopping at drawbridges, stops, and the ends of the line. Drawbridges are pretty much “door” scripts, but we want some “coordinated” activity of various objects when bridges go up or down, and some limits or pauses to prevent malicious “flapping” of the city’s bridges. Some of the bridges will be “paired” (two-leaf) bascule bridges; and we may try to have coordinated light signals or such … maybe.</Text>
+  </Block>
+  <Block left="275" top="6232" right="453" bottom="6246" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="6291" right="618" bottom="6306" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Community, Creativity &amp; Ideas, Land, Resident Experience</Text>
+  </Block>
+  <Block left="685" top="6299" right="705" bottom="6315" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>23 </Text>
+  </Block>
+  <Block left="268" top="6367" right="722" bottom="6420" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Announcing changes to the Openspace product
+Friday, March 7th, 2008 at 4:45 PM by: Jack Linden </Text>
+  </Block>
+  <Block left="275" top="6443" right="715" bottom="6497" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>For some time now we have been selling a low prim island type to existing island owners called Openspaces (often called void sims by Residents).</Text>
+  </Block>
+  <Block left="275" top="6520" right="715" bottom="6556" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>This blog post is to announce some important changes to Openspaces..</Text>
+  </Block>
+  <Block left="275" top="6581" right="453" bottom="6595" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="6640" right="547" bottom="6655" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Announcements &amp; News, Concierge, Land</Text>
+  </Block>
+  <Block left="681" top="6648" right="709" bottom="6664" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>100 </Text>
+  </Block>
+  <Block left="268" top="6716" right="722" bottom="6787" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>New Resource for Second Life Educators: SLED Blog
+Friday, March 7th, 2008 at 3:50 PM by: claudialinden </Text>
+  </Block>
+  <Block left="275" top="6810" right="715" bottom="6900" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Originally created in October of 2005 as a resource for Educators, The Second Life Educators (SLED) community is growing strong and now contains over 4700+ members! Educators from around the world are using SLED to help newcomers, exchange resources, network, collaborate on projects, and share best practices. </Text>
+  </Block>
+  <Block left="275" top="6923" right="715" bottom="7049" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>In order to continue to serve the Educator community and to make the benefits of SLED more accessible, we are pleased to announce the creation of the SLED Blog. A doorway to the engaging dialogue on the SLED list, the blog will feature and highlight EDU-oriented events, tools, bright ideas, awesome groups and locations, expert opinions, pointers to tutorials and papers, and insider views on life in Teen Second Life.</Text>
+  </Block>
+  <Block left="275" top="7072" right="715" bottom="7216" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>To kick off the project, we’ve invited Second Life resident educator Intellagirl Tully - aka Sarah Robbins - to edit the SLED Blog. In first life, Sarah Robbins is an instructor at Ball State University in Muncie, Indiana. She teaches undergraduate English composition classes in Second Life, presents on Second Life at conferences, blogs prolifically, and co-authored the book Second Life for Dummies. Sarah will manage the blog and has invited several active members of the SLED community to contribute regularly to the SLED Blog.</Text>
+  </Block>
+  <Block left="275" top="7239" right="715" bottom="7275" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Drop by the SLED Blog regularly to discover what’s happening in K-20 Education Using the Second Life(R) World.</Text>
+  </Block>
+  <Block left="274" top="7318" right="446" bottom="7333" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Community, Education</Text>
+  </Block>
+  <Block left="689" top="7326" right="701" bottom="7342" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>8 </Text>
+  </Block>
+  <Block left="268" top="7394" right="722" bottom="7447" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Mono Beta Refresh 4
+Friday, March 7th, 2008 at 3:29 AM by: babbagelinden </Text>
+  </Block>
+  <Block left="275" top="7470" right="715" bottom="7506" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The Mono regions on the beta grid were updated with new binaries today that resolve the following issues:</Text>
+  </Block>
+  <Block left="275" top="7529" right="715" bottom="7727" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>*SVC-1712 Sim crash
+*SVC-1379 8 or more functions/event handlers failure
+*SVC-1720 Equality test of 2 keys causes exception
+*SVC-1690 if (llSubStringIndex != -1)
+*SVC-1448 (reopened) list operations have side effects
+*SVC-1402 typecasting string to int/float with non-numerical chars
+*SVC-1350 list length hack no longer works
+*SVC-1365 Run_time_perms prevents listens
+*SVC-1346 string to integer casting difference
+*SVC-1530 System.OverflowException with integer outside range
+*SVC-1376 Does not support hexfloats for floats</Text>
+  </Block>
+  <Block left="275" top="7750" right="715" bottom="7822" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>This update includes some changes that are incompatible with some existing Mono scripts. If you see runtime errors produced by Mono scripts compiled before this refresh, try recompiling the script to resolve the issue.</Text>
+  </Block>
+  <Block left="275" top="7845" right="715" bottom="7881" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>We hope to see you at the office hours in Sandbox Goguen MONO on the beta grid on Wednesdays at 8AM and Fridays at 3PM.</Text>
+  </Block>
+  <Block left="275" top="7904" right="715" bottom="7940" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Thank you again for the great response to the Mono beta and for your continued support.</Text>
+  </Block>
+  <Block left="274" top="7983" right="458" bottom="7998" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Beta Test Grid, Scripting</Text>
+  </Block>
+  <Block left="685" top="7991" right="705" bottom="8007" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>21 </Text>
+  </Block>
+  <Block left="268" top="8059" right="722" bottom="8130" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Rolling Restart - Thursday March 6th, 5pm-10pm PST
+Thursday, March 6th, 2008 at 5:35 PM by: Joshua Linden </Text>
+  </Block>
+  <Block left="275" top="8153" right="715" bottom="8207" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 2008-03-07 01:00] The rolling restart is complete.  (Update: the date on this was wrong…the rolling restart finished on 2008-03-07 01:00, not in the future!)</Text>
+  </Block>
+  <Block left="275" top="8230" right="715" bottom="8248" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>[Update 2008-03-05 19:10] The mini-roll to ~500 regions is done.</Text>
+  </Block>
+  <Block left="275" top="8271" right="715" bottom="8307" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Following the completion of the Second Life server update to the 1.19.1 server code, the following issue was reported:</Text>
+  </Block>
+  <Block left="325" top="8330" right="715" bottom="8366" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>MISC-975 Noticeable sim performance decrease from Second Life Server 1.19.1.80913 </Text>
+  </Block>
+  <Block left="275" top="8389" right="715" bottom="8497" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>We’ve investigated the issue and have identified the cause. In the 1.19.1 server code we tightened up some bounds checking for string copies within the LSL string operations. After identifying this as the source of the performance degradation, we identified a fix - which maintains the bounds checking, but also surpasses the performance of 1.19.0 by approximately 10%.</Text>
+  </Block>
+  <Block left="275" top="8520" right="715" bottom="8610" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The fix needs to spend some time getting tested on Wednesday. Assuming testing goes well, we plan to roll out the updated code to the servers starting with approximately 500 regions (3 racks), then pausing to make sure no unforeseen issues arise. The roll will complete to the rest of the servers on Thursday evening.</Text>
+  </Block>
+  <Block left="275" top="8633" right="715" bottom="8687" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The updated server code will also include additional instrumentation to help us track down the cause of the elusive “logged out on failed teleport” bug (SVC-972).</Text>
+  </Block>
+  <Block left="274" top="8730" right="580" bottom="8745" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Announcements &amp; News, Bugs &amp; Fixes, Scripting</Text>
+  </Block>
+  <Block left="681" top="8738" right="709" bottom="8754" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>135 </Text>
+  </Block>
+  <Block left="268" top="8806" right="722" bottom="8859" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Parcel Media Changes in 1.19.1 Release Candidate
+Thursday, March 6th, 2008 at 3:26 PM by: Jeska Linden </Text>
+  </Block>
+  <Block left="275" top="8882" right="715" bottom="9008" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>With the 1.19.1 Release Candidate, available today, we’ve made some changes to the overall way that media is played inworld which results in a more general approach to playing media and, more importantly, allows you to display various types of Web content on your parcel! This is a great step toward further interoperability with the Web, which we’ve been discussing for some time, for more history on this, read here and here.</Text>
+  </Block>
+  <Block left="275" top="9031" right="715" bottom="9121" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The current parcel media player allows you to stream audio or video (or both!) to visitors on your parcel. The parcel owner controls what is played on the parcel and visitors to the parcel control whether or not they want to listen or see the media. (Visit the Knowledge Base for more information on how media on a parcel works currently).</Text>
+  </Block>
+  <Block left="275" top="9144" right="715" bottom="9306" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The new media on a parcel feature allows landowners to select and display a wide range of Web-based media content, including Web pages, movies, images, text documents and audio. This change replaces and expands the existing QuickTime parcel media feature, giving you more flexibility in your media presentations. Currently, the displayed media is entirely non-interactive, meaning you will only be able to view and not be able to click web links, use scroll bars, or press buttons on web pages displayed on parcels, although we hope to add this functionality in the future.</Text>
+  </Block>
+  <Block left="275" top="9331" right="705" bottom="9363" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>The points below highlight the key things you should know about the new Parcel Media functionality:</Text>
+  </Block>
+  <Block left="325" top="9388" right="715" bottom="9478" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>When you arrive on a parcel with media available, you will be presented with a media display, just as you are currently and decide whether you want to “play” the media or not. You will need to click the play button to load the Web page or other media. </Text>
+  </Block>
+  <Block left="325" top="9478" right="715" bottom="9532" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Parcel owners who want to display media-on-a-parcel will generally not need to set the “type” of the media (“QuickTime movie,” “Web page,” etc.) it should automatically detect it. </Text>
+  </Block>
+  <Block left="325" top="9532" right="715" bottom="9604" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>While not a shared interactive experience, it does include an in-viewer web browser (which enables viewing of web content inworld, a popular request in our public JIRA, see: VWR-5004) </Text>
+  </Block>
+  <Block left="275" top="9627" right="715" bottom="9645" depth="19">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Keep reading for more tips, links to video tutorials and more…</Text>
+  </Block>
+  <Block left="275" top="9670" right="453" bottom="9684" depth="20">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>Read the rest of this entry »</Text>
+  </Block>
+  <Block left="274" top="9729" right="539" bottom="9744" depth="29">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.75" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#777777" />
+    </Attributes>
+    <Text>Categories: Announcements &amp; News, New Releases</Text>
+  </Block>
+  <Block left="681" top="9737" right="709" bottom="9753" depth="30">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>150 </Text>
+  </Block>
+  <Block left="259" top="9809" right="373" bottom="9825" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4378a4" />
+    </Attributes>
+    <Text>« Previous Entries</Text>
+  </Block>
+  <Block left="63" top="9898" right="226" bottom="9912" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>About Second Life</Text>
+  </Block>
+  <Block left="63" top="9917" right="226" bottom="9933" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>What is Second Life? </Text>
+  </Block>
+  <Block left="63" top="9933" right="226" bottom="9949" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>FAQ </Text>
+  </Block>
+  <Block left="63" top="9949" right="226" bottom="9965" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Membership Plans </Text>
+  </Block>
+  <Block left="63" top="9965" right="226" bottom="9981" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Download Second Life </Text>
+  </Block>
+  <Block left="63" top="9981" right="226" bottom="9997" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>System Requirements </Text>
+  </Block>
+  <Block left="63" top="9997" right="226" bottom="10013" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Blog </Text>
+  </Block>
+  <Block left="63" top="10013" right="226" bottom="10029" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Second Life Wiki </Text>
+  </Block>
+  <Block left="63" top="10039" right="226" bottom="10053" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Policy &amp; Guidelines</Text>
+  </Block>
+  <Block left="63" top="10058" right="226" bottom="10074" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Privacy </Text>
+  </Block>
+  <Block left="63" top="10074" right="226" bottom="10090" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Community Standards </Text>
+  </Block>
+  <Block left="63" top="10090" right="226" bottom="10106" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Terms of Service </Text>
+  </Block>
+  <Block left="63" top="10106" right="226" bottom="10122" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>DMCA </Text>
+  </Block>
+  <Block left="63" top="10122" right="226" bottom="10138" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Trademark Usage </Text>
+  </Block>
+  <Block left="63" top="10138" right="226" bottom="10154" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Online Safety </Text>
+  </Block>
+  <Block left="63" top="10154" right="226" bottom="10170" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Value Added Tax (VAT) </Text>
+  </Block>
+  <Block left="226" top="9898" right="389" bottom="9912" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>About Linden Dollars</Text>
+  </Block>
+  <Block left="226" top="9917" right="389" bottom="9933" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Buy and Sell Linden Dollars </Text>
+  </Block>
+  <Block left="226" top="9933" right="389" bottom="9949" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Billing and Trading Limits </Text>
+  </Block>
+  <Block left="226" top="9949" right="389" bottom="9965" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Fees </Text>
+  </Block>
+  <Block left="226" top="9967" right="334" bottom="9979" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Economic Statistics </Text>
+  </Block>
+  <Block left="226" top="9991" right="389" bottom="10005" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Showcase</Text>
+  </Block>
+  <Block left="226" top="10010" right="389" bottom="10026" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Arts &amp; Culture </Text>
+  </Block>
+  <Block left="226" top="10026" right="389" bottom="10042" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Fashion </Text>
+  </Block>
+  <Block left="226" top="10042" right="389" bottom="10058" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Hot Spots </Text>
+  </Block>
+  <Block left="226" top="10058" right="389" bottom="10074" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Music </Text>
+  </Block>
+  <Block left="226" top="10074" right="389" bottom="10090" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Photos &amp; Machinima </Text>
+  </Block>
+  <Block left="226" top="10090" right="389" bottom="10106" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Tutorials </Text>
+  </Block>
+  <Block left="389" top="9898" right="552" bottom="9912" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>About Virtual Land</Text>
+  </Block>
+  <Block left="389" top="9917" right="552" bottom="9933" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>How Do I Get Land? </Text>
+  </Block>
+  <Block left="389" top="9933" right="552" bottom="9949" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Land Pricing &amp; Usage Fees </Text>
+  </Block>
+  <Block left="389" top="9949" right="552" bottom="9965" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Land Store </Text>
+  </Block>
+  <Block left="389" top="9967" right="470" bottom="9979" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Land Auctions </Text>
+  </Block>
+  <Block left="389" top="9991" right="552" bottom="10005" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Community</Text>
+  </Block>
+  <Block left="389" top="10010" right="552" bottom="10026" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Search </Text>
+  </Block>
+  <Block left="389" top="10026" right="552" bottom="10042" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Forums </Text>
+  </Block>
+  <Block left="389" top="10042" right="552" bottom="10058" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Events </Text>
+  </Block>
+  <Block left="389" top="10058" right="552" bottom="10074" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Volunteer </Text>
+  </Block>
+  <Block left="389" top="10074" right="552" bottom="10090" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Resident Resources </Text>
+  </Block>
+  <Block left="389" top="10090" right="552" bottom="10106" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Support Statistics </Text>
+  </Block>
+  <Block left="389" top="10116" right="552" bottom="10130" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Support</Text>
+  </Block>
+  <Block left="389" top="10135" right="552" bottom="10151" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Downloads </Text>
+  </Block>
+  <Block left="389" top="10151" right="552" bottom="10167" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Issue Tracker </Text>
+  </Block>
+  <Block left="389" top="10169" right="454" bottom="10181" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Grid Status </Text>
+  </Block>
+  <Block left="389" top="10183" right="552" bottom="10199" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Support Portal </Text>
+  </Block>
+  <Block left="584" top="9898" right="747" bottom="9912" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>About Second Life Grid</Text>
+  </Block>
+  <Block left="584" top="9917" right="747" bottom="9945" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>What the Platform Can Do For You </Text>
+  </Block>
+  <Block left="584" top="9945" right="747" bottom="9973" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>How Organizations Use the Platform </Text>
+  </Block>
+  <Block left="584" top="9973" right="747" bottom="9989" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Getting Started </Text>
+  </Block>
+  <Block left="584" top="9989" right="747" bottom="10005" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Education &amp; Non-Profit </Text>
+  </Block>
+  <Block left="584" top="10005" right="747" bottom="10021" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Global Providers </Text>
+  </Block>
+  <Block left="584" top="10021" right="747" bottom="10037" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Open Source </Text>
+  </Block>
+  <Block left="584" top="10037" right="747" bottom="10053" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Solution Provider Program </Text>
+  </Block>
+  <Block left="584" top="10053" right="747" bottom="10069" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>API Programs </Text>
+  </Block>
+  <Block left="584" top="10069" right="747" bottom="10085" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Resources </Text>
+  </Block>
+  <Block left="584" top="10085" right="747" bottom="10101" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Solution Provider Directory </Text>
+  </Block>
+  <Block left="584" top="10101" right="747" bottom="10117" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Brand Promotion </Text>
+  </Block>
+  <Block left="584" top="10117" right="747" bottom="10133" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Code Download </Text>
+  </Block>
+  <Block left="584" top="10133" right="747" bottom="10149" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Service Quality Metrics </Text>
+  </Block>
+  <Block left="775" top="9897" right="925" bottom="9911" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>About Linden Lab</Text>
+  </Block>
+  <Block left="775" top="9916" right="925" bottom="9932" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>The Company </Text>
+  </Block>
+  <Block left="775" top="9932" right="925" bottom="9948" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Management </Text>
+  </Block>
+  <Block left="775" top="9948" right="925" bottom="9964" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Culture </Text>
+  </Block>
+  <Block left="775" top="9974" right="925" bottom="9988" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Press Room</Text>
+  </Block>
+  <Block left="775" top="9993" right="925" bottom="10009" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Press Inquiries </Text>
+  </Block>
+  <Block left="775" top="10009" right="925" bottom="10025" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>News Archive </Text>
+  </Block>
+  <Block left="775" top="10025" right="925" bottom="10041" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Press Releases </Text>
+  </Block>
+  <Block left="775" top="10041" right="925" bottom="10057" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Speaker Requests </Text>
+  </Block>
+  <Block left="775" top="10067" right="925" bottom="10081" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Employment</Text>
+  </Block>
+  <Block left="775" top="10086" right="925" bottom="10102" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Position Listings </Text>
+  </Block>
+  <Block left="775" top="10112" right="925" bottom="10126" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Contact</Text>
+  </Block>
+  <Block left="775" top="10131" right="925" bottom="10147" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Second Life Help </Text>
+  </Block>
+  <Block left="775" top="10147" right="925" bottom="10163" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Address &amp; Directions </Text>
+  </Block>
+  <Block left="794" top="10214" right="943" bottom="10226" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>©2008 Linden Research, Inc.</Text>
+  </Block>
+  <Block left="53" top="10214" right="93" bottom="10226" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>English </Text>
+  </Block>
+  <Block left="189" top="10214" right="244" bottom="10226" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#546368" />
+    </Attributes>
+    <Text>Deutsch </Text>
+  </Block>
+
+</Page>

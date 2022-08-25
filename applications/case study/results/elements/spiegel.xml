@@ -1,0 +1,3320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="24" top="4" right="130" bottom="26" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Montag, 10.3.2008</Text>
+  </Block>
+  <Block left="233" top="6" right="302" bottom="24" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#333333" />
+    </Attributes>
+    <Text>Schlagzeilen</Text>
+  </Block>
+  <Block left="302" top="4" right="384" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|TV-Programm</Text>
+  </Block>
+  <Block left="384" top="4" right="416" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|RSS</Text>
+  </Block>
+  <Block left="416" top="4" right="481" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|Newsletter</Text>
+  </Block>
+  <Block left="481" top="4" right="519" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|Mobil</Text>
+  </Block>
+  <Block left="519" top="4" right="569" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|Dienste</Text>
+  </Block>
+  <Block left="569" top="4" right="630" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|Startseite </Text>
+  </Block>
+  <Block left="630" top="4" right="691" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|Wetter</Text>
+  </Block>
+  <Block left="691" top="4" right="791" bottom="26" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>|DER SPIEGEL </Text>
+  </Block>
+  <Block left="24" top="43" right="256" bottom="77" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text> 
+SPIEGEL ONLINE</Text>
+  </Block>
+  <Block left="535" top="38" right="568" bottom="50" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.3" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Suche
+   </Text>
+  </Block>
+  <Block left="24" top="87" right="118" bottom="106" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>NACHRICHTEN </Text>
+  </Block>
+  <Block left="118" top="87" right="169" bottom="105" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>VIDEO </Text>
+  </Block>
+  <Block left="169" top="87" right="231" bottom="105" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>ENGLISH </Text>
+  </Block>
+  <Block left="231" top="87" right="315" bottom="105" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>EINESTAGES </Text>
+  </Block>
+  <Block left="315" top="87" right="368" bottom="105" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>FORUM </Text>
+  </Block>
+  <Block left="368" top="87" right="479" bottom="105" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>SPIEGEL WISSEN </Text>
+  </Block>
+  <Block left="479" top="87" right="564" bottom="105" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>ABO &amp; SHOP </Text>
+  </Block>
+  <Block left="24" top="106" right="68" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Home| </Text>
+  </Block>
+  <Block left="68" top="106" right="115" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Politik| 
+Übersicht Deutschland Ausland </Text>
+  </Block>
+  <Block left="115" top="106" right="187" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wirtschaft| 
+Übersicht Börse Depot Fonds Derivate Placement24 Stellenmarkt </Text>
+  </Block>
+  <Block left="187" top="106" right="257" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Panorama| 
+Übersicht Leute Justiz Zeitgeschichte </Text>
+  </Block>
+  <Block left="257" top="106" right="299" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Sport| 
+Übersicht Fußball Wintersport Formel 1 US-Sports Achilles </Text>
+  </Block>
+  <Block left="299" top="106" right="345" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kultur| 
+Übersicht Kino Musik TV Bestseller Tageskarte Zwiebelfisch Matusseks Kulturtipp Gutenberg DesignKlicks SPIEGEL-Edition Veranstaltungen </Text>
+  </Block>
+  <Block left="345" top="106" right="406" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Netzwelt| 
+Übersicht Web Tech Mobil Spielzeug Ehrensenf </Text>
+  </Block>
+  <Block left="406" top="106" right="494" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wissenschaft| 
+Übersicht Mensch &amp; Technik Natur Weltall </Text>
+  </Block>
+  <Block left="494" top="106" right="572" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>UniSPIEGEL| 
+Übersicht Studium Job &amp; Beruf WunderBAR </Text>
+  </Block>
+  <Block left="572" top="106" right="662" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SchulSPIEGEL| 
+Übersicht Abi - und dann? Querweltein Leben U21 Wissen </Text>
+  </Block>
+  <Block left="662" top="106" right="704" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Reise| 
+Übersicht Städtereisen Europa Fernweh km42 Datenbank Länderlexikon Skiatlas </Text>
+  </Block>
+  <Block left="704" top="106" right="738" bottom="134" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Auto 
+Übersicht Tests Fahrkultur Automarkt Routenplaner </Text>
+  </Block>
+  <Block left="673" top="144" right="703" bottom="155" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Login</Text>
+  </Block>
+  <Block left="710" top="145" right="796" bottom="157" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Registrierung </Text>
+  </Block>
+  <Block left="28" top="338" right="204" bottom="367" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Foto: DPA</Text>
+  </Block>
+  <Block left="24" top="185" right="541" bottom="197" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>AUFTRITT DES SPD- CHEFS</Text>
+  </Block>
+  <Block left="218" top="205" right="542" bottom="252" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>CDU verlangt von Beck &quot;Ende des Eiertanzes&quot;</Text>
+  </Block>
+  <Block left="24" top="259" right="541" bottom="395" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Harsche Kritik an SPD-Chef Beck: CDU-Generalsekretär Pofalla misstraut dessen Versprechen, nach der Bundestagswahl 2009 nicht mit der Linken zu koalieren. Die Absage auf der ersten Pressekonferenz nach Becks Krankheit sei unglaubwürdig - auch FDP und Grüne sehen noch offene Fragen. mehr... [ Video | Forum ]</Text>
+  </Block>
+  <Block left="24" top="410" right="541" bottom="445" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Minutenprotokoll: Wie sich Beck beim ersten Auftritt nach der Krankheit schlug </Text>
+  </Block>
+  <Block left="24" top="445" right="541" bottom="463" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Analyse: Mehr Metzgers für Deutschland </Text>
+  </Block>
+  <Block left="24" top="463" right="541" bottom="481" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Koalitionen der Zukunft: Warum sich Grüne und FDP annähern müssen </Text>
+  </Block>
+  <Block left="24" top="481" right="541" bottom="499" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Hessen-Krise: Koch besteht auf Posten des Ministerpräsidenten </Text>
+  </Block>
+  <Block left="24" top="499" right="541" bottom="517" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kanzlerkandidatur: SPD-Rechte fordern Beck zum Verzicht auf </Text>
+  </Block>
+  <Block left="24" top="517" right="541" bottom="535" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Quo vadis SPD?: 145 Jahre Selbstsuche  </Text>
+  </Block>
+  <Block left="24" top="571" right="541" bottom="583" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>LAFONTAINE- GATTIN</Text>
+  </Block>
+  <Block left="24" top="591" right="474" bottom="638" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>Christa Müller wirft Linksfraktion soziale Ungerechtigkeit vor</Text>
+  </Block>
+  <Block left="24" top="645" right="541" bottom="730" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Schlagabtausch bei den Linken: Familien-Sprecher Wunderlich wirft der Ehefrau seines Chefs vor, sie rede das Leid von Millionen Frauen klein. Christa Müller bleibt bei ihrem Vergleich vom Kampf gegen Krippenbetreuung und Genitalverstümmelung - und leitet den Gegenangriff ein. Von Sebastian Fischer mehr... [ Forum ]</Text>
+  </Block>
+  <Block left="24" top="766" right="541" bottom="778" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>TEAM- TRICK IM VORWAHLDRAMA</Text>
+  </Block>
+  <Block left="24" top="786" right="316" bottom="809" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>Obama in der Clinton- Falle</Text>
+  </Block>
+  <Block left="24" top="816" right="541" bottom="901" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Hillary und Bill Clinton schlagen ein Kandidaten-Tandem mit Barack Obama vor - doch was wie ein Friedensangebot klingt, ist kühle Strategie. Die frühere First Lady treibt ihren Rivalen in die Enge. Der Vorwahlkampf der Demokraten dürfte schmutziger werden. Aus Jackson, Mississippi, berichtet Gregor Peter Schmitz mehr... [ Forum ]</Text>
+  </Block>
+  <Block left="24" top="916" right="541" bottom="934" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Vorwahlen in Florida und Michigan: Clinton kämpft um die Phantom-Stimmen </Text>
+  </Block>
+  <Block left="24" top="934" right="541" bottom="952" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>US-Vorwahlen: Obama lehnt Vizepräsidentschaft unter Clinton ab </Text>
+  </Block>
+  <Block left="24" top="952" right="541" bottom="987" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Nordirland-Konflikt: Nobelpreisträger Trimble hält Clinton für eine Aufschneiderin </Text>
+  </Block>
+  <Block left="24" top="1023" right="541" bottom="1035" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MORDPROZESS</Text>
+  </Block>
+  <Block left="24" top="1043" right="468" bottom="1090" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>&quot;Da war ich plötzlich wütend, sehr, sehr wütend&quot;</Text>
+  </Block>
+  <Block left="24" top="1097" right="541" bottom="1165" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fast 40 Jahre lang waren Ingrid und Horst Dieter C. aus Bergisch Gladbach verheiratet, doch eines Tages erdrosselte der Arbeitlose seine Frau, legte sie ins Bett, deckte sie zu. Vor Gericht begründete er heute die Tat: Er habe den ständigen Streit nicht mehr ausgehalten. Von Jörg Diehl, Köln mehr... </Text>
+  </Block>
+  <Block left="28" top="1354" right="204" bottom="1383" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Foto: Nasa/Davis</Text>
+  </Block>
+  <Block left="24" top="1201" right="541" bottom="1213" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ASTEROIDEN- CRASHTEST</Text>
+  </Block>
+  <Block left="218" top="1221" right="503" bottom="1268" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>Forscher beschießen Mini- Erde im Labor</Text>
+  </Block>
+  <Block left="24" top="1275" right="541" bottom="1394" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ein Asteroid stürzt auf die Erde, vernichtet das menschliche Leben - eine Horrorvision. Doch wie schlimm wäre ein Einschlag auf der Erde wirklich? Forscher machen jetzt den Crashtest: Mit einer Riesenkanone feuern sie im Labor auf eine simulierte Erdkugel. Von Jörg Kitzler mehr... [ Video ]</Text>
+  </Block>
+  <Block left="24" top="1409" right="541" bottom="1427" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fotostrecke: Simulierte Asteroideneinschläge </Text>
+  </Block>
+  <Block left="28" top="1646" right="206" bottom="1672" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Hamburger Institut für Sozialforschung</Text>
+  </Block>
+  <Block left="24" top="1463" right="541" bottom="1475" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>NAZI- TÄTER</Text>
+  </Block>
+  <Block left="220" top="1483" right="486" bottom="1530" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>&quot;Ich zielte ruhig auf die Säuglinge&quot;</Text>
+  </Block>
+  <Block left="24" top="1537" right="541" bottom="1639" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Zahnärzte und Opernsänger, Lehrer und Schulschwänzer: Die Vernichtung der europäischen Juden war das Werk von rund 200.000 Deutschen und ihren Helfern. Warum wurden so viele Bürger zu Mördern? Von Georg Bönisch und Klaus Wiegrefe mehr... </Text>
+  </Block>
+  <Block left="24" top="1654" right="541" bottom="1689" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Väter als Täter: &quot;Geiseln in den Rücken geschossen&quot; </Text>
+  </Block>
+  <Block left="24" top="1689" right="541" bottom="1707" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Privatfotos aus Auschwitz: Fröhliche Stunden neben der Gaskammer </Text>
+  </Block>
+  <Block left="24" top="1707" right="541" bottom="1725" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Auschwitz-Befreiung: &quot;Wir trauten unseren Augen nicht&quot; </Text>
+  </Block>
+  <Block left="24" top="1725" right="541" bottom="1743" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Holocaust: Warum die Alliierten Auschwitz nicht bombardierten </Text>
+  </Block>
+  <Block left="24" top="1743" right="541" bottom="1761" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Video: Konzentrationslager unmittelbar nach der Befreiung </Text>
+  </Block>
+  <Block left="28" top="1980" right="206" bottom="1993" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>DPA</Text>
+  </Block>
+  <Block left="24" top="1797" right="541" bottom="1809" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>FUSSBALLQUIZ</Text>
+  </Block>
+  <Block left="220" top="1817" right="512" bottom="1840" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="11.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c11919" />
+    </Attributes>
+    <Text>13 Fragen und ein Hattrick</Text>
+  </Block>
+  <Block left="24" top="1847" right="541" bottom="1966" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Sie glauben, Sie wissen alles über Fußball - aber was ist hiermit: Wie oft wurde in der Bundesliga an Silvester gekickt? Wer durfte nur als Freigänger spielen? Und wo liegt eigentlich Niederländisch-Indien? Testen Sie Ihr Wissen im SPIEGEL-ONLINE-Quiz von Christoph Biermann. mehr... </Text>
+  </Block>
+  <Block left="24" top="1981" right="541" bottom="2016" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fußball-Bundesliga: Leverkusen siegt, HSV stolpert </Text>
+  </Block>
+  <Block left="24" top="2016" right="541" bottom="2034" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kurzpässe: Kyrgiakos&apos; Nase zertrümmert, WM 2010 auf Kunstrasen möglich </Text>
+  </Block>
+  <Block left="24" top="2034" right="541" bottom="2052" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bundesliga-Kommentar: Die ewige Sehnsucht </Text>
+  </Block>
+  <Block left="34" top="2092" right="125" bottom="2104" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MULTIMEDIA</Text>
+  </Block>
+  <Block left="30" top="2115" right="154" bottom="2288" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> 
+Bayern- Ausraster: 10 Jahre &quot;Flasche leer&quot;  </Text>
+  </Block>
+  <Block left="157" top="2115" right="281" bottom="2301" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> 
+Türsteherkrieg: Ein Toter nach Ausschreitungen in Leipzig  </Text>
+  </Block>
+  <Block left="284" top="2115" right="408" bottom="2314" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> 
+Verwirrung um Ex- Model: Dirie angeblich Opfer eines Verbrechens  </Text>
+  </Block>
+  <Block left="411" top="2115" right="535" bottom="2301" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> 
+Fußballkrawalle in Kolumbien: 78 Verletzte bei Stadt- Duell  </Text>
+  </Block>
+  <Block left="29" top="2366" right="89" bottom="2378" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DEBATTEN</Text>
+  </Block>
+  <Block left="35" top="2399" right="530" bottom="2423" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mindestlohn - sinnvoll oder Aktionismus? 
+144 Beiträge, Neuester: Heute, 16.57 Uhr von lupenrein </Text>
+  </Block>
+  <Block left="35" top="2438" right="530" bottom="2462" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Links-Debakel für die SPD - wie beschädigt ist Beck? 
+2460 Beiträge, Neuester: Heute, 17.01 Uhr von nahal </Text>
+  </Block>
+  <Block left="35" top="2477" right="530" bottom="2501" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ihre Erfahrungen - welches sind die größten Technik-Ärgernisse? 
+90 Beiträge, Neuester: Heute, 16.55 Uhr von giesbert </Text>
+  </Block>
+  <Block left="44" top="2547" right="120" bottom="2559" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>PANORAMA</Text>
+  </Block>
+  <Block left="131" top="2548" right="194" bottom="2561" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="194" top="2548" right="236" bottom="2561" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Leute </Text>
+  </Block>
+  <Block left="236" top="2548" right="278" bottom="2561" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Justiz </Text>
+  </Block>
+  <Block left="278" top="2548" right="368" bottom="2561" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Zeitgeschichte </Text>
+  </Block>
+  <Block left="130" top="2576" right="477" bottom="2609" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Neuer Job hinter der Kamera: Justin Timberlake produziert Probleme mit Frauen</Text>
+  </Block>
+  <Block left="24" top="2609" right="541" bottom="2677" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Amouröse Abenteuer, gebrochene Herzen - davon könnte Justin Timberlake eigentlich ein Lied singen. Stattdessen versucht sich der Popstar nun erstmals als Fernsehproduzent der Liebeskomödie &quot;My Problems With Women&quot;. mehr... </Text>
+  </Block>
+  <Block left="24" top="2685" right="529" bottom="2707" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Gegen die Kälte: Bäume in Ohio bekommen Strickpullis </Text>
+  </Block>
+  <Block left="24" top="2707" right="529" bottom="2746" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Unorthodoxer Beziehungsratgeber : Die Kirche von England preist das Wunder Sex </Text>
+  </Block>
+  <Block left="24" top="2746" right="529" bottom="2785" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mysteriöses Verschwinden: Diries Manager spricht von versuchter Vergewaltigung </Text>
+  </Block>
+  <Block left="44" top="2810" right="129" bottom="2822" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>WIRTSCHAFT</Text>
+  </Block>
+  <Block left="140" top="2811" right="203" bottom="2824" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="203" top="2811" right="245" bottom="2824" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Börse </Text>
+  </Block>
+  <Block left="245" top="2811" right="289" bottom="2824" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Depot </Text>
+  </Block>
+  <Block left="289" top="2811" right="333" bottom="2824" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fonds </Text>
+  </Block>
+  <Block left="333" top="2811" right="390" bottom="2824" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Derivate </Text>
+  </Block>
+  <Block left="24" top="2839" right="482" bottom="2855" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>US-Bankmanager: Wie sich die Milliarden- Vernichter rausreden</Text>
+  </Block>
+  <Block left="24" top="2855" right="541" bottom="2923" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Selten zuvor war der US-Kongress mit einer solchen Riege der Reichen konfrontiert: Manager amerikanischer Banken haben im Parlament ihren Kurs während der Kreditkrise verteidigt. Sie haben versagt, trotzdem kassiert - und finden das gerecht. Von Marc Pitzke, New York mehr... [ Forum ]</Text>
+  </Block>
+  <Block left="24" top="2929" right="529" bottom="2951" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Steigende Ausfuhren: Deutscher Export trotzt dem starken Euro </Text>
+  </Block>
+  <Block left="24" top="2951" right="529" bottom="2973" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ärztemangel: Einwanderer sollen medizinische Versorgung verbessern </Text>
+  </Block>
+  <Block left="32" top="2979" right="397" bottom="2995" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Nach Tarifeinigung: Bei der Bahn kehrt Normalität ein </Text>
+  </Block>
+  <Block left="44" top="3020" right="86" bottom="3032" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>SPORT</Text>
+  </Block>
+  <Block left="97" top="3021" right="160" bottom="3034" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="160" top="3021" right="210" bottom="3034" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fußball </Text>
+  </Block>
+  <Block left="210" top="3021" right="285" bottom="3034" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wintersport </Text>
+  </Block>
+  <Block left="285" top="3021" right="351" bottom="3034" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>US-Sports </Text>
+  </Block>
+  <Block left="351" top="3021" right="403" bottom="3034" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Achilles </Text>
+  </Block>
+  <Block left="130" top="3049" right="536" bottom="3065" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Eintracht-Star Detari: &quot;Natürlich vermisse ich Frankfurt&quot;</Text>
+  </Block>
+  <Block left="24" top="3065" right="541" bottom="3150" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Er spielte nur eine Saison bei der Eintracht, doch Lajos Detari ist bis heute ein Held in Frankfurt. Vor 20 Jahren schoss er die Hessen zum DFB-Pokalsieg. Im Magazin &quot;11 FREUNDE&quot; blickt der Ungar auf die erfolgreiche Zeit zurück - und erklärt, warum nach nur einem Jahr Schluss war. mehr... </Text>
+  </Block>
+  <Block left="32" top="3164" right="457" bottom="3180" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Mixed Zone: Super Aguri kann starten, Gebrselassie verzichtet </Text>
+  </Block>
+  <Block left="24" top="3180" right="529" bottom="3202" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bundesliga- TV- Rechte: Kartellamt stellt Zentralvermarktung in Frage </Text>
+  </Block>
+  <Block left="24" top="3202" right="529" bottom="3224" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Niedergang des 1. FCK : Vom Starensemble zur Schießbude </Text>
+  </Block>
+  <Block left="44" top="3249" right="99" bottom="3261" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>POLITIK</Text>
+  </Block>
+  <Block left="110" top="3250" right="173" bottom="3263" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="173" top="3250" right="252" bottom="3263" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Deutschland </Text>
+  </Block>
+  <Block left="252" top="3250" right="307" bottom="3263" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ausland </Text>
+  </Block>
+  <Block left="24" top="3278" right="530" bottom="3294" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Koalitionen der Zukunft: Warum sich Grüne und FDP annähern müssen</Text>
+  </Block>
+  <Block left="24" top="3294" right="541" bottom="3362" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ampel, Schwampel, Breilibü: Regierungsmehrheiten werden in Zukunft oft in Dreier-Konstellationen gebildet. Entscheidend ist dafür, dass sich Grüne und FDP aufeinander zu bewegen, glaubt Ralf Fücks, Chef der Heinrich-Böll-Stiftung. Sonst drohe Lagerbildung - und die mache dumm. mehr... </Text>
+  </Block>
+  <Block left="24" top="3368" right="529" bottom="3390" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wahlen in Spanien: Neues Spiel, neues Glück für Zapatero </Text>
+  </Block>
+  <Block left="24" top="3390" right="529" bottom="3412" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kampf um Berliner Flughafen: Die Stasi- Akte von &quot;Mr. Tempelhof&quot; </Text>
+  </Block>
+  <Block left="24" top="3412" right="529" bottom="3434" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Serbien: Kostunica beantragt Auflösung des Parlaments </Text>
+  </Block>
+  <Block left="44" top="3459" right="110" bottom="3471" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>NETZWELT</Text>
+  </Block>
+  <Block left="121" top="3460" right="184" bottom="3473" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="184" top="3460" right="220" bottom="3473" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Web </Text>
+  </Block>
+  <Block left="220" top="3460" right="257" bottom="3473" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Tech </Text>
+  </Block>
+  <Block left="257" top="3460" right="297" bottom="3473" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mobil </Text>
+  </Block>
+  <Block left="297" top="3460" right="363" bottom="3473" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ehrensenf </Text>
+  </Block>
+  <Block left="130" top="3488" right="348" bottom="3504" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Green IT: So sparen Sie richtig</Text>
+  </Block>
+  <Block left="24" top="3504" right="541" bottom="3572" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Standby-Modus oder abschalten? Ausschaltknopf drücken oder Stecker ziehen? SPIEGEL ONLINE gibt Tipps, wie Sie den Stromverbrauch Ihrer PC-Anlage wirklich drosseln können. Von Matthias Kremp mehr... [ Forum ]</Text>
+  </Block>
+  <Block left="24" top="3597" right="529" bottom="3619" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Dumm- Design: Die größten Technik- Ärgernisse aller Zeiten </Text>
+  </Block>
+  <Block left="24" top="3619" right="529" bottom="3641" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Ehrensenf: Falsche Schlangen und heiße Mäuse </Text>
+  </Block>
+  <Block left="24" top="3641" right="529" bottom="3663" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Deutsche Haushaltsroboter: Digitale Butler spülen und servieren </Text>
+  </Block>
+  <Block left="44" top="3688" right="124" bottom="3700" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>UNISPIEGEL</Text>
+  </Block>
+  <Block left="135" top="3689" right="198" bottom="3702" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="208" top="3688" right="304" bottom="3700" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>SCHULSPIEGEL</Text>
+  </Block>
+  <Block left="315" top="3689" right="378" bottom="3702" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="24" top="3717" right="367" bottom="3733" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Zukunfts-Planspiel: Eine Zeitreise ins Jahr 2020</Text>
+  </Block>
+  <Block left="24" top="3733" right="541" bottom="3801" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Technik? &quot;Laaangweilig&quot;, finden viele Jugendliche. Darum laden Unternehmen überall in Deutschland Schüler zum Planspiel ein. Sie sollen sich das Jahr 2020 ausmalen und bei Projektwochen auch neue Produktideen entwickeln, etwa für Getränke, die im Dunkeln leuchten. Von Katrin Schmiedekampf mehr... </Text>
+  </Block>
+  <Block left="24" top="3807" right="529" bottom="3829" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forschen auf Madagaskar: Treffen mit dem kleinen Unbekannten </Text>
+  </Block>
+  <Block left="24" top="3829" right="529" bottom="3851" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Gericht in Saudi- Arabien: Lehrer zu sechs Backpfeifen verurteilt </Text>
+  </Block>
+  <Block left="24" top="3851" right="529" bottom="3890" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Jürgen Vogel über &quot;Die Welle&quot;: &quot;Es ist toll, wenn alle an deinen Lippen hängen&quot; </Text>
+  </Block>
+  <Block left="44" top="3915" right="93" bottom="3927" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>KULTUR</Text>
+  </Block>
+  <Block left="104" top="3916" right="167" bottom="3929" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="167" top="3916" right="202" bottom="3929" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kino </Text>
+  </Block>
+  <Block left="202" top="3916" right="245" bottom="3929" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Musik </Text>
+  </Block>
+  <Block left="245" top="3916" right="270" bottom="3929" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>TV </Text>
+  </Block>
+  <Block left="270" top="3916" right="335" bottom="3929" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bestseller </Text>
+  </Block>
+  <Block left="335" top="3916" right="412" bottom="3929" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Zwiebelfisch </Text>
+  </Block>
+  <Block left="130" top="3944" right="461" bottom="3960" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Rockstar Nick Cave: &quot;Musik ist meine Mission&quot;</Text>
+  </Block>
+  <Block left="24" top="3960" right="541" bottom="4045" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Er rockt auch mit 50 noch, als gäbe es kein Morgen: Nick Cave hat in den vergangenen 12 Monaten gleich drei Platten veröffentlicht. Mit SPIEGEL ONLINE sprach er über seine Arbeitsmoral, musikalische Revolutionen und den frauenfeindlichen Liebling seines Sohnes. mehr... </Text>
+  </Block>
+  <Block left="24" top="4053" right="529" bottom="4075" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ARD- Star Anne Will: Tribunal fatal oder Ritual banal? </Text>
+  </Block>
+  <Block left="24" top="4075" right="529" bottom="4097" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>&quot;Berliner Zeitung&quot;: Redaktion verklagt ihren Chef </Text>
+  </Block>
+  <Block left="24" top="4097" right="529" bottom="4119" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>&quot;Tatort&quot;- Quote: Schwaben morden besser </Text>
+  </Block>
+  <Block left="44" top="4144" right="146" bottom="4156" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>WISSENSCHAFT</Text>
+  </Block>
+  <Block left="157" top="4145" right="220" bottom="4158" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="220" top="4145" right="330" bottom="4158" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mensch &amp; Technik </Text>
+  </Block>
+  <Block left="330" top="4145" right="370" bottom="4158" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Natur </Text>
+  </Block>
+  <Block left="370" top="4145" right="419" bottom="4158" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Weltall </Text>
+  </Block>
+  <Block left="24" top="4173" right="375" bottom="4189" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Neue Art entdeckt: Bakterien leben in Haarspray</Text>
+  </Block>
+  <Block left="24" top="4189" right="541" bottom="4240" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Eine bisher unbekannte Bakterienart hat einen ungewöhnlichen Lebensraum erobert: Sie lebt in Haarspray, wie japanische Forscher jetzt herausgefunden haben. Dort sind die Mikroben nicht allein. mehr... </Text>
+  </Block>
+  <Block left="24" top="4246" right="529" bottom="4268" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fehlendes Packeis: Robbenbabys droht der Kältetod </Text>
+  </Block>
+  <Block left="24" top="4268" right="529" bottom="4290" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Spionagevorwürfe: Südkoreaner darf nicht ins All starten </Text>
+  </Block>
+  <Block left="24" top="4290" right="529" bottom="4312" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Türkei: Antike Therme steht vor der Flutung </Text>
+  </Block>
+  <Block left="127" top="4338" right="190" bottom="4351" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="190" top="4338" right="247" bottom="4351" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Themen </Text>
+  </Block>
+  <Block left="247" top="4338" right="320" bottom="4351" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Zeitzeugen </Text>
+  </Block>
+  <Block left="320" top="4338" right="383" bottom="4351" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fundbüro </Text>
+  </Block>
+  <Block left="130" top="4366" right="507" bottom="4382" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Väter als Täter: &quot;Geiseln in den Rücken geschossen&quot;</Text>
+  </Block>
+  <Block left="24" top="4382" right="541" bottom="4484" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Spurensuche in der Familiengeschichte: Jahrzehntelang wusste Helge Dittmann nicht, was sein Vater als Frontsoldat und Pilot im Ersten Weltkrieg erlebt hatte. Dann entdeckte er auf dem Dachboden seines Elternhauses Hunderte Fotos - und Augenzeugenberichte über Greueltaten. Von Florian Harms mehr... </Text>
+  </Block>
+  <Block left="24" top="4490" right="529" bottom="4512" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wissenschaftsbetrug: Der falsche Spiegel </Text>
+  </Block>
+  <Block left="24" top="4512" right="529" bottom="4534" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>20 Jahre &quot;Stirb langsam&quot;: Der Action- Pazifist </Text>
+  </Block>
+  <Block left="24" top="4534" right="529" bottom="4556" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kultstätte Holmenkollen: Abriss im Heiligtum </Text>
+  </Block>
+  <Block left="44" top="4581" right="83" bottom="4593" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>REISE</Text>
+  </Block>
+  <Block left="94" top="4582" right="157" bottom="4595" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="157" top="4582" right="238" bottom="4595" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Städtereisen </Text>
+  </Block>
+  <Block left="238" top="4582" right="287" bottom="4595" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Europa </Text>
+  </Block>
+  <Block left="287" top="4582" right="343" bottom="4595" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fernweh </Text>
+  </Block>
+  <Block left="343" top="4582" right="415" bottom="4595" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Datenbank </Text>
+  </Block>
+  <Block left="24" top="4610" right="338" bottom="4626" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Luxus-Reisetrends: Keine Frage des Geldes</Text>
+  </Block>
+  <Block left="24" top="4626" right="541" bottom="4694" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Luxus-Suite, eigener Butler, Dinner um 3 Uhr morgens: Wenn Geld keine Rolle bei der Urlaubsplanung spielt, sind die Ansprüche hoch. Trendforscher erwarten jedoch einen Wandel in der Reiselust der Reichen. Gefragt ist der wahre Erinnerungswert. Von Stephan Orth mehr... </Text>
+  </Block>
+  <Block left="24" top="4700" right="529" bottom="4722" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Flugreisen: Airlines bleiben bei Handy- Verbot </Text>
+  </Block>
+  <Block left="24" top="4722" right="529" bottom="4744" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bahamas: Das bunte Paradies </Text>
+  </Block>
+  <Block left="24" top="4744" right="529" bottom="4766" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Antike Attraktion: Haus des Augustus offen für Besucher </Text>
+  </Block>
+  <Block left="44" top="4791" right="79" bottom="4803" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>AUTO</Text>
+  </Block>
+  <Block left="90" top="4792" right="153" bottom="4805" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Übersicht </Text>
+  </Block>
+  <Block left="153" top="4792" right="194" bottom="4805" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Tests </Text>
+  </Block>
+  <Block left="194" top="4792" right="261" bottom="4805" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fahrkultur </Text>
+  </Block>
+  <Block left="261" top="4792" right="330" bottom="4805" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Automarkt </Text>
+  </Block>
+  <Block left="330" top="4792" right="416" bottom="4805" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Routenplaner </Text>
+  </Block>
+  <Block left="130" top="4820" right="503" bottom="4836" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Extreme Sportwagen in Genf: Nur die Leistung zählt</Text>
+  </Block>
+  <Block left="24" top="4836" right="541" bottom="4938" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Auf dem Autosalon in Genf wird viel über Hybridantriebe, CO2 und Batterietechnik gesprochen. Doch das liebste Thema der Aussteller und Besucher ist nach wie vor die ungebremste Leistung. SPIEGEL ONLINE stellt die Renner vor - eine Vollgasfahrt quer durch Europa. Aus Genf berichtet Jürgen Pander mehr... </Text>
+  </Block>
+  <Block left="24" top="4944" right="529" bottom="4966" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Norwegisches Elektroauto Think: Fjord - die tun was </Text>
+  </Block>
+  <Block left="24" top="4966" right="529" bottom="4988" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Stadtwagen OneCat: Fahren mit dicker Luft </Text>
+  </Block>
+  <Block left="24" top="4988" right="529" bottom="5010" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Vertippt: Navi lotst Autofahrerin auf die falsche Insel </Text>
+  </Block>
+  <Block left="127" top="5081" right="502" bottom="5102" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Steinbrück gibt Bundestagswahl verloren! </Text>
+  </Block>
+  <Block left="127" top="5101" right="502" bottom="5122" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ARD zieht nach </Text>
+  </Block>
+  <Block left="127" top="5121" right="502" bottom="5142" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Aus dem Zusammenhang gerissen und falsch zititert </Text>
+  </Block>
+  <Block left="127" top="5141" right="502" bottom="5162" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Quo vadis, Kapitalismus?! </Text>
+  </Block>
+  <Block left="24" top="5214" right="544" bottom="5231" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.25" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ANGEBOTE</Text>
+  </Block>
+  <Block left="57" top="5240" right="141" bottom="5251" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Bücher bestellen</Text>
+  </Block>
+  <Block left="201" top="5240" right="282" bottom="5251" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Stellenangebote</Text>
+  </Block>
+  <Block left="336" top="5235" right="398" bottom="5256" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Immobilien- 
+Börse</Text>
+  </Block>
+  <Block left="456" top="5240" right="482" bottom="5251" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Lotto</Text>
+  </Block>
+  <Block left="57" top="5266" right="111" bottom="5287" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Banken- 
+Vergleiche</Text>
+  </Block>
+  <Block left="201" top="5271" right="268" bottom="5282" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Partnersuche</Text>
+  </Block>
+  <Block left="336" top="5271" right="396" bottom="5282" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Sportwetten</Text>
+  </Block>
+  <Block left="456" top="5266" right="535" bottom="5287" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Versicherungs- 
+Vergleiche</Text>
+  </Block>
+  <Block left="57" top="5302" right="110" bottom="5313" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Automarkt</Text>
+  </Block>
+  <Block left="201" top="5302" right="270" bottom="5313" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Gehaltscheck</Text>
+  </Block>
+  <Block left="336" top="5297" right="398" bottom="5318" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Kostenloses
+Girokonto</Text>
+  </Block>
+  <Block left="456" top="5297" right="523" bottom="5318" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Kfz- 
+Versicherung</Text>
+  </Block>
+  <Block left="57" top="5333" right="154" bottom="5344" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Kredite vergleichen</Text>
+  </Block>
+  <Block left="201" top="5333" right="267" bottom="5344" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Routenplaner</Text>
+  </Block>
+  <Block left="336" top="5328" right="407" bottom="5349" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Brutto- Netto- 
+Rechner</Text>
+  </Block>
+  <Block left="456" top="5328" right="502" bottom="5349" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Bußgeld- 
+Rechner</Text>
+  </Block>
+  <Block left="57" top="5359" right="137" bottom="5380" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Prozesskosten- 
+Rechner</Text>
+  </Block>
+  <Block left="201" top="5364" right="252" bottom="5375" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Uni- Tools</Text>
+  </Block>
+  <Block left="336" top="5359" right="387" bottom="5380" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Gaspreis- 
+Vergleich</Text>
+  </Block>
+  <Block left="456" top="5359" right="520" bottom="5380" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Benzinpreis- 
+Vergleich</Text>
+  </Block>
+  <Block left="57" top="5395" right="120" bottom="5406" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Rezensionen</Text>
+  </Block>
+  <Block left="201" top="5390" right="256" bottom="5411" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Währungs- 
+Rechner</Text>
+  </Block>
+  <Block left="336" top="5395" right="405" bottom="5406" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Ferientermine</Text>
+  </Block>
+  <Block left="456" top="5390" right="522" bottom="5411" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Energiespar- 
+Ratgeber</Text>
+  </Block>
+  <Block left="57" top="5421" right="111" bottom="5442" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Hörbuch- 
+Downloads</Text>
+  </Block>
+  <Block left="201" top="5426" right="290" bottom="5437" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>1574 Headhunter</Text>
+  </Block>
+  <Block left="336" top="5426" right="412" bottom="5437" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Stromvergleich</Text>
+  </Block>
+  <Block left="456" top="5426" right="514" bottom="5437" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Handytarife</Text>
+  </Block>
+  <Block left="57" top="5452" right="122" bottom="5473" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="5.65" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Kranken- 
+versicherung</Text>
+  </Block>
+  <Block left="564" top="177" right="657" bottom="189" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>VIDEO NEWS</Text>
+  </Block>
+  <Block left="588" top="347" right="764" bottom="371" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Foto: DPA</Text>
+  </Block>
+  <Block left="564" top="398" right="783" bottom="410" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>EXKLUSIV</Text>
+  </Block>
+  <Block left="573" top="425" right="767" bottom="449" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>ARD- Star Anne Will: Tribunal fatal oder Ritual banal?</Text>
+  </Block>
+  <Block left="604" top="464" right="748" bottom="556" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> DPA</Text>
+  </Block>
+  <Block left="571" top="563" right="786" bottom="599" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Jürgen Vogel über &quot;Die Welle&quot;: &quot;Es ist toll, wenn alle an deinen Lippen hängen&quot;</Text>
+  </Block>
+  <Block left="571" top="604" right="786" bottom="628" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Passiv anlegen: Indexfonds - was Sie beachten müssen</Text>
+  </Block>
+  <Block left="571" top="633" right="770" bottom="657" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Beatles- Fotoband: Die Foto- Mutter und ihre Pilzkopf- Kinder</Text>
+  </Block>
+  <Block left="571" top="662" right="713" bottom="686" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>eSport- Profis: Stress am Sturmgewehr</Text>
+  </Block>
+  <Block left="571" top="707" right="765" bottom="731" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>William Kristol: McCain’s Daunting Task</Text>
+  </Block>
+  <Block left="564" top="758" right="726" bottom="770" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>TOP 3: LESER EMPFEHLEN</Text>
+  </Block>
+  <Block left="573" top="785" right="752" bottom="809" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Maya- Kultur: Im Königreich der Schlange</Text>
+  </Block>
+  <Block left="604" top="824" right="748" bottom="926" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> Römer- und Pelizäus-Museum Hildesheim</Text>
+  </Block>
+  <Block left="571" top="933" right="777" bottom="957" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Energieversorgung: Mit Volldampf in den Notstand</Text>
+  </Block>
+  <Block left="571" top="962" right="779" bottom="974" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Talkshows: Die Leiden der jungen W.</Text>
+  </Block>
+  <Block left="564" top="999" right="783" bottom="1015" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>THEMEN DES TAGES </Text>
+  </Block>
+  <Block left="564" top="1027" right="781" bottom="1121" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kurt Beck Deutsche Bahn Erste Liga Großbritannien Hessen Koalition Parteiinterna Regierungschefs SPD USA Wahlergebnisse Andrea Ypsilanti </Text>
+  </Block>
+  <Block left="564" top="1148" right="656" bottom="1160" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>AUGENBLICK</Text>
+  </Block>
+  <Block left="573" top="1175" right="662" bottom="1187" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Ski sucht Läufer</Text>
+  </Block>
+  <Block left="604" top="1202" right="748" bottom="1294" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> REUTERS</Text>
+  </Block>
+  <Block left="554" top="1311" right="794" bottom="1813" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>    Börse  Quickchart Quicknews Welche Fonds sich lohnen Kurse auf Ihr Handy 17:07 UhrKursabsolutin %
+DAX6.465,34-48,65-0,75
+MDax8.562,15-252,55-2,87
+TecDax734,48-12,18-1,63
+E-Stoxx3.546,31-30,37-0,85
+Dow11.825,06-68,63-0,58
+Nasdaq 1001.691,88-15,62-0,91
+Nikkei12.532,10-250,67-1,96
+€ in $1,5372-0,0026-0,17
+€ in £0,7620-0,0006-0,08
+€ in sfr1,5661-0,0047-0,30
+Öl ($)104,11-1,76-1,66
+Gold ($)969,25-3,25-0,33</Text>
+  </Block>
+  <Block left="564" top="1825" right="660" bottom="1837" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>ENGLISH SITE</Text>
+  </Block>
+  <Block left="573" top="1852" right="781" bottom="1888" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>The Airbus March on America: Could the Air Force Contract Cost European Jobs?</Text>
+  </Block>
+  <Block left="604" top="1903" right="748" bottom="1995" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> REUTERS</Text>
+  </Block>
+  <Block left="571" top="2002" right="779" bottom="2026" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Afternoon Nap: Sofa Store Staff Miss Snoozing Pensioner </Text>
+  </Block>
+  <Block left="571" top="2031" right="772" bottom="2055" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Title Fight: US Academics Harassed over &apos;False&apos; Credentials</Text>
+  </Block>
+  <Block left="571" top="2060" right="782" bottom="2084" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Serbia&apos;s Stark Choice: Cabinet Dissolves Coalition, Calls for Elections</Text>
+  </Block>
+  <Block left="571" top="2089" right="775" bottom="2113" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Doping Case Closure? Investigators Offer Jan Ullrich Deal</Text>
+  </Block>
+  <Block left="564" top="2140" right="657" bottom="2152" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DER SPIEGEL</Text>
+  </Block>
+  <Block left="564" top="2361" right="783" bottom="2409" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Heft 11/2008: 
+Debatte um NS-Verbrechen 
+Die Täter - warum so viele Deutsche zu Mördern wurden </Text>
+  </Block>
+  <Block left="573" top="2425" right="606" bottom="2437" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Inhalt</Text>
+  </Block>
+  <Block left="573" top="2442" right="668" bottom="2454" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Vorabmeldungen</Text>
+  </Block>
+  <Block left="573" top="2459" right="652" bottom="2471" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Abo-Angebote</Text>
+  </Block>
+  <Block left="573" top="2476" right="616" bottom="2488" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>E-Paper</Text>
+  </Block>
+  <Block left="573" top="2493" right="639" bottom="2505" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Heft kaufen</Text>
+  </Block>
+  <Block left="564" top="2532" right="611" bottom="2544" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>QUIZ</Text>
+  </Block>
+  <Block left="602" top="2558" right="744" bottom="2650" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> AP</Text>
+  </Block>
+  <Block left="571" top="2661" right="785" bottom="2685" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Texas- Quiz: Coole Cowboys und zwei Präsidenten</Text>
+  </Block>
+  <Block left="571" top="2690" right="775" bottom="2714" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Läster- Quiz: &quot;Madonna ist eine alte Lady!&quot;</Text>
+  </Block>
+  <Block left="571" top="2719" right="762" bottom="2743" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Hinterzieher- Test: Haben Sie das Zeug zum Steuerflüchtling?</Text>
+  </Block>
+  <Block left="564" top="2770" right="783" bottom="2800" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MUSIK</Text>
+  </Block>
+  <Block left="564" top="2801" right="608" bottom="2818" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Radio</Text>
+  </Block>
+  <Block left="611" top="2801" right="660" bottom="2818" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ebebeb" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#666666" />
+    </Attributes>
+    <Text>Charts</Text>
+  </Block>
+  <Block left="663" top="2801" right="711" bottom="2818" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Neue! </Text>
+  </Block>
+  <Block left="572" top="2823" right="774" bottom="2922" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Höre deine Musik mit SPIEGEL ONLINE. Stelle dein persönliches Radioprogramm zusammen und entdecke neue Musik: Hier klicken! 
+   
+ </Text>
+  </Block>
+  <Block left="564" top="2957" right="748" bottom="2969" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>FAHRBERICHTE- DATENBANK</Text>
+  </Block>
+  <Block left="568" top="3020" right="782" bottom="3163" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>  Hersteller:  Alle Marken Alfa Romeo Aston Martin Audi BMW Bentley Brabus Brilliance Cadillac Carver Chevrolet Chrysler Citroën Dacia Daewoo Daihatsu Dodge Ferrari Fiat Ford General Motors Gordon Honda Hummer Hyundai Infiniti Jaguar Jeep Kia Lamborghini Lancia Land Rover Lexus Lotus MG Rover Maserati Maybach Mazda Mercedes Mini Mitsubishi Mosler Nissan Opel PGO Peugeot Piaggio Porsche Renault Reva Rolls-Royce Rover Saab Saturn Seat Skoda Smart Ssangyong Subaru Suzuki Toyota UAZ / Baijah VW Volvo Wiesmann Typ:  beliebig Karosserie:  beliebig Andere Cabrio/Roadster Coupé Geländewagen Kleinstwagen Kleinwagen Kombi Kompaktwagen Limousine Pickup Van/Kleinbus Suchbegriff:  C02-Ausstoß:  beliebig max. 50 g/km max. 100 g/km max. 120 g/km max. 140 g/km max. 160 g/km Zeitraum:  unbegrenzt 1 Woche 1 Monat 1 Jahr Erweiterte Suche 
+Kompakte Suche SUCHEN
+ </Text>
+  </Block>
+  <Block left="564" top="3201" right="662" bottom="3213" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>PLACEMENT24</Text>
+  </Block>
+  <Block left="564" top="3235" right="783" bottom="3343" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bei Placement24 haben ausschließlich Headhunter Zugriff auf Ihre Karrieredaten. Erhöhen Sie jetzt Ihre Jobchancen mit Hilfe führender Headhunter. 
+• Diskreter Kontakt zu 1596 Headhuntern 
+• Jobs ab 100.000 Euro 
+• Persönliches CV-Management</Text>
+  </Block>
+  <Block left="571" top="3474" right="766" bottom="3486" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Testen Sie Placement24 kostenfrei</Text>
+  </Block>
+  <Block left="564" top="3513" right="783" bottom="3525" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SATIRE @ SPIEGEL ONLINE</Text>
+  </Block>
+  <Block left="571" top="3632" right="751" bottom="3644" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Spam: Satire @ SPIEGEL ONLINE</Text>
+  </Block>
+  <Block left="564" top="3671" right="783" bottom="3683" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MULTIMEDIA SPEZIAL</Text>
+  </Block>
+  <Block left="573" top="3698" right="733" bottom="3710" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>km42: Der Sinn des Reisens</Text>
+  </Block>
+  <Block left="571" top="3814" right="762" bottom="3838" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Designklicks: Momentaufnahmen einer neuen Ästhetik</Text>
+  </Block>
+  <Block left="571" top="3843" right="700" bottom="3855" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Internet- TV: Ehrensenf</Text>
+  </Block>
+  <Block left="571" top="3860" right="687" bottom="3872" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Matusseks Kulturtipp</Text>
+  </Block>
+  <Block left="571" top="3877" right="743" bottom="3901" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Verstehen Sie Haas? Kreativer Schweinkram </Text>
+  </Block>
+  <Block left="564" top="3928" right="647" bottom="3940" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SPIEGEL TV</Text>
+  </Block>
+  <Block left="571" top="3950" right="737" bottom="3974" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>&quot;One, two, gsuffa&quot;: 
+Ein Hofbräuhaus in der Wüste</Text>
+  </Block>
+  <Block left="583" top="3989" right="727" bottom="4083" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> AP</Text>
+  </Block>
+  <Block left="564" top="4088" right="764" bottom="4112" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Reportage: Montag, 10. März, 22.45 - 23.15  Uhr, Sat.1 </Text>
+  </Block>
+  <Block left="564" top="4144" right="669" bottom="4156" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>GUTENBERG.DE</Text>
+  </Block>
+  <Block left="571" top="4263" right="785" bottom="4287" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Literatur- Klassiker: Die größte Online- Sammlung in deutscher Sprache</Text>
+  </Block>
+  <Block left="564" top="4314" right="696" bottom="4326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SPIEGEL- DOSSIERS</Text>
+  </Block>
+  <Block left="573" top="4341" right="769" bottom="4353" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Feminismus: Das wahre Geschlecht</Text>
+  </Block>
+  <Block left="604" top="4368" right="748" bottom="4460" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> REUTERS</Text>
+  </Block>
+  <Block left="571" top="4467" right="766" bottom="4491" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Springer- Verlag 1968: Die Mission des Axel Cäsar Springer</Text>
+  </Block>
+  <Block left="571" top="4496" right="762" bottom="4520" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Zauberwürfel: Rätselraten um ein mathematisches Geduldspiel</Text>
+  </Block>
+  <Block left="571" top="4525" right="755" bottom="4537" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Hells Angels: Hauptsache Krawall</Text>
+  </Block>
+  <Block left="571" top="4542" right="762" bottom="4566" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>CSSR 1968: Das Ende des Prager Frühlings</Text>
+  </Block>
+  <Block left="564" top="4593" right="627" bottom="4605" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>WETTER</Text>
+  </Block>
+  <Block left="569" top="4619" right="600" bottom="4631" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Berlin</Text>
+  </Block>
+  <Block left="681" top="4615" right="730" bottom="4636" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13°C</Text>
+  </Block>
+  <Block left="569" top="4640" right="610" bottom="4652" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>London</Text>
+  </Block>
+  <Block left="681" top="4636" right="730" bottom="4657" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f6f6f6" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7°C</Text>
+  </Block>
+  <Block left="569" top="4661" right="619" bottom="4673" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>New York</Text>
+  </Block>
+  <Block left="681" top="4657" right="730" bottom="4678" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7°C</Text>
+  </Block>
+  <Block left="569" top="4682" right="649" bottom="4694" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Rio de Janeiro</Text>
+  </Block>
+  <Block left="681" top="4678" right="730" bottom="4699" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f6f6f6" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>29°C</Text>
+  </Block>
+  <Block left="569" top="4703" right="595" bottom="4715" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Rom</Text>
+  </Block>
+  <Block left="681" top="4699" right="730" bottom="4720" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13°C</Text>
+  </Block>
+  <Block left="569" top="4724" right="600" bottom="4736" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Tokio</Text>
+  </Block>
+  <Block left="681" top="4720" right="730" bottom="4741" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f6f6f6" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11°C</Text>
+  </Block>
+  <Block left="571" top="4756" right="690" bottom="4768" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Aktuelle Vorhersagen</Text>
+  </Block>
+  <Block left="571" top="4773" right="736" bottom="4785" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Temperaturen in Deutschland</Text>
+  </Block>
+  <Block left="571" top="4790" right="706" bottom="4802" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Temperaturen in Europa</Text>
+  </Block>
+  <Block left="571" top="4807" right="654" bottom="4819" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#990000" />
+    </Attributes>
+    <Text>Satellitenbilder</Text>
+  </Block>
+  <Block left="564" top="4846" right="721" bottom="4858" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MANAGER- MAGAZIN.DE</Text>
+  </Block>
+  <Block left="571" top="4868" right="746" bottom="4892" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Honda: Warum CEO Fukui den Nano nicht mag</Text>
+  </Block>
+  <Block left="571" top="4897" right="760" bottom="4921" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Investmenttrends: Fünf Hotspots für Anleger</Text>
+  </Block>
+  <Block left="571" top="4926" right="751" bottom="4938" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b20a15" />
+    </Attributes>
+    <Text>Perfekter Auftritt: Lift nach oben</Text>
+  </Block>
+  <Block left="100" top="5590" right="145" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Home </Text>
+  </Block>
+  <Block left="145" top="5590" right="192" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Politik </Text>
+  </Block>
+  <Block left="192" top="5590" right="260" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wirtschaft </Text>
+  </Block>
+  <Block left="260" top="5590" right="330" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Panorama </Text>
+  </Block>
+  <Block left="330" top="5590" right="372" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Sport </Text>
+  </Block>
+  <Block left="372" top="5590" right="417" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kultur </Text>
+  </Block>
+  <Block left="417" top="5590" right="475" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Netzwelt </Text>
+  </Block>
+  <Block left="475" top="5590" right="561" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wissenschaft </Text>
+  </Block>
+  <Block left="561" top="5590" right="637" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>UniSPIEGEL </Text>
+  </Block>
+  <Block left="637" top="5590" right="724" bottom="5602" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SchulSPIEGEL </Text>
+  </Block>
+  <Block left="193" top="5603" right="236" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Reise </Text>
+  </Block>
+  <Block left="236" top="5603" right="274" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Auto </Text>
+  </Block>
+  <Block left="274" top="5603" right="351" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>English Site </Text>
+  </Block>
+  <Block left="351" top="5603" right="395" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Video </Text>
+  </Block>
+  <Block left="395" top="5603" right="477" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Schlagzeilen </Text>
+  </Block>
+  <Block left="477" top="5603" right="525" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum </Text>
+  </Block>
+  <Block left="525" top="5603" right="575" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wetter </Text>
+  </Block>
+  <Block left="575" top="5603" right="630" bottom="5615" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Dienste </Text>
+  </Block>
+  <Block left="188" top="5616" right="228" bottom="5628" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Shop </Text>
+  </Block>
+  <Block left="228" top="5616" right="262" bottom="5628" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Abo </Text>
+  </Block>
+  <Block left="262" top="5616" right="346" bottom="5628" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DER SPIEGEL </Text>
+  </Block>
+  <Block left="346" top="5616" right="422" bottom="5628" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SPIEGEL TV </Text>
+  </Block>
+  <Block left="422" top="5616" right="512" bottom="5628" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>KulturSPIEGEL </Text>
+  </Block>
+  <Block left="512" top="5616" right="636" bottom="5628" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>weitere Zeitschriften </Text>
+  </Block>
+  <Block left="115" top="5629" right="217" bottom="5641" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SPIEGEL-Gruppe </Text>
+  </Block>
+  <Block left="217" top="5629" right="308" bottom="5641" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MediaSPIEGEL </Text>
+  </Block>
+  <Block left="308" top="5629" right="386" bottom="5641" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mediadaten </Text>
+  </Block>
+  <Block left="386" top="5629" right="488" bottom="5641" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Quality Channel </Text>
+  </Block>
+  <Block left="488" top="5629" right="603" bottom="5641" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>manager magazin </Text>
+  </Block>
+  <Block left="603" top="5629" right="709" bottom="5641" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>manager-lounge </Text>
+  </Block>
+  <Block left="251" top="5642" right="288" bottom="5654" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Hilfe </Text>
+  </Block>
+  <Block left="288" top="5642" right="344" bottom="5654" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kontakt </Text>
+  </Block>
+  <Block left="344" top="5642" right="419" bottom="5654" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Leserbriefe </Text>
+  </Block>
+  <Block left="419" top="5642" right="495" bottom="5654" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Nachdrucke </Text>
+  </Block>
+  <Block left="495" top="5642" right="572" bottom="5654" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Impressum </Text>
+  </Block>
+
+</Page>

@@ -1,0 +1,1961 @@
+diff -ruN CRF-1.2/README CRF-1.2-mod/README
+--- CRF-1.2/README	2005-05-17 16:44:33.000000000 +0200
++++ CRF-1.2-mod/README	2022-08-25 20:05:01.000000000 +0200
+@@ -1,4 +1,4 @@
+-You will need jdk1.4 or above and ant to compile.
++You will need jdk1.5 or above and ant to compile.
+ 
+ Make sure to set the classpath by running "settings.sh" after
+ setting CRF_HOME to the directory where you have unpackaged this distribution.
+diff -ruN CRF-1.2/build.xml CRF-1.2-mod/build.xml
+--- CRF-1.2/build.xml	2004-08-04 07:40:26.000000000 +0200
++++ CRF-1.2-mod/build.xml	2022-08-25 21:16:48.000000000 +0200
+@@ -28,8 +28,13 @@
+   <target name="compile" depends="init"
+         description="compile the source " >
+     <!-- Compile the java code from ${src} into ${build} -->
+-    <javac srcdir="${src}" destdir="${build}" debug="${compile.debug}" source="1.4"
++    <javac srcdir="${src}" destdir="${build}" debug="${compile.debug}" source="1.5"
+     classpathref="compile.classpath"/>
++    <junit>
++      <formatter type="plain" usefile="false"/>
++      <classpath refid="compile.classpath"/>
++      <test name="iitb.Tests.GridTest"/>
++    </junit>
+   </target>
+ 
+   <target name="docs" depends="compile" description="generates documentation" >
+diff -ruN CRF-1.2/settings.sh CRF-1.2-mod/settings.sh
+--- CRF-1.2/settings.sh	2004-03-27 01:40:11.000000000 +0100
++++ CRF-1.2-mod/settings.sh	2022-08-25 20:06:07.000000000 +0200
+@@ -1,2 +1,2 @@
+ # settings for CRF..
+-export CLASSPATH=$CRF_HOME/lib/CRF.jar:$CRF_HOME/lib/colt.jar:$CRF_HOME/lib/LBFGS.jar:$CLASSPATH
++export CLASSPATH=$CRF_HOME/lib/CRF.jar:$CRF_HOME/lib/colt.jar:$CRF_HOME/lib/LBFGS.jar:$CRF_HOME/lib/trove.jar:$CLASSPATH
+diff -ruN CRF-1.2/src/iitb/CRF/CRF.java CRF-1.2-mod/src/iitb/CRF/CRF.java
+--- CRF-1.2/src/iitb/CRF/CRF.java	2005-05-21 15:20:44.000000000 +0200
++++ CRF-1.2-mod/src/iitb/CRF/CRF.java	2022-08-25 20:55:06.000000000 +0200
+@@ -82,6 +82,9 @@
+             lambda[pos++] = Double.parseDouble(line);
+         }
+     }
++    public int getNumY() {
++        return numY;
++    }
+     protected Trainer getTrainer() {
+         if (params.trainerType.startsWith("Collins"))
+             return new CollinsTrainer(params);
+diff -ruN CRF-1.2/src/iitb/CRF/Grid.java CRF-1.2-mod/src/iitb/CRF/Grid.java
+--- CRF-1.2/src/iitb/CRF/Grid.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/CRF/Grid.java	2022-08-25 21:43:13.000000000 +0200
+@@ -0,0 +1,285 @@
++package iitb.CRF;
++
++/**
++ * @author Jan Hauffa
++ */
++
++public class Grid
++{
++	public class Diagonal
++	{
++		private int gridWidth;
++
++		public int length, diagIndex, seqIndex;
++
++		public Diagonal(Diagonal other)
++		{
++			copy(other);
++		}
++
++		public Diagonal(Grid grid, int i)
++		{
++			gridWidth = grid.width;
++			diagIndex = 0;
++			seqIndex = i;
++			if (seqIndex >= gridWidth)
++				seqIndex = (((seqIndex - gridWidth) + 2) * gridWidth) - 1;
++
++			if (i < grid.maxDiagLength)
++				length = i + 1;
++			else if ((grid.numDiags - i) <= grid.maxDiagLength)
++				length = grid.numDiags - i;
++			else
++				length = grid.maxDiagLength;
++		}
++
++		public void copy(Diagonal other)
++		{
++			gridWidth = other.gridWidth;
++			length = other.length;
++			diagIndex = other.diagIndex;
++			seqIndex = other.seqIndex;
++		}
++
++		public boolean atEnd()
++		{
++			return (diagIndex >= length);
++		}
++
++		public void step()
++		{
++			seqIndex += gridWidth - 1;
++			diagIndex++;
++		}
++	};
++
++	public class Edge
++	{
++		public int curDiagIndex, curSeqIndex;
++		public int prevDiagIndex, prevSeqIndex;
++
++		public Edge(int curDiagIndex, int curSeqIndex,
++				int prevDiagIndex, int prevSeqIndex)
++		{
++			this.curDiagIndex = curDiagIndex;
++			this.curSeqIndex = curSeqIndex;
++			this.prevDiagIndex = prevDiagIndex;
++			this.prevSeqIndex = prevSeqIndex;
++		}
++	};
++
++	public class DiagEdgeIterator
++	{
++		private Diagonal diag, diagPrev;
++
++		private static final int STATE_HORIZONTAL = 0;
++		private static final int STATE_VERTICAL = 1;
++		private int state;
++
++		public DiagEdgeIterator(Grid grid, int i)
++		{
++			assert i > 0;
++
++			diagPrev = grid.diag(i - 1);
++			diag = grid.diag(i);
++
++			if ((diagPrev.length < diag.length) ||
++				((diagPrev.length == diag.length) &&
++				 (grid.height < grid.width)))
++				state = STATE_HORIZONTAL;
++			else
++				state = STATE_VERTICAL;
++		}
++
++		public boolean hasNext()
++		{
++			return (!diag.atEnd() && !diagPrev.atEnd());
++		}
++
++		public Grid.Edge next()
++		{
++			Grid.Edge e = new Edge(diag.diagIndex, diag.seqIndex,
++				diagPrev.diagIndex, diagPrev.seqIndex);
++
++			if (state == STATE_HORIZONTAL)
++				diag.step();
++			else
++				diagPrev.step();
++			state = (state + 1) % 2;
++
++			return e;
++		}
++	};
++
++	public class DiagFeatureIterator
++	{
++		private static final int STATE_INIT_SCAN_VERTEX1 = 0;
++		private static final int STATE_INIT_SCAN_VERTEX2 = 1;
++		private static final int STATE_SCAN_EDGE1 = 2;
++		private static final int STATE_SCAN_EDGE2 = 3;
++		private static final int STATE_STEP_SCAN_VERTEX = 4;
++		private static final int STATE_STEP_PREV_SCAN_EDGE = 5;
++		private int state;
++
++		private FeatureGeneratorNested featureGen;
++		private Grid grid;
++		private Feature nextFeature;
++
++		public Diagonal diagPrev, diag;  // corresponds to the feature returned by next()
++		private Diagonal stepDiagPrev, stepDiag;  // internal state of the iterator
++
++		public DiagFeatureIterator(Grid grid, int i,
++				FeatureGeneratorNested featureGen)
++		{
++			assert i >= 0;
++
++			this.grid = grid;
++			this.featureGen = featureGen;
++
++			stepDiag = grid.diag(i);
++			stepDiagPrev = grid.diag(i - 1);
++			diag = new Diagonal(stepDiag);
++			diagPrev = new Diagonal(stepDiagPrev);
++
++			if ((stepDiagPrev.length < stepDiag.length) ||
++				((stepDiagPrev.length == stepDiag.length) &&
++				 (grid.height < grid.width)))
++				state = STATE_INIT_SCAN_VERTEX1;
++			else
++				state = STATE_INIT_SCAN_VERTEX2;
++
++			nextFeature = findNextFeature();
++		}
++
++		private void scanCurrentVertex()
++		{
++			if (!grid.isNull(stepDiag.seqIndex) &&
++				!grid.isVirtualVertex(stepDiag.seqIndex))
++				featureGen.startScanFeaturesAt(grid.dataSeq, stepDiag.seqIndex);
++		}
++
++		private void scanCurrentEdge()
++		{
++			if ((stepDiagPrev.seqIndex > -1) &&  // first diagonal
++				!grid.isNull(stepDiag.seqIndex) &&
++				!grid.isNull(stepDiagPrev.seqIndex) &&
++				!grid.isVirtualEdge(stepDiagPrev.seqIndex, stepDiag.seqIndex))
++				featureGen.startScanFeaturesAt(grid.dataSeq,
++						stepDiagPrev.seqIndex, stepDiag.seqIndex);
++		}
++
++		private Feature findNextFeature()
++		{
++			while (!featureGen.hasNext())
++			{
++				switch (state)
++				{
++				case STATE_INIT_SCAN_VERTEX1:
++					scanCurrentVertex();
++					state = STATE_SCAN_EDGE1;
++					break;
++				case STATE_INIT_SCAN_VERTEX2:
++					scanCurrentVertex();
++					state = STATE_SCAN_EDGE2;
++					break;
++				case STATE_SCAN_EDGE1:
++					scanCurrentEdge();
++					state = STATE_STEP_SCAN_VERTEX;
++					break;
++				case STATE_SCAN_EDGE2:
++					scanCurrentEdge();
++					state = STATE_STEP_PREV_SCAN_EDGE;
++					break;
++				case STATE_STEP_SCAN_VERTEX:
++					stepDiag.step();
++					if (stepDiag.atEnd())
++						return null;
++					scanCurrentVertex();
++					state = STATE_SCAN_EDGE2;
++					break;
++				case STATE_STEP_PREV_SCAN_EDGE:
++					stepDiagPrev.step();
++					if (stepDiagPrev.atEnd())
++						return null;
++					scanCurrentEdge();
++					state = STATE_STEP_SCAN_VERTEX;
++					break;
++				}
++			}
++
++			return featureGen.next();
++		}
++
++		public boolean hasNext()
++		{
++			return (nextFeature != null);
++		}
++
++		public Feature next()
++		{
++			Feature currentFeature = nextFeature;
++
++			diag.copy(stepDiag);
++			diagPrev.copy(stepDiagPrev);
++
++			nextFeature = findNextFeature();
++			return currentFeature;
++		}
++	};
++
++
++	public int width, height;
++	public int numDiags, maxDiagLength;
++	public TwoDimensionalDataSequence dataSeq;
++
++	public Grid(TwoDimensionalDataSequence dataSeq2d)
++	{
++		dataSeq = dataSeq2d;
++		width = dataSeq.width();
++		height = dataSeq.length() / width;  // integer division - rounds down
++		maxDiagLength = (width < height) ? width : height;
++		numDiags = width + height - 1;
++	}
++
++	public Diagonal diag(int i)
++	{
++		return new Diagonal(this, i);
++	}
++
++	public DiagFeatureIterator diagFeatureIterator(int i,
++			FeatureGeneratorNested featureGen)
++	{
++		return new DiagFeatureIterator(this, i, featureGen);
++	}
++
++	public DiagEdgeIterator diagEdgeIterator(int i)
++	{
++		return new DiagEdgeIterator(this, i);
++	}
++
++	public boolean isNull(int v)
++	{
++		return dataSeq.isNull(v);
++	}
++
++	public boolean isVirtualVertex(int v)
++	{
++		return (dataSeq.representsElement(v) != -1);
++	}
++
++	public boolean isVirtualEdge(int v1, int v2)
++	{
++		assert ((v1 >= 0) && (v2 >= 0));  // both vertices have to be specified
++
++		int r1 = dataSeq.representsElement(v1);
++		int r2 = dataSeq.representsElement(v2);
++
++		if ((r1 == -1) && (r2 == -1))  // both vertices are real
++			return false;
++
++		return ((r1 == r2) ||					// both vertices are virtual and represent the same real vertex
++				((r1 == -1) && (r2 == v1)) ||	// vertex 2 is virtual and represents vertex 1
++				((r2 == -1) && (r1 == v2)));	// vertex 1 is virtual and represents vertex 2
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/CRF/TwoDimensionalCRF.java CRF-1.2-mod/src/iitb/CRF/TwoDimensionalCRF.java
+--- CRF-1.2/src/iitb/CRF/TwoDimensionalCRF.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/CRF/TwoDimensionalCRF.java	2022-08-25 20:39:24.000000000 +0200
+@@ -0,0 +1,34 @@
++package iitb.CRF;
++
++/**
++  * @author Jan Hauffa
++ */
++
++public class TwoDimensionalCRF extends CRF {
++
++	private static final long serialVersionUID = 9101L;
++
++	public TwoDimensionalCRF(int numLabels, FeatureGenerator fgen,
++			String arg)
++	{
++		super(numLabels, fgen, arg);
++	}
++
++	public TwoDimensionalCRF(int numLabels, FeatureGenerator fgen,
++			java.util.Properties configOptions)
++	{
++		super(numLabels, fgen, configOptions);
++	}
++
++	protected Trainer getTrainer()
++	{
++		return new TwoDimensionalTrainer(params);
++	}
++
++	public Viterbi getViterbi(int beamsize)
++	{
++		assert beamsize == 1;  // beam size > 1 not implemented
++		return new TwoDimensionalViterbi(this);
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/CRF/TwoDimensionalDataSequence.java CRF-1.2-mod/src/iitb/CRF/TwoDimensionalDataSequence.java
+--- CRF-1.2/src/iitb/CRF/TwoDimensionalDataSequence.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/CRF/TwoDimensionalDataSequence.java	2022-08-25 20:19:37.000000000 +0200
+@@ -0,0 +1,14 @@
++package iitb.CRF;
++
++/**
++ * @author Jan Hauffa
++ */
++
++public interface TwoDimensionalDataSequence extends DataSequence {
++	public int width();
++	
++	// If element i is virtual, this function returns the index of the real element it represents. Otherwise -1 is returned.
++	public int representsElement(int i);
++	
++	public boolean isNull(int i);
++}
+diff -ruN CRF-1.2/src/iitb/CRF/TwoDimensionalTrainer.java CRF-1.2-mod/src/iitb/CRF/TwoDimensionalTrainer.java
+--- CRF-1.2/src/iitb/CRF/TwoDimensionalTrainer.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/CRF/TwoDimensionalTrainer.java	2022-08-25 20:43:53.000000000 +0200
+@@ -0,0 +1,456 @@
++package iitb.CRF;
++
++import cern.colt.matrix.DoubleMatrix1D;
++import cern.colt.matrix.impl.DenseDoubleMatrix1D;
++import cern.colt.matrix.DoubleMatrix2D;
++import cern.colt.matrix.impl.DenseDoubleMatrix2D;
++
++/**
++ * @author Sunita Sarawagi
++ * @author Jan Hauffa
++ */
++
++public class TwoDimensionalTrainer extends Trainer {
++
++	public TwoDimensionalTrainer(CrfParams p)
++	{
++		super(p);
++	}
++
++
++	void initMatrices(int diagLength, int numDiags)
++	{
++		assert (diagLength > 0) && (numDiags > 0);
++		int vectorLength = diagLength * numY;
++
++		if ((alpha_Y == null) || (alpha_Y.size() != vectorLength))
++		{
++			alpha_Y = new DenseDoubleMatrix1D(vectorLength);
++			newAlpha_Y = new DenseDoubleMatrix1D(vectorLength);
++			tmp_Y = new DenseDoubleMatrix1D(vectorLength);
++			Ri_Y = new DenseDoubleMatrix1D(vectorLength);
++			Mi_YY = new DenseDoubleMatrix2D(vectorLength, vectorLength);
++		}
++
++		if ((beta_Y == null) || (beta_Y.length < numDiags))
++		{
++			beta_Y = new DenseDoubleMatrix1D[numDiags];
++			scale = new double[numDiags];
++		}
++
++		if ((beta_Y[0] == null) || (beta_Y[0].size() != vectorLength))
++		{
++			for (int i = 0; i < beta_Y.length; i++)
++				beta_Y[i] = new DenseDoubleMatrix1D(vectorLength);
++		}
++	}
++
++
++	public static void Mult(DoubleMatrix2D M, DoubleMatrix1D y,
++			DoubleMatrix1D z, boolean transpose)
++	{
++		// z = M * y
++		z.assign(0);
++		for (int j = 0; j < M.columns(); j++)
++		{
++			for (int i = 0; i < M.rows(); i++)
++			{
++				int r = i;
++				int c = j;
++				if (transpose)
++				{
++					r = j;
++					c = i;
++				}
++				z.set(r, z.getQuick(r) + M.getQuick(i, j) * y.getQuick(c));
++			}
++		}
++	}
++
++	public static DoubleMatrix1D logMult(DoubleMatrix2D M, DoubleMatrix1D y,
++			DoubleMatrix1D z, boolean transpose)
++	{
++		// z = M * y
++		// in log domain this becomes:
++		z.assign(RobustMath.LOG0);
++
++		for (int j = 0; j < M.columns(); j++)
++		{
++			for (int i = 0; i < M.rows(); i++)
++			{
++				int r = i;
++				int c = j;
++				if (transpose)
++				{
++					r = j;
++					c = i;
++				}
++				z.set(r, RobustMath.logSumExp(z.getQuick(r),
++						M.getQuick(i, j) + y.get(c)));
++			}
++		}
++		return z;
++	}
++
++
++	public static void computeLogMi(FeatureGeneratorNested featureGen,
++			double lambda[], int numY, Grid grid, int i,
++			DoubleMatrix2D Mi_YY, DoubleMatrix1D Ri_Y, boolean takeExp)
++	{
++		Mi_YY.assign(0);
++		Ri_Y.assign(0);
++
++		// process virtual edges: for each virtual edge, set the probability of
++		// transition with different vertex labels to -Infinity
++		if (i > 0)
++		{
++			Grid.DiagEdgeIterator edges = grid.diagEdgeIterator(i);
++			while (edges.hasNext())
++			{
++				Grid.Edge e = edges.next();
++				if (grid.isVirtualEdge(e.prevSeqIndex, e.curSeqIndex))
++				{
++					for (int j = 0; j < numY; j++)
++						for (int k = 0; k < numY; k++)
++							if (j != k)
++							{
++								int r = (e.prevDiagIndex * numY) + j;
++								int c = (e.curDiagIndex * numY) + k;
++								Mi_YY.setQuick(r, c, Double.NEGATIVE_INFINITY);
++							}
++				}
++			}
++		}
++
++		Grid.DiagFeatureIterator it = grid.diagFeatureIterator(i, featureGen);
++		while (it.hasNext())
++		{
++			Feature feature = it.next();
++			float val = feature.value();
++			if (val == 0.0f)
++				continue;
++			int f = feature.index();
++			int yp = feature.y();
++			int yprev = feature.yprev();
++
++			if (yprev < 0)  // single state feature?
++			{
++				int row = (it.diag.diagIndex * numY) + yp;
++				Ri_Y.setQuick(row, Ri_Y.getQuick(row) + lambda[f] * val);
++			}
++			else
++			{
++				int row = (it.diagPrev.diagIndex * numY) + yprev;
++				int col = (it.diag.diagIndex * numY) + yp;
++				Mi_YY.setQuick(row, col, Mi_YY.getQuick(row, col) +
++						lambda[f] * val);
++			}
++		}
++
++		if (takeExp)
++		{
++			for (int row = Ri_Y.size() - 1; row >= 0; row--)
++			{
++				Ri_Y.setQuick(row, expE(Ri_Y.getQuick(row)));
++				for (int col = Mi_YY.columns() - 1; col >= 0; col--)
++					Mi_YY.setQuick(row, col, expE(Mi_YY.getQuick(row,col)));
++			}
++		}
++	}
++
++
++	protected double computeFunctionGradient(double lambda[], double grad[])
++	{
++		if (params.trainerType.equals("ll"))
++			return computeFunctionGradientLL(lambda, grad);
++
++		double logli = 0;
++
++		FeatureGeneratorNested featureGen2d =
++			(FeatureGeneratorNested) featureGenerator;
++
++		for (int f = 0; f < lambda.length; f++)
++		{
++			grad[f] = -1 * lambda[f] * params.invSigmaSquare;
++			logli -= ((lambda[f] * lambda[f]) * params.invSigmaSquare) / 2;
++		}
++
++		boolean doScaling = params.doScaling;
++		diter.startScan();
++		if (featureGenCache != null)
++			featureGenCache.startDataScan();
++		for (int numRecord = 0; diter.hasNext(); numRecord++)
++		{
++			Grid grid = new Grid((TwoDimensionalDataSequence) diter.next());
++			int numDiags = grid.numDiags;
++			if (featureGenCache != null)
++				featureGenCache.nextDataIndex();
++			if (params.debugLvl > 1)
++				Util.printDbg("Next seq: " + numRecord + " logli " + logli);
++
++			for (int f = 0; f < lambda.length; f++)
++				ExpF[f] = 0;
++			// size of the forward and backward vectors depends on the length of
++			// the longest diagonal
++			initMatrices(grid.maxDiagLength, numDiags);
++			alpha_Y.assign(1);
++
++			// compute beta values in a backward scan
++			scale[numDiags - 1] = (doScaling) ? numY : 1;
++			beta_Y[numDiags - 1].assign(1.0 / scale[numDiags - 1]);
++			for (int i = numDiags - 1; i > 0; i--)
++			{
++				computeLogMi(featureGen2d, lambda, numY, grid, i, Mi_YY, Ri_Y,
++					true);
++				tmp_Y.assign(beta_Y[i]);
++				tmp_Y.assign(Ri_Y, multFunc);
++				Mult(Mi_YY, tmp_Y, beta_Y[i - 1], false);
++
++				// need to scale the betas to avoid overflow
++				scale[i - 1] = doScaling ? beta_Y[i - 1].zSum() : 1;
++				if ((scale[i - 1] < 1) && (scale[i - 1] > -1))
++					scale[i - 1] = 1;
++				constMultiplier.multiplicator = 1.0 / scale[i - 1];
++				beta_Y[i - 1].assign(constMultiplier);
++			}
++
++			double thisSeqLogli = 0;
++			for (int i = 0; i < numDiags; i++)
++			{
++				computeLogMi(featureGen2d, lambda, numY, grid, i, Mi_YY, Ri_Y,
++					true);
++
++				// compute next alpha vector
++				if (i > 0)
++				{
++					tmp_Y.assign(alpha_Y);
++					Mult(Mi_YY, tmp_Y, newAlpha_Y, true);
++					newAlpha_Y.assign(Ri_Y, multFunc);
++				}
++				else
++					newAlpha_Y.assign(Ri_Y);
++
++				// find features that fire at this position
++				Grid.DiagFeatureIterator it = grid.diagFeatureIterator(i,
++					featureGen2d);
++				while (it.hasNext())
++				{
++					Feature feature = it.next();
++					float val = feature.value();
++					if (val == 0.0f)
++						continue;
++					int f = feature.index();
++					int yp = feature.y();
++					int yprev = feature.yprev();
++
++					if ((grid.dataSeq.y(it.diag.seqIndex) == yp) &&
++						((yprev < 0) ||
++						 (grid.dataSeq.y(it.diagPrev.seqIndex) == yprev)))
++					{
++						grad[f] += val;
++						thisSeqLogli += val * lambda[f];
++					}
++
++					if (yprev < 0)
++					{
++						int row = (it.diag.diagIndex * numY) + yp;
++						ExpF[f] += newAlpha_Y.get(row) * val *
++							beta_Y[i].get(row);
++					}
++					else
++					{
++						int row = (it.diagPrev.diagIndex * numY) + yprev;
++						int col = (it.diag.diagIndex * numY) + yp;
++						ExpF[f] += alpha_Y.get(row) * Ri_Y.get(col) *
++							Mi_YY.get(row, col) * val * beta_Y[i].get(col);
++					}
++				}
++
++				alpha_Y.assign(newAlpha_Y);
++				// now scale the alpha-s to avoid overflow problems.
++				constMultiplier.multiplicator = 1.0 / scale[i];
++				alpha_Y.assign(constMultiplier);
++
++				if (params.debugLvl > 2)
++				{
++					System.out.println("i (current diag.) " + i);
++					System.out.println("Alpha-i " + alpha_Y.toString());
++					System.out.println("Ri " + Ri_Y.toString());
++					System.out.println("Mi " + Mi_YY.toString());
++					System.out.println("Beta-i " + beta_Y[i].toString());
++				}
++			}
++
++			double Zx = alpha_Y.zSum();
++			thisSeqLogli -= log(Zx);
++			// correct for the fact that the alphas were scaled
++			for (int i = 0; i < numDiags; i++)
++				thisSeqLogli -= log(scale[i]);
++			logli += thisSeqLogli;
++
++			// update gradient
++			for (int f = 0; f < grad.length; f++)
++				grad[f] -= ExpF[f] / Zx;
++
++			if (params.debugLvl > 1)
++				System.out.println("Sequence " + thisSeqLogli + " logli "
++					+ logli + " log(Zx) " + Math.log(Zx) + " Zx " + Zx);
++		}
++
++		if (params.debugLvl > 2)
++		{
++			for (int f = 0; f < lambda.length; f++)
++				System.out.print(lambda[f] + " ");
++			System.out.println(" :x");
++			for (int f = 0; f < lambda.length; f++)
++				System.out.print(grad[f] + " ");
++			System.out.println(" :g");
++		}
++		if (params.debugLvl > 0)
++			Util.printDbg("Iter " + icall + " loglikelihood " + logli
++				+ " gnorm " + norm(grad) + " xnorm " + norm(lambda));
++
++		return logli;
++	}
++
++
++	protected double computeFunctionGradientLL(double lambda[], double grad[])
++	{
++		double logli = 0;
++
++		FeatureGeneratorNested featureGen2d =
++			(FeatureGeneratorNested) featureGenerator;
++
++		for (int f = 0; f < lambda.length; f++)
++		{
++			grad[f] = -1 * lambda[f] * params.invSigmaSquare;
++			logli -= ((lambda[f] * lambda[f]) * params.invSigmaSquare) / 2;
++		}
++
++		diter.startScan();
++		if (featureGenCache != null)
++			featureGenCache.startDataScan();
++		for (int numRecord = 0; diter.hasNext(); numRecord++)
++		{
++			Grid grid = new Grid((TwoDimensionalDataSequence) diter.next());
++			int numDiags = grid.numDiags;
++			if (featureGenCache != null)
++				featureGenCache.nextDataIndex();
++			if (params.debugLvl > 1)
++				Util.printDbg("Next seq: " + numRecord + " logli " + logli);
++
++			for (int f = 0; f < lambda.length; f++)
++				ExpF[f] = RobustMath.LOG0;
++			// size of the forward and backward vectors depends on the length of
++			// the longest diagonal
++			initMatrices(grid.maxDiagLength, numDiags);
++			alpha_Y.assign(0);
++
++			// compute beta values in a backward scan
++			beta_Y[numDiags - 1].assign(0);
++			for (int i = numDiags - 1; i > 0; i--)
++			{
++				computeLogMi(featureGen2d, lambda, numY, grid, i, Mi_YY, Ri_Y,
++					false);
++				tmp_Y.assign(beta_Y[i]);
++				tmp_Y.assign(Ri_Y, sumFunc);
++				logMult(Mi_YY, tmp_Y, beta_Y[i - 1], false);
++			}
++
++			double thisSeqLogli = 0;
++			for (int i = 0; i < numDiags; i++)
++			{
++				computeLogMi(featureGen2d, lambda, numY, grid, i, Mi_YY, Ri_Y,
++					false);
++
++				// compute next alpha vector
++				if (i > 0)
++				{
++					tmp_Y.assign(alpha_Y);
++					logMult(Mi_YY, tmp_Y, newAlpha_Y, true);
++					newAlpha_Y.assign(Ri_Y, sumFunc);
++				}
++				else
++					newAlpha_Y.assign(Ri_Y);
++
++				// find features that fire at this position
++				Grid.DiagFeatureIterator it = grid.diagFeatureIterator(i,
++					featureGen2d);
++				while (it.hasNext())
++				{
++					Feature feature = it.next();
++					float val = feature.value();
++					if (val == 0.0f)
++						continue;
++					int f = feature.index();
++					int yp = feature.y();
++					int yprev = feature.yprev();
++						
++					if ((grid.dataSeq.y(it.diag.seqIndex) == yp) &&
++						((yprev < 0) ||
++						 (grid.dataSeq.y(it.diagPrev.seqIndex) == yprev)))
++					{
++						grad[f] += val;
++						thisSeqLogli += val * lambda[f];
++					}
++
++					if (yprev < 0)
++					{
++						int row = (it.diag.diagIndex * numY) + yp;
++						ExpF[f] = RobustMath.logSumExp(ExpF[f],
++							newAlpha_Y.get(row) + RobustMath.log(val) +
++							beta_Y[i].get(row));
++					}
++					else
++					{
++						int row = (it.diagPrev.diagIndex * numY) + yprev;
++						int col = (it.diag.diagIndex * numY) + yp;
++						ExpF[f] = RobustMath.logSumExp(ExpF[f],
++							alpha_Y.get(row) + Ri_Y.get(col) +
++							Mi_YY.get(row, col) + RobustMath.log(val) +
++							beta_Y[i].get(col));
++					}
++				}
++
++				alpha_Y.assign(newAlpha_Y);
++
++				if (params.debugLvl > 2)
++				{
++					System.out.println("i (current diag.) " + i);
++					System.out.println("Alpha-i " + alpha_Y.toString());
++					System.out.println("Ri " + Ri_Y.toString());
++					System.out.println("Mi " + Mi_YY.toString());
++					System.out.println("Beta-i " + beta_Y[i].toString());
++				}
++			}
++
++			double lZx = RobustMath.logSumExp(alpha_Y);
++			thisSeqLogli -= lZx;
++			logli += thisSeqLogli;
++
++			// update gradient
++			for (int f = 0; f < grad.length; f++)
++				grad[f] -= RobustMath.exp(ExpF[f] - lZx);
++
++			if (params.debugLvl > 1)
++				System.out.println("Sequence " + thisSeqLogli + " logli "
++					+ logli + " log(Zx) " + lZx + " Zx " + Math.exp(lZx));
++		}
++
++		if (params.debugLvl > 2)
++		{
++			for (int f = 0; f < lambda.length; f++)
++				System.out.print(lambda[f] + " ");
++			System.out.println(" :x");
++			for (int f = 0; f < lambda.length; f++)
++				System.out.print(grad[f] + " ");
++			System.out.println(" :g");
++		}
++		if (params.debugLvl > 0)
++			Util.printDbg("Iter " + icall + " loglikelihood " + logli
++				+ " gnorm " + norm(grad) + " xnorm " + norm(lambda));
++
++		return logli;
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/CRF/TwoDimensionalViterbi.java CRF-1.2-mod/src/iitb/CRF/TwoDimensionalViterbi.java
+--- CRF-1.2/src/iitb/CRF/TwoDimensionalViterbi.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/CRF/TwoDimensionalViterbi.java	2022-08-25 20:55:53.000000000 +0200
+@@ -0,0 +1,205 @@
++package iitb.CRF;
++
++import cern.colt.matrix.impl.DenseDoubleMatrix1D;
++import cern.colt.matrix.impl.DenseDoubleMatrix2D;
++
++/**
++ * @author Jan Hauffa
++ */
++
++public class TwoDimensionalViterbi extends Viterbi {
++
++	private static final long serialVersionUID = 9102L; 
++
++	protected int numY;
++	protected Grid grid;
++	protected DenseDoubleMatrix2D Mi;
++	protected DenseDoubleMatrix1D Ri;
++
++	protected class TrellisElement
++	{
++		protected int stateSequence[];
++		protected double score;
++		protected int prevIdx;
++
++		protected TrellisElement()
++		{
++			stateSequence = null;
++			prevIdx = -1;
++			score = Double.NEGATIVE_INFINITY;
++		}
++	}
++
++	// each TrellisElement represents one possible state sequence of a diagonal:
++	// trellis[i][j] -> state sequence i of diagonal j
++	protected TrellisElement trellis[][];
++
++
++	TwoDimensionalViterbi(TwoDimensionalCRF model2d)
++	{
++		super(model2d, 1);
++		numY = model2d.getNumY();
++	}
++
++	double getTransitionScore(int prevStateSequence[], int curStateSequence[])
++	{
++		double score = 0.0;
++
++		for (int i = 0; i < curStateSequence.length; i++)
++		{
++			score += Ri.get((i * numY) + curStateSequence[i]);
++			for (int j = 0; j < prevStateSequence.length; j++)
++			{
++				score += Mi.get((j * numY) + prevStateSequence[j],
++				                (i * numY) + curStateSequence[i]);
++			}
++		}
++		return score;
++	}
++
++	void evaluateTransition(int prevStateSeqIdx, int curDiag, int curStateSeq[],
++			double score)
++	{
++		int i = 0;
++		while ((i < numY) && (trellis[i][curDiag].score >= score))
++			i++;
++
++		if (i < numY)  // found a place to insert
++		{
++			if (trellis[i][curDiag].stateSequence != null)
++			{
++				for (int j = numY - 1; j > i; j--)
++					trellis[j][curDiag] = trellis[j-1][curDiag];
++			}
++
++			trellis[i][curDiag].stateSequence = new int[curStateSeq.length];
++			System.arraycopy(curStateSeq, 0,
++					trellis[i][curDiag].stateSequence, 0,
++					curStateSeq.length);
++			trellis[i][curDiag].score = score;
++			trellis[i][curDiag].prevIdx = prevStateSeqIdx;
++		}
++	}
++
++	double fillArray(double lambda[], boolean calcScore)
++	{
++		FeatureGeneratorNested featureGen2d =
++			(FeatureGeneratorNested) model.featureGenerator;
++
++		TwoDimensionalTrainer.computeLogMi(featureGen2d, lambda, numY, grid, 0,
++				Mi, Ri, false);
++		for (int i = 0; i < numY; i++)
++		{
++			trellis[i][0].stateSequence = new int[1];
++			trellis[i][0].stateSequence[0] = i;
++			trellis[i][0].score = Ri.get(i);
++		}
++
++		for (int i = 1; i < grid.numDiags; i++)
++		{
++			TwoDimensionalTrainer.computeLogMi(featureGen2d, lambda, numY, grid,
++					i, Mi, Ri, false);
++
++			// iterate over all possible state sequences of diagonal i
++			Grid.Diagonal d = grid.diag(i);
++			int curStateSequence[] = new int[d.length];
++			while (curStateSequence[d.length-1] < numY)
++			{
++				// iterate over the numY best state sequences of diagonal i-1
++				for (int j = 0; j < numY; j++)
++				{
++					// compute score for transition between the two selected
++					// state sequences
++					double score = getTransitionScore(
++							trellis[j][i-1].stateSequence, curStateSequence);
++					score += trellis[j][i-1].score;
++
++					// if score is higher than all scores previously computed
++					// for this diagonal, add it to the trellis
++					evaluateTransition(j, i, curStateSequence, score);
++				}
++
++				// generate next state sequence
++				int j;
++				for (j = 0; (j < (d.length - 1)) &&
++				            (curStateSequence[j] >= (numY - 1)); j++)
++					curStateSequence[j] = 0;
++				curStateSequence[j]++;
++			}
++		}
++
++		return trellis[0][grid.numDiags - 1].score;
++	}
++
++	public void bestLabelSequence(DataSequence dataSeq, double lambda[])
++	{
++		viterbiSearch(dataSeq, lambda, false);
++		assignLabels(dataSeq);
++	}
++
++	void assignLabels(DataSequence dataSeq)
++	{
++		TwoDimensionalDataSequence dataSeq2d =
++			(TwoDimensionalDataSequence) dataSeq;
++
++		// traverse the trellis in reverse order; follow the path defined by the
++		// prevIdx member variables
++		int bestSequenceIdx = 0;
++		for (int i = grid.numDiags - 1; i >= 0; i--)
++		{
++			Grid.Diagonal d = grid.diag(i);
++			while (!d.atEnd())
++			{
++				if (!dataSeq2d.isNull(d.seqIndex))
++					dataSeq2d.set_y(d.seqIndex,
++						trellis[bestSequenceIdx][i].stateSequence[d.diagIndex]);
++				d.step();
++			}
++
++			bestSequenceIdx = trellis[bestSequenceIdx][i].prevIdx;
++		}
++	}
++
++	public double viterbiSearch(DataSequence dataSeq, double lambda[],
++			boolean calcCorrectScore)
++	{
++		TwoDimensionalDataSequence dataSeq2d =
++			(TwoDimensionalDataSequence) dataSeq;
++		grid = new Grid(dataSeq2d);
++
++		int n = grid.maxDiagLength * numY;
++		if ((Mi == null) || (Mi.rows() < n))
++		{
++			Mi = new DenseDoubleMatrix2D(n, n);
++			Ri = new DenseDoubleMatrix1D(n);
++		}
++
++		trellis = new TrellisElement[numY][];
++		for (int i = 0; i < numY; i++)
++		{
++			trellis[i] = new TrellisElement[grid.numDiags];
++			for (int j = 0; j < grid.numDiags; j++)
++				trellis[i][j] = new TrellisElement();
++		}
++
++		return fillArray(lambda, calcCorrectScore);
++	}
++
++	public int numSolutions()
++	{
++		System.out.println("numSolutions() not implemented!");
++		// actually numY, see getBestSoln()
++		return 0;
++	}
++
++	public Soln getBestSoln(int k)
++	{
++		// We store the numY best solutions, but they cannot be naturally
++		// expressed as a list of Soln objects. Doesn't really matter since this
++		// function is only used by the Collins trainer, which cannot be used
++		// for 2D CRFs.
++		System.out.println("getBestSoln not implemented!");
++		return null;
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/Tests/GridTest.java CRF-1.2-mod/src/iitb/Tests/GridTest.java
+--- CRF-1.2/src/iitb/Tests/GridTest.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/Tests/GridTest.java	2022-08-25 20:57:39.000000000 +0200
+@@ -0,0 +1,382 @@
++package iitb.Tests;
++
++import static org.junit.Assert.assertEquals;
++import org.junit.Test;
++import org.junit.Before;
++
++import iitb.CRF.Grid;
++import iitb.CRF.DataSequence;
++import iitb.CRF.Feature;
++import iitb.CRF.TwoDimensionalDataSequence;
++import iitb.CRF.FeatureGeneratorNested;
++
++
++public class GridTest {
++
++	private class DummyDataSeq implements TwoDimensionalDataSequence {
++		private int w, h;
++
++		public DummyDataSeq(int w, int h) {
++			this.w = w;
++			this.h = h;
++		}
++
++		public int length() {
++			return w * h;
++		}
++
++		public int y(int i) {
++			return 0;
++		}
++
++		public Object x(int i) {
++			return new Object();
++		}
++
++		public void set_y(int i, int label) {
++		}
++
++		public int width() {
++			return w;
++		}
++
++		public int representsElement(int i) {
++			return -1;
++		}
++
++		public boolean isNull(int i) {
++			return false;
++		}
++	}
++
++	private class DummyFeature implements Feature {
++		private int idx, prevPos, pos;
++
++		public DummyFeature(int idx, int prevPos, int pos) {
++			this.idx = idx;
++			this.prevPos = prevPos;
++			this.pos = pos;
++		}
++
++		public int index() {
++			return idx;
++		}
++
++		public float value() {
++			return 1.0f;
++		}
++
++		public int y() {
++			return pos;
++		}
++
++		public int yprev() {
++			return prevPos;
++		}
++
++		public int[] yprevArray() {
++			return null;
++		}
++	}
++
++	private class DummyFeatureGen implements FeatureGeneratorNested {
++		private static final long serialVersionUID = 12000;
++		private int numFeatures, prevPos, pos, idx;
++
++		public DummyFeatureGen(int numFeatures) {
++			this.numFeatures = numFeatures;
++			// make sure hasNext returns false before startScanFeatureAt has
++			// been called
++			this.idx = -1;
++		}
++
++		public int maxMemory() {
++			return 0;
++		}
++
++		public void startScanFeaturesAt(DataSequence data, int prevPos,
++				int pos) {
++			this.prevPos = prevPos;
++			this.pos = pos;
++			idx = 0;
++		}
++
++		public String featureName(int featureIndex) {
++			return "feature-" + featureIndex;
++		}
++
++		public boolean hasNext() {
++			return ((idx != -1) && (idx < numFeatures));
++		}
++
++		public Feature next() {
++			assert idx != -1;
++			DummyFeature feature = new DummyFeature(idx, prevPos, pos);
++			idx++;
++			if (!hasNext())
++				idx = -1;
++			return feature;
++		}
++
++		public int numFeatures() {
++			return numFeatures;
++		}
++
++		public void startScanFeaturesAt(DataSequence data, int pos) {
++			startScanFeaturesAt(data, -1, pos);
++		}	
++	}
++
++
++	/* grid 1:
++	 * 0  1  2  3
++	 * 4  5  6  7
++	 * 8  9  10 11
++	 * 12 13 14 15
++	 */
++
++	static private int grid1SeqIndices[][] = {
++		{  0, -1, -1, -1 },
++		{  1,  4, -1, -1 },
++		{  2,  5,  8, -1 },
++		{  3,  6,  9, 12 },
++		{  7, 10, 13, -1 },
++		{ 11, 14, -1, -1 },
++		{ 15, -1, -1, -1 }
++	};
++
++	static private int grid1FeatureSeqIndices[][] = {
++		{  0, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
++		{  1,  1,  4,  4, -1, -1, -1, -1, -1, -1 },
++		{  2,  2,  5,  5,  5,  8,  8, -1, -1, -1 },
++		{  3,  3,  6,  6,  6,  9,  9,  9, 12, 12 },
++		{  7,  7,  7, 10, 10, 10, 13, 13, 13, -1 },
++		{ 11, 11, 11, 14, 14, 14, -1, -1, -1, -1 },
++		{ 15, 15, 15, -1, -1, -1, -1, -1, -1, -1 }
++	};
++
++	static private int grid1FeaturePrevSeqIndices[][] = {
++		{ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
++		{ -1,  0, -1,  0, -1, -1, -1, -1, -1, -1 },
++		{ -1,  1, -1,  1,  4, -1,  4, -1, -1, -1 },
++		{ -1,  2, -1,  2,  5, -1,  5,  8, -1,  8 },
++		{ -1,  3,  6, -1,  6,  9, -1,  9, 12, -1 },
++		{ -1,  7, 10, -1, 10, 13, -1, -1, -1, -1 },
++		{ -1, 11, 14, -1, -1, -1, -1, -1, -1, -1 }
++	};
++
++	/* grid 2:
++	 * 0  1  2  3  4
++	 * 5  6  7  8  9
++	 * 10 11 12 13 14
++	 */
++
++	static private int grid2SeqIndices[][] = {
++		{  0, -1, -1 },
++		{  1,  5, -1 },
++		{  2,  6, 10 },
++		{  3,  7, 11 },
++		{  4,  8, 12 },
++		{  9, 13, -1 },
++		{ 14, -1, -1 }
++	};
++
++	static private int grid2FeatureSeqIndices[][] = {
++		{  0, -1, -1, -1, -1, -1, -1, -1 },
++		{  1,  1,  5,  5, -1, -1, -1, -1 },
++		{  2,  2,  6,  6,  6, 10, 10, -1 },
++		{  3,  3,  7,  7,  7, 11, 11, 11 },
++		{  4,  4,  8,  8,  8, 12, 12, 12 },
++		{  9,  9,  9, 13, 13, 13, -1, -1 },
++		{ 14, 14, 14, -1, -1, -1, -1, -1 }
++	};
++
++	static private int grid2FeaturePrevSeqIndices[][] = {
++		{ -1, -1, -1, -1, -1, -1, -1, -1 },
++		{ -1,  0, -1,  0, -1, -1, -1, -1 },
++		{ -1,  1, -1,  1,  5, -1,  5, -1 },
++		{ -1,  2, -1,  2,  6, -1,  6, 10 },
++		{ -1,  3, -1,  3,  7, -1,  7, 11 },
++		{ -1,  4,  8, -1,  8, 12, -1, -1 },
++		{ -1,  9, 13, -1, -1, -1, -1, -1 }
++	};
++
++	/* grid 3:
++	 * 0   1  2
++	 * 3   4  5
++	 * 6   7  8
++	 * 9  10 11
++	 * 12 13 14
++	 */
++	static private int grid3SeqIndices[][] = {
++		{  0, -1, -1 },
++		{  1,  3, -1 },
++		{  2,  4,  6 },
++		{  5,  7,  9 },
++		{  8, 10, 12 },
++		{ 11, 13, -1 },
++		{ 14, -1, -1 }
++	};
++
++	static private int grid3FeatureSeqIndices[][] = {
++		{  0, -1, -1, -1, -1, -1, -1, -1 },
++		{  1,  1,  3,  3, -1, -1, -1, -1 },
++		{  2,  2,  4,  4,  4,  6,  6, -1 },
++		{  5,  5,  5,  7,  7,  7,  9,  9 },
++		{  8,  8,  8, 10, 10, 10, 12, 12 },
++		{ 11, 11, 11, 13, 13, 13, -1, -1 },
++		{ 14, 14, 14, -1, -1, -1, -1, -1 }
++	};
++
++	static private int grid3FeaturePrevSeqIndices[][] = {
++		{ -1, -1, -1, -1, -1, -1, -1, -1 },
++		{ -1,  0, -1,  0, -1, -1, -1, -1 },
++		{ -1,  1, -1,  1,  3, -1,  3, -1 },
++		{ -1,  2,  4, -1,  4,  6, -1,  6 },
++		{ -1,  5,  7, -1,  7,  9, -1,  9 },
++		{ -1,  8, 10, -1, 10, 12, -1, -1 },
++		{ -1, 11, 13, -1, -1, -1, -1, -1 }
++	};
++
++	/* grid 4:
++	 * 0 1 2 3 4 5 6 7 8
++	 * 
++	 * grid 5:
++	 * 0
++	 * 1
++	 * 2
++	 * 3
++	 * 4
++	 * 5
++	 * 6
++	 * 7
++	 * 8
++	 */
++
++	static private int grid45SeqIndices[][] = {
++		{ 0 }, { 1 }, { 2 }, { 3 }, { 4 }, { 5 }, { 6 }, { 7 }, { 8 }
++	};
++
++	static private int grid45FeatureSeqIndices[][] = {
++		{ 0, -1 },
++		{ 1,  1 },
++		{ 2,  2 },
++		{ 3,  3 },
++		{ 4,  4 },
++		{ 5,  5 },
++		{ 6,  6 },
++		{ 7,  7 },
++		{ 8,  8 }
++	};
++
++	static private int grid45FeaturePrevSeqIndices[][] = {
++		{ -1, -1 },
++		{ -1,  0 },
++		{ -1,  1 },
++		{ -1,  2 },
++		{ -1,  3 },
++		{ -1,  4 },
++		{ -1,  5 },
++		{ -1,  6 },
++		{ -1,  7 }
++	};
++
++
++	private class GridInfo {
++		public int width, height;
++		public int numDiags, maxDiagLength;
++		public int seqIndices[][];
++		public int featureSeqIndices[][];
++		public int featurePrevSeqIndices[][];
++
++		public GridInfo(int width, int height, int numDiags, int maxDiagLength,
++				int seqIndices[][], int featureSeqIndices[][],
++				int featurePrevSeqIndices[][])
++		{
++			this.width = width;
++			this.height = height;
++			this.numDiags = numDiags;
++			this.maxDiagLength = maxDiagLength;
++			this.seqIndices = seqIndices;
++			this.featureSeqIndices = featureSeqIndices;
++			this.featurePrevSeqIndices = featurePrevSeqIndices;
++		}
++	};
++
++	private GridInfo testGrids[];
++
++
++	@Before public void initTests() {
++		testGrids = new GridInfo[5];
++		testGrids[0] = new GridInfo( 4, 4, 7, 4, grid1SeqIndices,
++				grid1FeatureSeqIndices, grid1FeaturePrevSeqIndices );
++		testGrids[1] = new GridInfo( 5, 3, 7, 3, grid2SeqIndices,
++				grid2FeatureSeqIndices, grid2FeaturePrevSeqIndices );
++		testGrids[2] = new GridInfo( 3, 5, 7, 3, grid3SeqIndices,
++				grid3FeatureSeqIndices, grid3FeaturePrevSeqIndices );
++		testGrids[3] = new GridInfo( 9, 1, 9, 1, grid45SeqIndices,
++				grid45FeatureSeqIndices, grid45FeaturePrevSeqIndices );
++		testGrids[4] = new GridInfo( 1, 9, 9, 1, grid45SeqIndices,
++				grid45FeatureSeqIndices, grid45FeaturePrevSeqIndices );
++	}
++
++	@Test public void testGrid() {
++		for (int i = 0; i < testGrids.length; i++) {
++			DummyDataSeq data = new DummyDataSeq(testGrids[i].width,
++					testGrids[i].height);
++			Grid g = new Grid(data);
++
++			assertEquals(testGrids[i].height, g.height);
++			assertEquals(testGrids[i].width, g.width);
++			assertEquals(testGrids[i].numDiags, g.numDiags);
++			assertEquals(testGrids[i].maxDiagLength, g.maxDiagLength);
++
++			for (int j = 0; j < g.numDiags; j++) {
++				Grid.Diagonal diag = g.diag(j);
++				int k = 0;
++				while (!diag.atEnd()) {
++					assertEquals(k, diag.diagIndex);
++					assertEquals(testGrids[i].seqIndices[j][k], diag.seqIndex);
++					diag.step();
++					k++;
++				}
++				assertEquals(k, diag.diagIndex);
++				assertEquals(k, diag.length);
++			}
++		}
++	}
++
++
++	private static final int numFeatures = 2;
++
++	@Test public void testFeatureIterator() {
++		DummyFeatureGen featureGen = new DummyFeatureGen(numFeatures);
++
++		for (int i = 0; i < testGrids.length; i++) {
++//			System.out.println("data set " + (i + 1));
++			DummyDataSeq data = new DummyDataSeq(testGrids[i].width,
++					testGrids[i].height);
++			Grid g = new Grid(data);
++			int seq = 0;
++
++			for (int j = 0; j < g.numDiags; j++) {
++//				System.out.println("diagonal " + j);
++				int k = 0;
++				Grid.DiagFeatureIterator it = g.diagFeatureIterator(j,
++						featureGen);
++				while (it.hasNext()) {
++					Feature feature = it.next();
++					assertEquals(seq, feature.index());
++					assertEquals(testGrids[i].featurePrevSeqIndices[j][k],
++							feature.yprev());
++					assertEquals(testGrids[i].featureSeqIndices[j][k],
++							feature.y());
++
++					seq = (seq + 1) % numFeatures;
++					if (seq == 0)
++						k++;
++				}
++			}
++		}
++	}
++}
+diff -ruN CRF-1.2/src/iitb/TwoDimensionalClassifier/DataRecord.java CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/DataRecord.java
+--- CRF-1.2/src/iitb/TwoDimensionalClassifier/DataRecord.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/DataRecord.java	2022-08-25 20:57:00.000000000 +0200
+@@ -0,0 +1,135 @@
++package iitb.TwoDimensionalClassifier;
++
++import iitb.CRF.TwoDimensionalDataSequence;
++
++
++/**
++ * @author Jan Hauffa
++ */
++
++class DataRecord implements TwoDimensionalDataSequence {
++
++	private int width;
++	private int length;
++
++	private class Element
++	{
++		int data;
++		int label;
++		int trueLabel;
++		int represents;
++		boolean isNull;
++	}
++	private Element e[];
++
++	// adjust these constants to test different aspects of the 2D-CRF processing
++	private static final int maxWidth = 10;
++	private static final int maxHeight = 10;
++	private static final float accuracy = 1.0f;
++	private static final float nullProb = 0.0f;
++	private static final boolean testVirtualEdges = false;
++
++	DataRecord()
++	{
++		width = (int) Math.round((Math.random() * (double)(maxWidth - 1)) +1.0);
++		length = (int) Math.round((Math.random() * (double)(maxHeight - 1))
++			+ 1.0) * width;
++
++		e = new Element[length];
++		for (int i = 0; i < length; i++)
++			e[i] = new Element();
++
++		// Randomly generate observations and their labels:
++		// 'data' represents the observation (X) for an element of the grid. The
++		// observation can be either 0 or 1. 'label' is the associated label
++		// (Y) and can be either 0, 1 or 2. With the probability specified by
++		// the variable 'accuracy', the label is generated by the following
++		// rules:
++		// - if observation is 0, label is 0
++		// - if observation is 1, label is 1
++		// - if observation is 1 and observation of the element above is 1,
++		//   label is 2
++		GridHelper g = new GridHelper(this);
++		for (int i = 0; i < length; i++)
++		{
++			if (Math.random() >= nullProb)
++			{
++				e[i].data = (int) Math.round(Math.random() * 1.0);  // 0 or 1
++				e[i].represents = -1;
++				if (e[i].data == 0)
++					e[i].trueLabel = 0;
++				else if (e[i].data == 1)
++				{
++					int y = g.getY(i);
++					int idxAbove = g.setY(i, y - 1);
++					if ((idxAbove >= 0) && (e[idxAbove].data == 1)) {
++						e[i].trueLabel = 2;
++						if (testVirtualEdges && (e[idxAbove].trueLabel == 2))
++							e[i].represents = idxAbove;
++					}
++					else
++						e[i].trueLabel = 1;
++				}
++
++				if (Math.random() < accuracy)
++					e[i].label = e[i].trueLabel;
++				else  // generate random label 0..2
++					e[i].label = (int) Math.round(Math.random() * 2.0);
++			}
++			else
++			{
++				// classifier will not modify label of null elements
++				e[i].label = e[i].trueLabel = -1;
++				e[i].isNull = true;
++			}
++		}
++	}
++
++
++	public int trueY(int i)
++	{
++		return e[i].trueLabel;
++	}
++
++
++	// DataSequence
++
++	public int length()
++	{
++		return length;
++	}
++
++	public Object x(int i)
++	{
++		return new Integer(e[i].data);
++	}
++
++	public int y(int i)
++	{
++		return e[i].label;
++	}
++
++	public void set_y(int i, int l)
++	{
++		e[i].label = l;
++	}
++
++	
++	// TwoDimensionalDataSequence
++	
++	public int width()
++	{
++		return width;
++	}
++	
++	public int representsElement(int i)
++	{
++		return e[i].represents;
++	}
++	
++	public boolean isNull(int i)
++	{
++		return e[i].isNull;
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/TwoDimensionalClassifier/DataSet.java CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/DataSet.java
+--- CRF-1.2/src/iitb/TwoDimensionalClassifier/DataSet.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/DataSet.java	2022-08-25 20:34:53.000000000 +0200
+@@ -0,0 +1,45 @@
++package iitb.TwoDimensionalClassifier;
++
++import iitb.CRF.DataIter;
++import iitb.CRF.DataSequence;
++
++/**
++ * @author Jan Hauffa
++ */
++
++public class DataSet implements DataIter {
++
++	private DataRecord records[];
++	private int pos = 0;
++	private int numRecords;
++
++
++	DataSet(int numRecords)
++	{
++		this.numRecords = numRecords;
++		records = new DataRecord[numRecords];
++		for (int i = 0; i < numRecords; i++)
++			records[i] = new DataRecord();
++	}
++
++
++	// DataIter
++
++	public void startScan()
++	{
++		pos = 0;
++	}
++
++	public boolean hasNext()
++	{
++		return (pos < numRecords);
++	}
++
++	public DataSequence next()
++	{
++		DataSequence seq = (DataSequence) records[pos];
++		pos++;
++		return seq;
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/TwoDimensionalClassifier/FeatureGen.java CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/FeatureGen.java
+--- CRF-1.2/src/iitb/TwoDimensionalClassifier/FeatureGen.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/FeatureGen.java	2022-08-25 20:41:00.000000000 +0200
+@@ -0,0 +1,76 @@
++package iitb.TwoDimensionalClassifier;
++
++import iitb.CRF.FeatureGeneratorNested;
++import iitb.CRF.Feature;
++import iitb.CRF.DataSequence;
++import iitb.CRF.TwoDimensionalDataSequence;
++
++/**
++ * @author Jan Hauffa
++ */
++
++
++public class FeatureGen implements FeatureGeneratorNested {
++
++	private static final long serialVersionUID = 9100L; 
++	private final int numFeatures = 5;
++
++	private TwoDimensionalDataSequence data;
++	private int prevPos, pos;
++	private int index;
++
++
++	public FeatureGen()
++	{
++		index = prevPos = pos = -1;
++	}
++
++
++	// FeatureGenerator
++
++	public int numFeatures()
++	{
++		return numFeatures;
++	}
++
++	public void startScanFeaturesAt(DataSequence data, int pos)
++	{
++		startScanFeaturesAt(data, -1, pos);
++	}
++
++	public boolean hasNext()
++	{
++		return ((index != -1) && (index < numFeatures));
++	}
++
++	public Feature next()
++	{
++		Feature f = new FeatureImpl(data, prevPos, pos, index);
++		index++;
++		return f;
++	}
++
++	public String featureName(int featureIndex)
++	{
++		return "feature-" + featureIndex;
++	}
++
++
++	// FeatureGeneratorNested
++
++	public int maxMemory()
++	{
++		// not used by TwoDimensionalTrainer / -Viterbi
++		System.out.println("FeatureGenRecord.maxMemory() not implemented!");
++		return 1;
++	}
++
++	public void startScanFeaturesAt(DataSequence data, int prevPos, int pos)
++	{
++		this.data = (TwoDimensionalDataSequence) data;
++		this.prevPos = prevPos;
++		this.pos = pos;
++		index = 0;
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/TwoDimensionalClassifier/FeatureImpl.java CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/FeatureImpl.java
+--- CRF-1.2/src/iitb/TwoDimensionalClassifier/FeatureImpl.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/FeatureImpl.java	2022-08-25 21:43:24.000000000 +0200
+@@ -0,0 +1,112 @@
++package iitb.TwoDimensionalClassifier;
++
++import iitb.CRF.Feature;
++import iitb.CRF.TwoDimensionalDataSequence;
++
++/**
++ * @author Jan Hauffa
++ */
++
++
++public class FeatureImpl implements Feature {
++
++	private static final float valueFeatureFired = 0.1f;
++//	private static final float valueFeatureFired = 1.0f;
++
++	private int y, yprev, index;
++	private float value;
++
++
++	// This is rather inefficient. Ideally, the features would be generated in
++	// IFeatureGenerator::scanFeaturesAt and stored until the next call of
++	// scanFeaturesAt. That way, we could skip features with a value of 0.0,
++	// i.e. features that do not fire.
++
++	public FeatureImpl(TwoDimensionalDataSequence dataSeq2d, int pprev, int p,
++			int index)
++	{
++		this.index = index;
++		y = yprev = -1;
++		value = 0.0f;
++
++		int x = ((Integer) dataSeq2d.x(p)).intValue();
++
++		switch (index)
++		{
++			case 0:
++				y = 0;
++				if (pprev < 0) {  // vertex feature
++					if (x == 0)
++						value = valueFeatureFired;
++				}
++				break;
++			case 1:
++				y = 1;
++				if (pprev < 0) {  // vertex feature
++					if (x == 1)
++						value = valueFeatureFired;
++				}
++				break;
++			case 2:
++				y = 2;
++				if (pprev < 0) {  // vertex feature
++					if (x == 1)
++						value = valueFeatureFired;
++				}
++				break;
++			case 3:
++				y = 2;
++				yprev = 1;
++				if (pprev >= 0) {  // edge feature
++					int xprev = ((Integer) dataSeq2d.x(pprev)).intValue();
++					GridHelper g = new GridHelper(dataSeq2d);
++					if ((g.getY(pprev) == (g.getY(p) - 1)) &&
++					    (xprev == 1) && (x == 1))
++						value = valueFeatureFired;
++				}
++				break;
++			case 4:
++				y = 2;
++				yprev = 2;
++				if (pprev >= 0) {  // edge feature
++					int xprev = ((Integer) dataSeq2d.x(pprev)).intValue();
++					GridHelper g = new GridHelper(dataSeq2d);
++					if ((g.getY(pprev) == (g.getY(p) - 1)) &&
++					    (xprev == 1) && (x == 1))
++						value = valueFeatureFired;
++				}
++				break;
++			default:
++				System.out.println("invalid feature index " + index);
++		}
++	}
++
++
++	// Feature
++
++	public int index()
++	{
++		return index;
++	}
++
++	public int y()
++	{
++		return y;
++	}
++
++	public int yprev()
++	{
++		return yprev;
++	}
++
++	public float value()
++	{
++		return value;
++	}
++
++	public int[] yprevArray()
++	{
++		return null;
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/TwoDimensionalClassifier/GridHelper.java CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/GridHelper.java
+--- CRF-1.2/src/iitb/TwoDimensionalClassifier/GridHelper.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/GridHelper.java	2022-08-25 21:43:28.000000000 +0200
+@@ -0,0 +1,42 @@
++package iitb.TwoDimensionalClassifier;
++
++import iitb.CRF.TwoDimensionalDataSequence;
++
++/**
++ * @author Jan Hauffa
++ */
++
++public class GridHelper {
++
++	private int width;
++
++
++	public GridHelper(TwoDimensionalDataSequence dataSeq2d)
++	{
++		width = dataSeq2d.width();
++	}
++
++
++	public int getX(int i)
++	{
++		return (i % width);
++	}
++
++	public int getY(int i)
++	{
++		return (i / width);
++	}
++
++	public int setX(int i, int x)
++	{
++		int y = getY(i);
++		return ((y * width) + x);
++	}
++
++	public int setY(int i, int y)
++	{
++		int x = getX(i);
++		return ((y * width) + x);
++	}
++
++}
+diff -ruN CRF-1.2/src/iitb/TwoDimensionalClassifier/TwoDimensionalClassifier.java CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/TwoDimensionalClassifier.java
+--- CRF-1.2/src/iitb/TwoDimensionalClassifier/TwoDimensionalClassifier.java	1970-01-01 01:00:00.000000000 +0100
++++ CRF-1.2-mod/src/iitb/TwoDimensionalClassifier/TwoDimensionalClassifier.java	2022-08-25 21:40:03.000000000 +0200
+@@ -0,0 +1,80 @@
++package iitb.TwoDimensionalClassifier;
++
++import iitb.CRF.TwoDimensionalCRF;
++import iitb.Utils.Options;
++
++
++/**
++ * @author Sunita Sarawagi
++ * @author Jan Hauffa
++ */
++
++public class TwoDimensionalClassifier {
++
++	private final int numLabels = 3;
++	private final int numRecords = 100;
++	
++	private FeatureGen featureGen;
++	private TwoDimensionalCRF crfModel;
++
++
++	TwoDimensionalClassifier(Options opts)
++	{
++		featureGen = new FeatureGen();
++		opts.setProperty("trainer", "ll");
++		crfModel = new TwoDimensionalCRF(numLabels, featureGen, opts);
++	}
++
++	void train()
++	{
++		DataSet data = new DataSet(numRecords);
++		data.startScan();
++
++		double params[] = crfModel.train(data);
++		System.out.println("Trained model");
++		for (int i = 0; i < params.length; i++)
++			System.out.println(featureGen.featureName(i) + " " + params[i]);
++	}
++
++	void test()
++	{
++		int confMat[][] = new int[numLabels][numLabels];
++
++		for (int i = 0; i < numRecords; i++)
++		{
++			DataRecord record = new DataRecord();
++			crfModel.apply(record);
++			for (int j = 0; j < record.length(); j++)
++				if (!record.isNull(j))
++					confMat[record.trueY(j)][record.y(j)]++;
++		}
++
++		// output confusion matrix etc directly.
++		System.out.println("Confusion matrix ");
++		for (int i = 0; i < numLabels; i++)
++		{
++			System.out.print(i);
++			for (int j = 0; j < numLabels; j++)
++				System.out.print("\t" + confMat[i][j]);
++			System.out.println();
++		}
++	}
++
++	
++	public static void main(String args[])
++	{
++		try
++		{
++			Options opts = new Options(args);
++			TwoDimensionalClassifier c = new TwoDimensionalClassifier(opts);
++			c.train();
++			System.out.println("Finished training...Starting test");
++			c.test();
++		}
++		catch (Exception e)
++		{
++			e.printStackTrace();
++		}
++	}
++
++}

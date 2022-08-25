@@ -1,0 +1,94 @@
+k-Means 1
+---------
+
+recall for cluster 0 = 0.8622047244094488
+precision for cluster 0 = 0.9776785714285714
+F-score for cluster 0 = 0.9163179916317992
+recall for cluster 1 = 0.7551020408163265
+precision for cluster 1 = 1.0
+F-score for cluster 1 = 0.8604651162790697
+recall for cluster 2 = 0.875
+precision for cluster 2 = 0.11290322580645161
+F-score for cluster 2 = 0.19999999999999998
+average F-score = 0.6589277026369563
+accuracy = 0.8333333333333334
+
+
+k-Means 2
+---------
+
+recall for cluster 0 = 0.8622047244094488
+precision for cluster 0 = 0.9776785714285714
+F-score for cluster 0 = 0.9163179916317992
+recall for cluster 1 = 0.7551020408163265
+precision for cluster 1 = 1.0
+F-score for cluster 1 = 0.8604651162790697
+recall for cluster 2 = 0.875
+precision for cluster 2 = 0.11290322580645161
+F-score for cluster 2 = 0.19999999999999998
+average F-score = 0.6589277026369563
+accuracy = 0.8333333333333334
+
+
+k-Means 3
+---------
+
+recall for cluster 0 = 0.8346456692913385
+precision for cluster 0 = 0.9814814814814815
+F-score for cluster 0 = 0.902127659574468
+recall for cluster 1 = 0.826530612244898
+precision for cluster 1 = 0.9878048780487805
+F-score for cluster 1 = 0.9
+recall for cluster 2 = 1.0
+precision for cluster 2 = 0.12903225806451613
+F-score for cluster 2 = 0.2285714285714286
+average F-score = 0.6768996960486322
+accuracy = 0.8361111111111111
+
+
+k-Means++ 1
+-----------
+
+recall for cluster 0 = 0.8346456692913385
+precision for cluster 0 = 0.9814814814814815
+F-score for cluster 0 = 0.902127659574468
+recall for cluster 1 = 0.826530612244898
+precision for cluster 1 = 0.9878048780487805
+F-score for cluster 1 = 0.9
+recall for cluster 2 = 1.0
+precision for cluster 2 = 0.12903225806451613
+F-score for cluster 2 = 0.2285714285714286
+average F-score = 0.6768996960486322
+accuracy = 0.8361111111111111
+
+
+k-Means++ 2
+-----------
+
+recall for cluster 0 = 0.3464566929133858
+precision for cluster 0 = 0.946236559139785
+F-score for cluster 0 = 0.5072046109510087
+recall for cluster 1 = 0.7551020408163265
+precision for cluster 1 = 0.36097560975609755
+F-score for cluster 1 = 0.4884488448844884
+recall for cluster 2 = 0.875
+precision for cluster 2 = 0.11290322580645161
+F-score for cluster 2 = 0.19999999999999998
+average F-score = 0.39855115194516566
+accuracy = 0.46944444444444444
+
+
+k-Means++ 3
+-----------
+
+recall for cluster 0 = 0.8622047244094488
+precision for cluster 0 = 0.7348993288590604
+F-score for cluster 0 = 0.7934782608695653
+recall for cluster 1 = 0.07142857142857142
+precision for cluster 1 = 0.22580645161290322
+F-score for cluster 1 = 0.10852713178294573
+recall for cluster 2 = 0.875
+precision for cluster 2 = 0.22580645161290322
+F-score for cluster 2 = 0.358974358974359
+average F-score = 0.4203265838756233
+accuracy = 0.6472222222222223

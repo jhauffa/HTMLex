@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="138" top="26" right="314" bottom="96" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Media Player 5.5, The Free MP3 Player </Text>
+  </Block>
+  <Block left="118" top="117" right="174" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>home </Text>
+  </Block>
+  <Block left="174" top="117" right="234" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>player </Text>
+  </Block>
+  <Block left="234" top="117" right="287" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>skins </Text>
+  </Block>
+  <Block left="287" top="117" right="356" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>plug-ins </Text>
+  </Block>
+  <Block left="356" top="117" right="415" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>media </Text>
+  </Block>
+  <Block left="415" top="117" right="507" bottom="150" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>community </Text>
+  </Block>
+  <Block left="507" top="117" right="605" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>development </Text>
+  </Block>
+  <Block left="605" top="117" right="672" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>support </Text>
+  </Block>
+  <Block left="672" top="117" right="728" bottom="151" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>about </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>download </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>upgrade to pro </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>features </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>faq </Text>
+  </Block>
+  <Block left="-376" top="-274" right="-242" bottom="-251" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>overview </Text>
+  </Block>
+  <Block left="-376" top="-249" right="-242" bottom="-226" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>version history </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>browse skins </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>create a skin </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>submit a skin </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>what is a skin? </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>browse plug-ins </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>create a plug-in </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>submit a plug-in </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>what is a plug-in? </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>features </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>music </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>online radio </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>video </Text>
+  </Block>
+  <Block left="-376" top="-274" right="-242" bottom="-251" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>movies </Text>
+  </Block>
+  <Block left="-376" top="-249" right="-242" bottom="-226" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>games </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>forums </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>promote winamp </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>nsdn </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>docs </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>sdk </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>classic skins </Text>
+  </Block>
+  <Block left="-376" top="-274" right="-242" bottom="-251" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>modern skins </Text>
+  </Block>
+  <Block left="-376" top="-249" right="-242" bottom="-226" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>plug-ins </Text>
+  </Block>
+  <Block left="-376" top="-224" right="-242" bottom="-201" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>glossary </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>overview </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>help docs </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>player faq </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>tech support </Text>
+  </Block>
+  <Block left="-376" top="-274" right="-242" bottom="-251" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>winamp pro support </Text>
+  </Block>
+  <Block left="-376" top="-374" right="-242" bottom="-351" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>about us </Text>
+  </Block>
+  <Block left="-376" top="-349" right="-242" bottom="-326" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>news </Text>
+  </Block>
+  <Block left="-376" top="-324" right="-242" bottom="-301" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>story </Text>
+  </Block>
+  <Block left="-376" top="-299" right="-242" bottom="-276" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>team </Text>
+  </Block>
+  <Block left="-376" top="-274" right="-242" bottom="-251" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>alumni </Text>
+  </Block>
+  <Block left="-376" top="-249" right="-242" bottom="-226" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>jobs </Text>
+  </Block>
+  <Block left="-376" top="-224" right="-242" bottom="-201" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#4e4f4d" />
+    </Attributes>
+    <Text>what to do? </Text>
+  </Block>
+  <Block left="605" top="151" right="875" bottom="173" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>  Modern Skins Classic Skins Plugins Videos Music The Web  </Text>
+  </Block>
+  <Block left="118" top="154" right="161" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Main </Text>
+  </Block>
+  <Block left="161" top="154" right="219" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Search </Text>
+  </Block>
+  <Block left="219" top="154" right="283" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Account </Text>
+  </Block>
+  <Block left="283" top="154" right="355" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Calendar </Text>
+  </Block>
+  <Block left="355" top="154" right="427" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Members </Text>
+  </Block>
+  <Block left="427" top="154" right="467" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>FAQ </Text>
+  </Block>
+  <Block left="467" top="154" right="531" bottom="168" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Sign-Up </Text>
+  </Block>
+  <Block left="118" top="168" right="167" bottom="182" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#b9b9b9" />
+    </Attributes>
+    <Text>Rules </Text>
+  </Block>
+  <Block left="118" top="293" right="878" bottom="328" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Winamp Forums</Text>
+  </Block>
+  <Block left="170" top="338" right="441" bottom="370" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>User Control Panel </Text>
+  </Block>
+  <Block left="676" top="354" right="866" bottom="368" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>View Today&apos;s Active Threads</Text>
+  </Block>
+  <Block left="130" top="388" right="464" bottom="406" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Welcome to the WINAMP.COM | Forums.</Text>
+  </Block>
+  <Block left="130" top="406" right="868" bottom="448" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>If this is your first visit, be sure to check out the FAQ by clicking the link above. You may have to register before you can post: click the register link above to proceed. To start viewing messages, select the forum that you want to visit from the selection below.</Text>
+  </Block>
+  <Block left="130" top="468" right="446" bottom="510" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Registered Members: 250,807
+Total Threads: 261,505 | Total Posts: 2,154,977
+Welcome to our newest member, leide </Text>
+  </Block>
+  <Block left="621" top="482" right="870" bottom="510" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The time now is 01:57 PM.
+You last visited: 03-11-2008 01:57 PM. </Text>
+  </Block>
+  <Block left="157" top="533" right="199" bottom="547" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>Forum</Text>
+  </Block>
+  <Block left="499" top="533" right="535" bottom="547" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>Posts</Text>
+  </Block>
+  <Block left="556" top="533" right="609" bottom="547" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>Threads</Text>
+  </Block>
+  <Block left="651" top="533" right="712" bottom="547" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>Last Post</Text>
+  </Block>
+  <Block left="774" top="533" right="842" bottom="547" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>Moderator</Text>
+  </Block>
+  <Block left="157" top="556" right="478" bottom="644" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Tech Support Greatest Hits 
+Read-only forum with answers to the most commonly asked newbie techsupport questions pulled from all the other forums. Check here for basic Winamp support answers before digging into the forums.</Text>
+  </Block>
+  <Block left="502" top="591" right="532" bottom="609" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>100</Text>
+  </Block>
+  <Block left="572" top="591" right="592" bottom="609" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>47</Text>
+  </Block>
+  <Block left="653" top="579" right="731" bottom="621" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>12-23-2007 04:01 PM
+by DJ Egg</Text>
+  </Block>
+  <Block left="129" top="649" right="867" bottom="675" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#6d6d6d" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp </Text>
+  </Block>
+  <Block left="153" top="676" right="482" bottom="772" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Technical Support 
+Howzit....Whatzit...what tha...? How to tune up, and keep your Winamp 5 player humming along. Search this Forum to find others who have driven down your road and have advice and tips to help you out.</Text>
+  </Block>
+  <Block left="487" top="715" right="547" bottom="733" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>206599</Text>
+  </Block>
+  <Block left="557" top="715" right="607" bottom="733" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>53516</Text>
+  </Block>
+  <Block left="653" top="703" right="731" bottom="745" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 01:17 PM
+by fronlee</Text>
+  </Block>
+  <Block left="762" top="703" right="859" bottom="745" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>deppy, DJ Egg, JonnyMac, Mr Jones</Text>
+  </Block>
+  <Block left="153" top="773" right="482" bottom="841" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Discussion 
+What is Winamp 5? Why is Winamp 5? How is Winamp 5? All these burning questions and issues discussed within.</Text>
+  </Block>
+  <Block left="492" top="798" right="542" bottom="816" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>59155</Text>
+  </Block>
+  <Block left="562" top="798" right="602" bottom="816" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7587</Text>
+  </Block>
+  <Block left="624" top="786" right="731" bottom="828" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 04:06 AM
+by Grumblebum</Text>
+  </Block>
+  <Block left="763" top="793" right="858" bottom="821" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>CraigF, deppy, Kaboon, will</Text>
+  </Block>
+  <Block left="153" top="842" right="482" bottom="910" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Site Design 
+Love it? Hate it? This is the place to give the admins and developers feedback on the winamp.com site itself.</Text>
+  </Block>
+  <Block left="502" top="867" right="532" bottom="885" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>290</Text>
+  </Block>
+  <Block left="572" top="867" right="592" bottom="885" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>61</Text>
+  </Block>
+  <Block left="636" top="855" right="731" bottom="897" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 04:34 AM
+by Nunzio390</Text>
+  </Block>
+  <Block left="789" top="869" right="828" bottom="883" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>deppy</Text>
+  </Block>
+  <Block left="153" top="911" right="482" bottom="979" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Wishlist 
+Do you have a great idea about Winamp 5? Let us know and maybe your features will be in the next release!</Text>
+  </Block>
+  <Block left="492" top="936" right="542" bottom="954" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>30276</Text>
+  </Block>
+  <Block left="562" top="936" right="602" bottom="954" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8271</Text>
+  </Block>
+  <Block left="653" top="924" right="731" bottom="966" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 05:25 PM
+by CraigF</Text>
+  </Block>
+  <Block left="756" top="938" right="861" bottom="952" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>sgtfuzzbubble99</Text>
+  </Block>
+  <Block left="153" top="980" right="482" bottom="1048" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Bug Reports 
+Did you find a bug in Winamp 5? Can you reproduce it? Let us know, we&apos;ll try to fix it as soon as possible!</Text>
+  </Block>
+  <Block left="492" top="1005" right="542" bottom="1023" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>21225</Text>
+  </Block>
+  <Block left="562" top="1005" right="602" bottom="1023" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4895</Text>
+  </Block>
+  <Block left="640" top="993" right="731" bottom="1035" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 11:48 PM
+by J_Darnley</Text>
+  </Block>
+  <Block left="763" top="1007" right="853" bottom="1021" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>CraigF, DJ Egg</Text>
+  </Block>
+  <Block left="153" top="1049" right="482" bottom="1141" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Remote 
+All things Winamp Remote shall hereforth be discussed here!</Text>
+  </Block>
+  <Block left="497" top="1086" right="537" bottom="1104" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2473</Text>
+  </Block>
+  <Block left="567" top="1086" right="597" bottom="1104" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>642</Text>
+  </Block>
+  <Block left="636" top="1067" right="731" bottom="1123" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 03:16 AM
+by NeighborMike</Text>
+  </Block>
+  <Block left="763" top="1053" right="858" bottom="1137" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>aguion, akorb, iMacAtOrb, montale127, olivier_t, rafcortina, williamatorb</Text>
+  </Block>
+  <Block left="129" top="1142" right="867" bottom="1168" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#6d6d6d" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SHOUTcast </Text>
+  </Block>
+  <Block left="153" top="1169" right="482" bottom="1237" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SHOUTcast Technical Support 
+Something go south with your SHOUTcast? Need tips to get up and streaming. check in here with the experts.</Text>
+  </Block>
+  <Block left="487" top="1194" right="547" bottom="1212" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>158135</Text>
+  </Block>
+  <Block left="557" top="1194" right="607" bottom="1212" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>31296</Text>
+  </Block>
+  <Block left="633" top="1175" right="731" bottom="1231" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 01:36 PM
+by Tony_Smoove</Text>
+  </Block>
+  <Block left="761" top="1189" right="858" bottom="1217" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>CraigF, deppy, Germ, Jay, Tom</Text>
+  </Block>
+  <Block left="153" top="1238" right="482" bottom="1306" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>SHOUTcast Discussions 
+Have SHOUTcast questions or suggestions? Want to help a fellow SHOUTcaster or Listener? Come on in!</Text>
+  </Block>
+  <Block left="492" top="1263" right="542" bottom="1281" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>85284</Text>
+  </Block>
+  <Block left="557" top="1263" right="607" bottom="1281" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>18095</Text>
+  </Block>
+  <Block left="653" top="1251" right="731" bottom="1293" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 11:37 AM
+by Sawg</Text>
+  </Block>
+  <Block left="761" top="1258" right="858" bottom="1286" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>CraigF, deppy, Germ, Jay, Tom</Text>
+  </Block>
+  <Block left="153" top="1307" right="482" bottom="1403" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Nullsoft Streaming Video 
+Discussion and support for NSV. A new video format designed to be easily streamed, support any audio and video codec, and be usable on nearly any platform. WARNING: Beta Software, not for the weak.</Text>
+  </Block>
+  <Block left="492" top="1346" right="542" bottom="1364" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>26535</Text>
+  </Block>
+  <Block left="562" top="1346" right="602" bottom="1364" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3993</Text>
+  </Block>
+  <Block left="653" top="1334" right="731" bottom="1376" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 07:47 PM
+by Stunod7</Text>
+  </Block>
+  <Block left="763" top="1341" right="858" bottom="1369" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>CraigF, deppy, Germ, Jay</Text>
+  </Block>
+  <Block left="129" top="1404" right="867" bottom="1430" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#6d6d6d" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Community Center </Text>
+  </Block>
+  <Block left="153" top="1431" right="482" bottom="1495" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>General Discussions 
+You wanna talk about something, but don&apos;t know where to turn? Chat your heart out here...</Text>
+  </Block>
+  <Block left="487" top="1454" right="547" bottom="1472" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>598857</Text>
+  </Block>
+  <Block left="557" top="1454" right="607" bottom="1472" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>30639</Text>
+  </Block>
+  <Block left="639" top="1435" right="731" bottom="1491" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 01:42 PM
+by Warrior of the Light</Text>
+  </Block>
+  <Block left="764" top="1449" right="856" bottom="1477" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Bilbo Baggins, ElChevelle</Text>
+  </Block>
+  <Block left="153" top="1496" right="482" bottom="1578" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Breaking News 
+The forum for all things in the news. Politics, war, international, national, technical, program releases. All the news that&apos;s fit to blab about. Now more than before.</Text>
+  </Block>
+  <Block left="492" top="1528" right="542" bottom="1546" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>49755</Text>
+  </Block>
+  <Block left="562" top="1528" right="602" bottom="1546" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3664</Text>
+  </Block>
+  <Block left="635" top="1516" right="731" bottom="1558" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 02:07 AM
+by k_rock923</Text>
+  </Block>
+  <Block left="153" top="1579" right="482" bottom="1661" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Music O&apos;Rama 
+All music all the time. For musicians and fans and critics and engineers and audiophiles and for anyone who&apos;s ever wanted to make a loud noise by strumming, blowing or hitting something.</Text>
+  </Block>
+  <Block left="492" top="1611" right="542" bottom="1629" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>52160</Text>
+  </Block>
+  <Block left="562" top="1611" right="602" bottom="1629" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1599</Text>
+  </Block>
+  <Block left="653" top="1599" right="731" bottom="1641" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 02:40 AM
+by ryan</Text>
+  </Block>
+  <Block left="754" top="1606" right="867" bottom="1634" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DJ Egg, Mr Jones, Twilightseer</Text>
+  </Block>
+  <Block left="153" top="1662" right="482" bottom="1772" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Games Center 
+A small corner of Winamp dedicated to the pursuit of video &amp; computer gaming. Come and shout about your high scores, the bosses you have slayed and most of all tell us how to wrestle the controller away from Jon Ward when he&apos;s playing Puzzle Fighter</Text>
+  </Block>
+  <Block left="492" top="1708" right="542" bottom="1726" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13925</Text>
+  </Block>
+  <Block left="567" top="1708" right="597" bottom="1726" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>959</Text>
+  </Block>
+  <Block left="634" top="1696" right="731" bottom="1738" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 12:51 AM
+by Omit Name</Text>
+  </Block>
+  <Block left="754" top="1696" right="867" bottom="1738" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mr Jones, sgtfuzzbubble99, Twilightseer</Text>
+  </Block>
+  <Block left="153" top="1773" right="482" bottom="1841" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Movies and Television 
+This is the place for chit chat about the latest movie to the classic black and white cinema, from the silver screen to the television.</Text>
+  </Block>
+  <Block left="497" top="1798" right="537" bottom="1816" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>5870</Text>
+  </Block>
+  <Block left="567" top="1798" right="597" bottom="1816" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>444</Text>
+  </Block>
+  <Block left="638" top="1786" right="731" bottom="1828" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 10:52 AM
+by Widdykats</Text>
+  </Block>
+  <Block left="153" top="1842" right="482" bottom="1924" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>The Bitchlist 
+Need a place to rant, vent, spew? Something happening within the Winamp universe you don&apos;t like? This is your place to bitch at the injustice and general unfairness of the World.</Text>
+  </Block>
+  <Block left="492" top="1874" right="542" bottom="1892" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>55326</Text>
+  </Block>
+  <Block left="562" top="1874" right="602" bottom="1892" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3100</Text>
+  </Block>
+  <Block left="618" top="1855" right="731" bottom="1911" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 06:30 PM
+by MidnightViper88</Text>
+  </Block>
+  <Block left="767" top="1869" right="854" bottom="1897" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>. - .... .- -. ...., ElChevelle</Text>
+  </Block>
+  <Block left="153" top="1925" right="482" bottom="2023" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>International Connection 
+Have a problem, suggestion, comment, but you find it easier to express yourself en Fran硩s, auf Deutsch, en Espanol, in Nederlands, in Italiano? Esperanto? This is your space on the Winamp forums.</Text>
+  </Block>
+  <Block left="497" top="1965" right="537" bottom="1983" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7764</Text>
+  </Block>
+  <Block left="567" top="1965" right="597" bottom="1983" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>621</Text>
+  </Block>
+  <Block left="647" top="1953" right="731" bottom="1995" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>02-03-2008 11:22 AM
+by cesare2k</Text>
+  </Block>
+  <Block left="770" top="1960" right="846" bottom="1988" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kaboon, Twilightseer</Text>
+  </Block>
+  <Block left="129" top="2024" right="867" bottom="2050" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#6d6d6d" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Skinning and Design </Text>
+  </Block>
+  <Block left="153" top="2051" right="482" bottom="2147" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Skinning Tips and Tricks 
+Need help in drawing and cutting and pasting them thar purty pictures into a Winamp Skin? A read-only forum with answers to the most commonly asked newbie skinning questions pulled from other forums.</Text>
+  </Block>
+  <Block left="507" top="2090" right="527" bottom="2108" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>90</Text>
+  </Block>
+  <Block left="572" top="2090" right="592" bottom="2108" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>18</Text>
+  </Block>
+  <Block left="649" top="2078" right="731" bottom="2120" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>10-10-2007 10:25 AM
+by Mr Jones</Text>
+  </Block>
+  <Block left="781" top="2092" right="836" bottom="2106" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>Mr Jones</Text>
+  </Block>
+  <Block left="153" top="2148" right="482" bottom="2230" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Classic Skins 
+The place for all your Winamp Classic Skin lovin&apos;. This is where you can share your favorite skins, get ideas for a new skin, or just get help on building your own...</Text>
+  </Block>
+  <Block left="492" top="2180" right="542" bottom="2198" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>99682</Text>
+  </Block>
+  <Block left="562" top="2180" right="602" bottom="2198" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6776</Text>
+  </Block>
+  <Block left="649" top="2168" right="731" bottom="2210" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 01:53 PM
+by Mr Jones</Text>
+  </Block>
+  <Block left="781" top="2182" right="836" bottom="2196" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>Mr Jones</Text>
+  </Block>
+  <Block left="153" top="2231" right="482" bottom="2327" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Modern Skins 
+The home for Winamp Modern Skins. This is where art and code clash! If you get stuck with your Maki (Nullsoft&apos;s scripting language) or XML, come on over! If you figure out a clever way to do something, post your solution here!</Text>
+  </Block>
+  <Block left="492" top="2270" right="542" bottom="2288" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>78987</Text>
+  </Block>
+  <Block left="562" top="2270" right="602" bottom="2288" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6020</Text>
+  </Block>
+  <Block left="653" top="2258" right="731" bottom="2300" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 05:39 AM
+by osmosis</Text>
+  </Block>
+  <Block left="767" top="2272" right="850" bottom="2286" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mr Jones, will</Text>
+  </Block>
+  <Block left="153" top="2328" right="482" bottom="2396" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Arts and Design 
+A general forum for the artistic people in the forums. Design, graphics, art, avatars and other shiny objects.</Text>
+  </Block>
+  <Block left="497" top="2353" right="537" bottom="2371" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6808</Text>
+  </Block>
+  <Block left="567" top="2353" right="597" bottom="2371" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>382</Text>
+  </Block>
+  <Block left="649" top="2341" right="731" bottom="2383" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 08:51 AM
+by Mr Jones</Text>
+  </Block>
+  <Block left="153" top="2397" right="482" bottom="2469" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Skin and Plug-in Rip Reporting for Removal 
+Report ripped skins and/or plugins here for immediate action(removal).</Text>
+  </Block>
+  <Block left="497" top="2424" right="537" bottom="2442" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2704</Text>
+  </Block>
+  <Block left="567" top="2424" right="597" bottom="2442" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>707</Text>
+  </Block>
+  <Block left="649" top="2412" right="731" bottom="2454" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-10-2008 12:03 PM
+by Mr Jones</Text>
+  </Block>
+  <Block left="757" top="2419" right="863" bottom="2447" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>. - .... .- -. ...., Mr Jones</Text>
+  </Block>
+  <Block left="129" top="2470" right="867" bottom="2496" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#6d6d6d" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Developer Center </Text>
+  </Block>
+  <Block left="153" top="2497" right="482" bottom="2579" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Winamp Development 
+Discussion and help for Winamp plug-ins and add-on development, because shop talk makes for mo bettah tweaking. Threads not development related will be locked.</Text>
+  </Block>
+  <Block left="492" top="2529" right="542" bottom="2547" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>20264</Text>
+  </Block>
+  <Block left="562" top="2529" right="602" bottom="2547" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3145</Text>
+  </Block>
+  <Block left="633" top="2517" right="731" bottom="2559" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 09:25 AM
+by psykokwak</Text>
+  </Block>
+  <Block left="782" top="2531" right="834" bottom="2545" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>DrO, will</Text>
+  </Block>
+  <Block left="153" top="2580" right="482" bottom="2676" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>NSIS Discussion 
+Are you a developer who uses NSIS to distribute your application? Are you a Winamp plug-in developer who wants to use NSIS to distribute your plug-in? Have suggestions for other people like you? This is the place.</Text>
+  </Block>
+  <Block left="492" top="2619" right="542" bottom="2637" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>81702</Text>
+  </Block>
+  <Block left="557" top="2619" right="607" bottom="2637" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13994</Text>
+  </Block>
+  <Block left="637" top="2607" right="731" bottom="2649" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 01:42 PM
+by hungryOrb</Text>
+  </Block>
+  <Block left="759" top="2621" right="858" bottom="2635" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Afrow UK, kichik</Text>
+  </Block>
+  <Block left="129" top="2677" right="867" bottom="2703" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#6d6d6d" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Visualizations </Text>
+  </Block>
+  <Block left="153" top="2704" right="482" bottom="2814" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>AVS 
+A space to talk about everything related to Winamp Advanced Visualization Studio. Look at the pretty lights.... If you have any troubleshooting questions, bugs, or feature requests, submit them to the AVS SUB-Forums instead of this one!</Text>
+  </Block>
+  <Block left="492" top="2750" right="542" bottom="2768" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>45350</Text>
+  </Block>
+  <Block left="562" top="2750" right="602" bottom="2768" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4261</Text>
+  </Block>
+  <Block left="646" top="2738" right="731" bottom="2780" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 07:29 AM
+by Yathosho</Text>
+  </Block>
+  <Block left="778" top="2738" right="842" bottom="2780" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Rocker, Rovastar, UnConeD</Text>
+  </Block>
+  <Block left="153" top="2815" right="482" bottom="2911" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>MilkDrop 
+Posting general comments about the MilkDrop plug-in for Winamp here! If you have a bug report or troubleshooting question, a feature request, or want to share a preset you&apos;ve made, please use that specific SUB-Forums instead of this one!</Text>
+  </Block>
+  <Block left="492" top="2854" right="542" bottom="2872" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>14369</Text>
+  </Block>
+  <Block left="562" top="2854" right="602" bottom="2872" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2698</Text>
+  </Block>
+  <Block left="649" top="2842" right="731" bottom="2884" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 06:23 AM
+by hexcollie</Text>
+  </Block>
+  <Block left="780" top="2856" right="836" bottom="2870" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>Rovastar</Text>
+  </Block>
+  <Block left="153" top="2912" right="482" bottom="2980" depth="11">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#eeeeee" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Other Visualizations 
+There is just more then AVS and Milkdrop. Check out Nullsoft&apos;s other free visualizations by Ryan Geiss.</Text>
+  </Block>
+  <Block left="502" top="2937" right="532" bottom="2955" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>425</Text>
+  </Block>
+  <Block left="567" top="2937" right="597" bottom="2955" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>149</Text>
+  </Block>
+  <Block left="653" top="2925" right="731" bottom="2967" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>01-27-2008 04:10 AM
+by Clancy</Text>
+  </Block>
+  <Block left="157" top="2985" right="478" bottom="3045" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Recycle Bin 
+The forums wasteground. Posts here count towards nothing, your life may be better off without them.</Text>
+  </Block>
+  <Block left="487" top="3006" right="547" bottom="3024" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>240467</Text>
+  </Block>
+  <Block left="562" top="3006" right="602" bottom="3024" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2786</Text>
+  </Block>
+  <Block left="653" top="2994" right="731" bottom="3036" depth="17">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>03-11-2008 01:54 PM
+by QOAL</Text>
+  </Block>
+  <Block left="776" top="3008" right="841" bottom="3022" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#5e0f0a" />
+    </Attributes>
+    <Text>ElChevelle</Text>
+  </Block>
+  <Block left="133" top="3054" right="317" bottom="3072" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>Currently Active Users</Text>
+  </Block>
+  <Block left="317" top="3054" right="372" bottom="3072" depth="13">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="10" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#eed200" />
+    </Attributes>
+    <Text>: 3566</Text>
+  </Block>
+  <Block left="133" top="3081" right="854" bottom="3165" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>There are currently 48 members and 3518 guests on the boards. | Most users ever online was 4729 on 09-07-2006 at 11:16 AM.
+annn, arthurvasey, Benski, Bilbo9955, cheryll, CJPR, DEbln001, denkensiefursich, fronlee, gaekwad2, grimley_tolanes, hexcollie, hungryOrb, IDish, Instructor, jasonlau, kathisharpe, kofplayer, k_rock923, Laslie, leide, mike-db, Novation, pandaking, psykokwak, QOAL, Rocker, Rovastar, sattawattam, seb kirche, The Serminator, Tony_Smoove, vasilievici, vbguy, Vercoln, Vie, virtual girl, vlad-mal, Warrior of the Light, zootm</Text>
+  </Block>
+  <Block left="130" top="3188" right="411" bottom="3202" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.55" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>All times are GMT. The time now is 01:57 PM.</Text>
+  </Block>
+  <Block left="511" top="3186" right="868" bottom="3263" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mark All Forums Read | Forum Leaders Not cookied?
+Login with username and password:
+    </Text>
+  </Block>
+  <Block left="128" top="3279" right="868" bottom="3299" depth="7">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text> New posts     No new posts     A closed forum </Text>
+  </Block>
+  <Block left="244" top="3324" right="281" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>Home </Text>
+  </Block>
+  <Block left="281" top="3324" right="337" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Site Map </Text>
+  </Block>
+  <Block left="337" top="3324" right="396" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· About Us </Text>
+  </Block>
+  <Block left="396" top="3324" right="448" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Support </Text>
+  </Block>
+  <Block left="448" top="3324" right="530" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Privacy Policy </Text>
+  </Block>
+  <Block left="530" top="3324" right="599" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Advertising </Text>
+  </Block>
+  <Block left="599" top="3324" right="709" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Labeled with ICRA </Text>
+  </Block>
+  <Block left="709" top="3324" right="754" bottom="3339" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Terms </Text>
+  </Block>
+  <Block left="334" top="3343" right="409" bottom="3358" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>Online Radio </Text>
+  </Block>
+  <Block left="409" top="3343" right="461" bottom="3358" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Spinner </Text>
+  </Block>
+  <Block left="461" top="3343" right="502" bottom="3358" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Music </Text>
+  </Block>
+  <Block left="502" top="3343" right="549" bottom="3358" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Movies </Text>
+  </Block>
+  <Block left="549" top="3343" right="599" bottom="3358" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Games </Text>
+  </Block>
+  <Block left="599" top="3343" right="664" bottom="3358" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.15" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#d7d7d7" />
+    </Attributes>
+    <Text>· Television </Text>
+  </Block>
+  <Block left="258" top="3368" right="395" bottom="3382" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>More on AOL Music: Music | </Text>
+  </Block>
+  <Block left="395" top="3368" right="507" bottom="3382" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Listen to Online Radio | </Text>
+  </Block>
+  <Block left="507" top="3368" right="662" bottom="3382" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Watch the Top 11 Video show | </Text>
+  </Block>
+  <Block left="240" top="3368" right="740" bottom="3396" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>See AOL Music Sessions live performances | </Text>
+  </Block>
+  <Block left="383" top="3382" right="493" bottom="3396" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Watch LIVE concerts | </Text>
+  </Block>
+  <Block left="493" top="3382" right="651" bottom="3396" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Listen to new CDs every week | </Text>
+  </Block>
+  <Block left="350" top="3382" right="757" bottom="3410" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Read the latest music news | </Text>
+  </Block>
+  <Block left="386" top="3396" right="548" bottom="3410" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Download Winamp Media Player | </Text>
+  </Block>
+  <Block left="548" top="3396" right="647" bottom="3410" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Listen to AOL Radio </Text>
+  </Block>
+  <Block left="248" top="3420" right="332" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>More Links: Mail | </Text>
+  </Block>
+  <Block left="332" top="3420" right="375" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Search | </Text>
+  </Block>
+  <Block left="375" top="3420" right="404" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>TMZ | </Text>
+  </Block>
+  <Block left="404" top="3420" right="459" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Mapquest | </Text>
+  </Block>
+  <Block left="459" top="3420" right="513" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>CityGuide | </Text>
+  </Block>
+  <Block left="513" top="3420" right="563" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Celebrity | </Text>
+  </Block>
+  <Block left="563" top="3420" right="603" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Money | </Text>
+  </Block>
+  <Block left="603" top="3420" right="656" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Engadget | </Text>
+  </Block>
+  <Block left="656" top="3420" right="707" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Autoblog | </Text>
+  </Block>
+  <Block left="707" top="3420" right="749" bottom="3434" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Joystiq | </Text>
+  </Block>
+  <Block left="369" top="3434" right="451" bottom="3448" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>BloggingStocks | </Text>
+  </Block>
+  <Block left="451" top="3434" right="490" bottom="3448" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>TUAW | </Text>
+  </Block>
+  <Block left="490" top="3434" right="578" bottom="3448" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>DownloadSquad | </Text>
+  </Block>
+  <Block left="578" top="3434" right="629" bottom="3448" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Styeldash </Text>
+  </Block>
+  <Block left="223" top="3458" right="773" bottom="3486" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Download Winamp, The #1 Free Media Player. Play your MP3, AAC, MPEG, AVI files, and more. Get free MP3 songs, videos, skins and plug-ins. Synch your iPod or Creative Zen, and get mobile music with Winamp Remote.</Text>
+  </Block>
+  <Block left="223" top="3496" right="773" bottom="3510" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.5" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#a26763" />
+    </Attributes>
+    <Text>Copyright © 1999 - 2007 Nullsoft. All Rights Reserved.</Text>
+  </Block>
+
+</Page>

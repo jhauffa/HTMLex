@@ -1,0 +1,142 @@
+fuzzy c-Means
+-------------
+
+recall for cluster 0 = 0.562992125984252
+precision for cluster 0 = 1.0
+F-score for cluster 0 = 0.7204030226700252
+recall for cluster 1 = 0.9285714285714286
+precision for cluster 1 = 0.9578947368421052
+F-score for cluster 1 = 0.9430051813471502
+recall for cluster 2 = 0.625
+precision for cluster 2 = 0.040983606557377046
+F-score for cluster 2 = 0.07692307692307691
+average F-score = 0.5801104269800841
+accuracy = 0.6638888888888889
+
+
+k-Means
+-------
+
+recall for cluster 0 = 0.9606299212598425
+precision for cluster 0 = 1.0
+F-score for cluster 0 = 0.9799196787148594
+recall for cluster 1 = 0.9591836734693877
+precision for cluster 1 = 0.9215686274509803
+F-score for cluster 1 = 0.9400000000000001
+recall for cluster 2 = 0.125
+precision for cluster 2 = 0.07142857142857142
+F-score for cluster 2 = 0.09090909090909091
+average F-score = 0.6702762565413168
+accuracy = 0.9416666666666667
+
+
+k-Means++
+---------
+
+recall for cluster 0 = 0.8346456692913385
+precision for cluster 0 = 0.9814814814814815
+F-score for cluster 0 = 0.902127659574468
+recall for cluster 1 = 0.826530612244898
+precision for cluster 1 = 0.9878048780487805
+F-score for cluster 1 = 0.9
+recall for cluster 2 = 1.0
+precision for cluster 2 = 0.12903225806451613
+F-score for cluster 2 = 0.2285714285714286
+average F-score = 0.6768996960486322
+accuracy = 0.8361111111111111
+
+
+SOM
+---
+
+recall for cluster 0 = 0.7677165354330708
+precision for cluster 0 = 1.0
+F-score for cluster 0 = 0.8685968819599109
+recall for cluster 1 = 0.9591836734693877
+precision for cluster 1 = 0.912621359223301
+F-score for cluster 1 = 0.9353233830845772
+recall for cluster 2 = 0.125
+precision for cluster 2 = 0.016129032258064516
+F-score for cluster 2 = 0.028571428571428574
+average F-score = 0.6108305645386388
+accuracy = 0.8055555555555556
+
+
+SOM-SD 0
+--------
+
+recall for cluster 0 = 0.5393700787401575
+precision for cluster 0 = 0.6682926829268293
+F-score for cluster 0 = 0.5969498910675382
+recall for cluster 1 = 0.2857142857142857
+precision for cluster 1 = 0.27722772277227725
+F-score for cluster 1 = 0.2814070351758794
+recall for cluster 2 = 0.25
+precision for cluster 2 = 0.037037037037037035
+F-score for cluster 2 = 0.06451612903225806
+average F-score = 0.3142910184252252
+accuracy = 0.4638888888888889
+
+
+SOM-SD 1
+--------
+
+recall for cluster 0 = 0.3188976377952756
+precision for cluster 0 = 1.0
+F-score for cluster 0 = 0.48358208955223886
+recall for cluster 1 = 0.9081632653061225
+precision for cluster 1 = 0.4472361809045226
+F-score for cluster 1 = 0.5993265993265993
+recall for cluster 2 = 0.0
+precision for cluster 2 = 0.0
+F-score for cluster 2 = 0.0
+average F-score = 0.36096956295961274
+accuracy = 0.4722222222222222
+
+
+SOM-SD 2
+--------
+
+recall for cluster 0 = 0.5551181102362205
+precision for cluster 0 = 0.6746411483253588
+F-score for cluster 0 = 0.6090712742980562
+recall for cluster 1 = 0.24489795918367346
+precision for cluster 1 = 0.2376237623762376
+F-score for cluster 1 = 0.24120603015075376
+recall for cluster 2 = 0.25
+precision for cluster 2 = 0.04
+F-score for cluster 2 = 0.06896551724137932
+average F-score = 0.30641427389672976
+accuracy = 0.4638888888888889
+
+
+SOM-SD 3
+--------
+
+recall for cluster 0 = 0.6299212598425197
+precision for cluster 0 = 0.935672514619883
+F-score for cluster 0 = 0.7529411764705882
+recall for cluster 1 = 0.8673469387755102
+precision for cluster 1 = 0.5704697986577181
+F-score for cluster 1 = 0.6882591093117408
+recall for cluster 2 = 0.0
+precision for cluster 2 = 0.0
+F-score for cluster 2 = 0.0
+average F-score = 0.48040009526077637
+accuracy = 0.6805555555555556
+
+
+SOM-SD 4
+--------
+
+recall for cluster 0 = 0.6732283464566929
+precision for cluster 0 = 0.9884393063583815
+F-score for cluster 0 = 0.8009367681498829
+recall for cluster 1 = 0.9897959183673469
+precision for cluster 1 = 0.6598639455782312
+F-score for cluster 1 = 0.7918367346938775
+recall for cluster 2 = 0.0
+precision for cluster 2 = 0.0
+F-score for cluster 2 = 0.0
+average F-score = 0.5309245009479201
+accuracy = 0.7444444444444445

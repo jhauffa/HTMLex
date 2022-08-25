@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="144" top="123" right="351" bottom="161" depth="4">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="19.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Haggy&apos;s World</Text>
+  </Block>
+  <Block left="144" top="155" right="872" bottom="172" depth="3">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#8e9fb0" />
+    </Attributes>
+    <Text>Hagggy&apos;s World</Text>
+  </Block>
+  <Block left="144" top="207" right="625" bottom="235" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Montag | März 10, 2008</Text>
+  </Block>
+  <Block left="144" top="251" right="625" bottom="290" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Die Bahn machts </Text>
+  </Block>
+  <Block left="144" top="315" right="625" bottom="1097" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Die Bahn machts möglich. Keine Streiks und gerade deswegen keine Züge.
+Unglaublich aber wahr.
+
+Heute 7:10 HBF Karlsruhe. Die Anzeigetafel zeigt die direkt Auswirkung des Streiks auf mich &quot;Zug entfällt&quot; aber kein Problem ca 7:25 ginge der nächste. Doch kurz vor abfahrt &quot;Zug entfällt&quot;. An dieser Stelle erstmal herzlichen dank dass man mich auf dem HBF hinhält ,damit ich mit noch den 3. Kaffe im Bahnhof hole statt ne stunde später aufstehe und die gleiche anzahl an Kaffess für einen bruchteil des Bahnhofspreises und in meinem Schlafanzug trinken könnte...
+An der Auskunft sagt man mit 08:02 geht der nächste und in Gedanken füge ich ahn &quot;genau wie der um 7:25...&quot;
+
+Zunächst waren für diesen Montag Streiks angekündigt, worauf sich die Bahn wohl dachte &quot;wir haben was aus den letzten Streiks gelernt!&quot; Und stellte spontan ausfallpläne vor. Allerdings dachte / glaubte Sie wohl nicht daran dass diese Streiks auch ausfallen könnten.
+
+Das war zugegebenersmaßen auch eher die unwahrscheinlichere Variante. Allerdings finde ich das schon komisch. Im Allgemeinen hat die GDL gestreikt wo streiken ging.
+Selbst als man sehr spontant ein Angebot der Bahn vorlag das zunächst für die GDL &quot;Diskussionswürdig&quot; aussah konnten Streiks kurzfristig nicht mehr verhindert werden.
+Aber nun da die Bahn drauf eingestellt und nicht mehr in der lag war die Pläne zurückzunehmen kann man doch den Streik absagen?
+
+Für mich persönlich fühlt sich das nach taktieren an. Ein Katz und Maus Spiel, das vorallem die Pendler ausbaden dürfen.
+Sollten die Streiks eigentlich nicht die Umstände der &quot;hart arbeitenden Bevölkerung&quot; verbessern?
+
+Ich würde mal Behaupten dass man die leute die 2 stunden und mehr jeden Tag im Zug verbringen dazu zählen könnten.
+Nun dürfen aber gerade diese Leute die Lohnerhöhung der Lokführer tragen. Na super...
+
+
+Das der Streikführer vermutlich in Rente mehr Pension als die meisten Arbeiter als Gehalt bekommen, eben dieser auch mal schnell in Urlaub fährt während die Pendler auf die Züge warten und das dieser Mann wegen seines absehbaren Arbeitsende eh nichts zu verlieren hat, sträkt nicht gerade die Glaubwürdigkeit.
+
+
+In dem Sinn Prost ! </Text>
+  </Block>
+  <Block left="144" top="1112" right="625" bottom="1124" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Tags: Bahn | Höflichkeit | Idioten | Streik | Unpünktlichikeit</Text>
+  </Block>
+  <Block left="144" top="1134" right="625" bottom="1149" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 07:42 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="1149" right="625" bottom="1177" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Donnerstag | August 30, 2007</Text>
+  </Block>
+  <Block left="144" top="1193" right="625" bottom="1232" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>WW - Werder weiter </Text>
+  </Block>
+  <Block left="144" top="1257" right="625" bottom="1291" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Werder bremen hats gepackt ! Freue mich auf tolle championsleague spiele ! s. www.werder.de </Text>
+  </Block>
+  <Block left="144" top="1295" right="625" bottom="1310" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 08:19 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="1310" right="625" bottom="1338" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Mittwoch | August 29, 2007</Text>
+  </Block>
+  <Block left="144" top="1354" right="625" bottom="1393" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>2. September </Text>
+  </Block>
+  <Block left="144" top="1418" right="625" bottom="1452" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Mal wieder ist es  soweit. DEr 2. September ist gekommen und läd zu einem Tag des Feierns ein !</Text>
+  </Block>
+  <Block left="144" top="1515" right="625" bottom="1532" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Freue mich jetzt schon auf eine gute Party! </Text>
+  </Block>
+  <Block left="144" top="1554" right="625" bottom="1569" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 15:20 | Permanent Link | Kommentare (1) | </Text>
+  </Block>
+  <Block left="144" top="1569" right="625" bottom="1597" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Montag | August 20, 2007</Text>
+  </Block>
+  <Block left="144" top="1613" right="625" bottom="1681" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Petition gegen die Abmahnwelle von Websites </Text>
+  </Block>
+  <Block left="144" top="1706" right="625" bottom="1893" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Habe einen Link von einem Bekannten bekommen.
+Im Bundestag liegt eine Petition gegen die Abmahnwelle gegen Webseiten im Internet vor.
+Diese sieht vor, dass Jemand dessen Seite z.bsp. kein Impressum enthält. zuerst persönlich kostenlos darauf aufgemacht werden muss und nur wenn dieser den Zustand nicht innerhalb eniger Wochen ändert, mittels Anwalt abemahnt werden kann.
+
+Weitere infos und die möglichkeit zum mitzeichnen unter:http://itc.napier.ac.uk/e-Petition/bundestag/view_petition.asp?PetitionID=478</Text>
+  </Block>
+  <Block left="144" top="1897" right="625" bottom="1912" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 08:43 | Permanent Link | Kommentare (2) | </Text>
+  </Block>
+  <Block left="144" top="1912" right="625" bottom="1940" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Dienstag | August 14, 2007</Text>
+  </Block>
+  <Block left="144" top="1956" right="625" bottom="1995" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Umzug </Text>
+  </Block>
+  <Block left="144" top="2020" right="625" bottom="2071" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>So der Umzug rückt näher ende der Woche geht es nach KA. Ich freue mich auf das Zusammenzeihen mit Lisa, die Stadt an sich sowie den kürzeren Arbeitsweg.</Text>
+  </Block>
+  <Block left="144" top="2174" right="625" bottom="2208" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Bilder von der Wohnung werde ich hier demnächst auch ncoh online stellen :) </Text>
+  </Block>
+  <Block left="144" top="2230" right="625" bottom="2245" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 11:31 | Permanent Link | Kommentare (1) | </Text>
+  </Block>
+  <Block left="144" top="2245" right="625" bottom="2273" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Freitag | Juli 20, 2007</Text>
+  </Block>
+  <Block left="144" top="2289" right="625" bottom="2328" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Vieles tut sich </Text>
+  </Block>
+  <Block left="144" top="2353" right="625" bottom="2404" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>In den letzten Monaten kam ich leider nicht dazu diesem Blog  Aufmerksamkeit zu schenken. Immerhin konnte ich meinen technishcen / .NET Blog aktiv halten s. http://www.BE-IT.NET.</Text>
+  </Block>
+  <Block left="144" top="2427" right="625" bottom="2461" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text> Eine Erfreuliche Meldung gleich vorweg: habe die Prüfung zum MCTS erfolgreich bestanden ! :)</Text>
+  </Block>
+  <Block left="144" top="2484" right="625" bottom="2535" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Bei meinen Jungs des Teams Shadow Wolves läufts auch gut und wir schaffen konstant eine Steigerung ins Team zu bringen . Wir konnten sogar den 2. Zweibrücker Reball Rookie Cup gewinnen!</Text>
+  </Block>
+  <Block left="144" top="2598" right="625" bottom="2615" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Insofern es tut sich was!</Text>
+  </Block>
+  <Block left="144" top="2637" right="625" bottom="2652" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 11:08 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="2652" right="625" bottom="2680" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Sonntag | May 13, 2007</Text>
+  </Block>
+  <Block left="144" top="2696" right="625" bottom="2735" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Halbmarathon Geschafft! </Text>
+  </Block>
+  <Block left="460" top="2760" right="623" bottom="2794" depth="16">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Der Halbmarathon ist geschafft!</Text>
+  </Block>
+  <Block left="144" top="2817" right="625" bottom="2919" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>So nun ists geschafft habe den HM in Saarbrücken geschafft und das trotz eines Monatstrainigns pause in 2:02:57 Nettozeit :)</Text>
+  </Block>
+  <Block left="144" top="2982" right="625" bottom="3050" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Bin echt froh es geschafft zu haben und Semy hat mich von aussen auch Tatkräftig unter stützt, das hatte mir sehr geholfen! Habe bei laufen-aktuell.de einen kurzen Laufbericht s. : http://www.laufen-aktuell.de/laufen-aktuell/content/forum/showthread.html?p=557558#post557558</Text>
+  </Block>
+  <Block left="144" top="3113" right="664" bottom="3164" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Die Saarbrücker strecke habe ich hier online gestellt : http://gpsies.com/map.do;jsessionid=6A74294626FE1AC98C0FB0E5C66A56CF?fileId=jwnboayinnaadyza</Text>
+  </Block>
+  <Block left="144" top="3187" right="625" bottom="3199" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Tags: Halbmarathon | Laufen | Running | Saarbrücken</Text>
+  </Block>
+  <Block left="144" top="3209" right="625" bottom="3224" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 20:04 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="3224" right="625" bottom="3252" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Dienstag | April 03, 2007</Text>
+  </Block>
+  <Block left="144" top="3268" right="625" bottom="3307" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Viel los </Text>
+  </Block>
+  <Block left="144" top="3332" right="625" bottom="3366" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>In letzter Zeit war meine Aktivität in diesem Blog etwas wenig. Dafür hat sich in meinen anderne BLogs etwas mehr getan.</Text>
+  </Block>
+  <Block left="144" top="3389" right="625" bottom="3440" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>auch sonst war bei mir viel los. So habe ich es geschafft mir vor 2 ,3 Wochen im Arnis Training unglücklcih die Nase zu brechen. Das ansich war nicht so schlimm allerdings bin ich ja so gerne im Krankenhaus...</Text>
+  </Block>
+  <Block left="144" top="3463" right="625" bottom="3497" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Am Wochenende ist nun die DM im Combat Arnis und ich hofffe dass ich trotz verletzungsbdeingten Trainingsrückstand was reißen kann.</Text>
+  </Block>
+  <Block left="144" top="3560" right="625" bottom="3577" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Unter : http://picasaweb.google.de/HaggyPB/</Text>
+  </Block>
+  <Block left="144" top="3640" right="625" bottom="3657" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>gibts nun auch eine akltuelle fotogallerie</Text>
+  </Block>
+  <Block left="144" top="3680" right="625" bottom="3692" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Tags: Arnis | BLog | Werder Bremen</Text>
+  </Block>
+  <Block left="144" top="3702" right="625" bottom="3717" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 22:02 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="3717" right="625" bottom="3745" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Dienstag | Februar 06, 2007</Text>
+  </Block>
+  <Block left="144" top="3761" right="625" bottom="3800" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Gedanken zu Frauen </Text>
+  </Block>
+  <Block left="144" top="3825" right="625" bottom="3859" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Gerade eben habe ich einen Artikel auf Tagesschau.de gelesen der mich doch nachdenklich macht.</Text>
+  </Block>
+  <Block left="144" top="3882" right="625" bottom="3933" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Dort ist geschrieben, dass Frauen sich um einen Aufstieg in der NPD bemühen. Dort genannte &quot;Quellen&quot; sagten dass es auch mal vokrkommt dass aber Rechte Frauen es so sehen dass sie sich nicht emanzipieren sollen.</Text>
+  </Block>
+  <Block left="144" top="3956" right="625" bottom="4024" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>&quot;Herd,Küche,Kinder,...&quot; Gewalt gegen Frauen ist auch nicht &quot;so dramatisch&quot;. Wie kann jemand sich in einer organisation engagieren die eine Nicht Toleranz gegen andersartigkeit und gegen weiblichkeit propagiert wenn man da doch selbst ovn getroffen ist?</Text>
+  </Block>
+  <Block left="144" top="4047" right="625" bottom="4081" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Ist es wieder einmal das Verhalten von Frauen dinge die sie nicht gut finden ändern zu wollen ?</Text>
+  </Block>
+  <Block left="144" top="4104" right="625" bottom="4155" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Interessant ist auch dass es Frauen gibt die wohl offentsichtlich für ihre Gleichberechtigung kämpfen wollen und sie anderen gruppe aberkennen möchte.</Text>
+  </Block>
+  <Block left="144" top="4178" right="625" bottom="4195" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Irgendwie finde ich das ganze ziemlich widersprüchlich.</Text>
+  </Block>
+  <Block left="144" top="4218" right="625" bottom="4252" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Ich frage mich auch was eine Frau dazu bewegen kann sich nach Gewalt und Ausgrenzung zu sehen.</Text>
+  </Block>
+  <Block left="144" top="4275" right="625" bottom="4309" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Es kann doch nichts besser werden, nichts schmerzen lindern, wenn man nur noch mehr Leid erzeugt.</Text>
+  </Block>
+  <Block left="144" top="4332" right="625" bottom="4383" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Gerade Frauen welche ja langezeit als &quot;Dem Mann untertan&quot; erzogen wurden sollten doch wissen wie wenig es bringt andere als &quot;minderwertig&quot; zu behandeln.</Text>
+  </Block>
+  <Block left="144" top="4486" right="625" bottom="4520" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Indem Zusammenhang möchte ich noch auf eine AntiRassismus Aktion von Werder Bremen hinweisen. </Text>
+  </Block>
+  <Block left="144" top="4543" right="625" bottom="4560" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>s. http://www.werder-online.de/aktuelles/news/meldung.php?id=10093 </Text>
+  </Block>
+  <Block left="144" top="4583" right="625" bottom="4595" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Tags: Gleichheit | Menschenrechte | Toleranz</Text>
+  </Block>
+  <Block left="144" top="4605" right="625" bottom="4620" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 22:45 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="4620" right="625" bottom="4648" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#8e9fb0" />
+      <Attribute name="realFontSize" value="9.85" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#ffffff" />
+    </Attributes>
+    <Text>Dienstag | Januar 23, 2007</Text>
+  </Block>
+  <Block left="144" top="4664" right="625" bottom="4703" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#f2f5f8" />
+      <Attribute name="realFontSize" value="14.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Zeit vergeht </Text>
+  </Block>
+  <Block left="144" top="4728" right="625" bottom="4745" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Im moment vergeht die Zeit wie Flug.</Text>
+  </Block>
+  <Block left="144" top="4768" right="625" bottom="4819" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>In ein paar Sachen bin ich momentan ziemlich eingebunden (Arbeit,Arnis Training,Vorbereitungen auf den MCTS sowie langsam anlaufende Marathon vorbereitungen)</Text>
+  </Block>
+  <Block left="144" top="4882" right="625" bottom="4916" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Da bleibt nur wenig Zeit einfach mal faul rumzuliegen. Nun wirds ja auch &quot;bald&quot; wieder Frühling und dann steht Paintball an.</Text>
+  </Block>
+  <Block left="144" top="4979" right="625" bottom="5013" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Ich hoffe bis dahin den MCTS abgeschlossen zu haben damit wieder etwas mehr zeit bleibt.</Text>
+  </Block>
+  <Block left="144" top="5076" right="625" bottom="5110" depth="15">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Für alle Arnis interessierten möchte ich nochmal meinen Arnis BLog ans Herz legen s. www.Arnis-Infos.de</Text>
+  </Block>
+  <Block left="144" top="5133" right="625" bottom="5145" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Tags: Arbeit | Arnis | MCTS | .NET.Freizeit | Paintball | Training</Text>
+  </Block>
+  <Block left="144" top="5155" right="625" bottom="5170" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Eingetragen von Haggy at 21:50 | Permanent Link | Kommentare (0) | </Text>
+  </Block>
+  <Block left="144" top="5190" right="664" bottom="5227" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>&lt;&lt; previous posts home </Text>
+  </Block>
+  <Block left="643" top="218" right="846" bottom="236" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Suchen</Text>
+  </Block>
+  <Block left="643" top="312" right="846" bottom="330" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>my advertisement</Text>
+  </Block>
+  <Block left="636" top="519" right="853" bottom="793" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Haggy
+ 
+Age: 28 
+Location: Kaiserslautern, Germany 
+Interests: Psychologie, Sport, Programmierung 
+(more about me!!) </Text>
+  </Block>
+  <Block left="643" top="806" right="846" bottom="824" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Alben</Text>
+  </Block>
+  <Block left="643" top="845" right="846" bottom="862" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Blog Images </Text>
+  </Block>
+  <Block left="643" top="862" right="846" bottom="879" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Combat Arnis </Text>
+  </Block>
+  <Block left="643" top="879" right="846" bottom="896" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Devcon 2005 </Text>
+  </Block>
+  <Block left="643" top="896" right="846" bottom="913" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Fitness </Text>
+  </Block>
+  <Block left="643" top="913" right="846" bottom="930" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Paintball </Text>
+  </Block>
+  <Block left="643" top="930" right="846" bottom="947" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Party </Text>
+  </Block>
+  <Block left="643" top="947" right="846" bottom="964" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>PC </Text>
+  </Block>
+  <Block left="643" top="964" right="846" bottom="981" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Privat </Text>
+  </Block>
+  <Block left="643" top="981" right="846" bottom="998" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Untitled </Text>
+  </Block>
+  <Block left="636" top="1016" right="853" bottom="1146" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Syndication
+ 
+RSS 
+Atom </Text>
+  </Block>
+  <Block left="636" top="1149" right="853" bottom="1675" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Tag Cloud
+Allgemein Arbeit Arnis Arnis Kampfsport BLog Kobuda Karate Bahn BLog Compact Framework PDA Entwicklung DevCon Enkaufen Forerunner Laufen Jogging Sport Freizeit Shop Gleichheit Halbmarathon HalbMarathon Höflichkeit Idioten Joggen Kaiserslautern Laufen Laufen Fackllauf Rodenbach Sport Freizeit Laufen Fit in Lautern Lebenslauf Krebshilfe Laufen Kaiserslautern Pre Park Running Jogging Marathon MCTS Menschenrechte .NET.Freizeit Paintball PC Privat Running Saarbrücken Schuhe Silvester Frankreich France Party 2007 2006 Sport Sport &amp; Freizeit Sport,Kaiserslautern Streik Toleranz Training Unpünktlichikeit Urlaub Wald Werder Bremen XBOX 360 </Text>
+  </Block>
+  <Block left="643" top="1688" right="846" bottom="1706" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="9" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#414f5c" />
+    </Attributes>
+    <Text>Archive</Text>
+  </Block>
+  <Block left="643" top="1727" right="846" bottom="1744" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>März - 2008 </Text>
+  </Block>
+  <Block left="643" top="1744" right="846" bottom="1761" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>August - 2007 </Text>
+  </Block>
+  <Block left="643" top="1761" right="846" bottom="1778" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Juli - 2007 </Text>
+  </Block>
+  <Block left="643" top="1778" right="846" bottom="1795" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>May - 2007 </Text>
+  </Block>
+  <Block left="643" top="1795" right="846" bottom="1812" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>April - 2007 </Text>
+  </Block>
+  <Block left="643" top="1812" right="846" bottom="1829" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Februar - 2007 </Text>
+  </Block>
+  <Block left="643" top="1829" right="846" bottom="1846" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Januar - 2007 </Text>
+  </Block>
+  <Block left="643" top="1846" right="846" bottom="1863" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>November - 2006 </Text>
+  </Block>
+  <Block left="643" top="1863" right="846" bottom="1880" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Oktober - 2006 </Text>
+  </Block>
+  <Block left="643" top="1880" right="846" bottom="1897" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>September - 2006 </Text>
+  </Block>
+  <Block left="643" top="1897" right="846" bottom="1914" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>August - 2006 </Text>
+  </Block>
+  <Block left="643" top="1914" right="846" bottom="1931" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Juli - 2006 </Text>
+  </Block>
+  <Block left="643" top="1931" right="846" bottom="1948" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Juni - 2006 </Text>
+  </Block>
+  <Block left="643" top="1948" right="846" bottom="1965" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>May - 2006 </Text>
+  </Block>
+  <Block left="643" top="1965" right="846" bottom="1982" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>April - 2006 </Text>
+  </Block>
+  <Block left="643" top="1982" right="846" bottom="1999" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>März - 2006 </Text>
+  </Block>
+  <Block left="643" top="1999" right="846" bottom="2016" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Februar - 2006 </Text>
+  </Block>
+  <Block left="643" top="2016" right="846" bottom="2033" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Januar - 2006 </Text>
+  </Block>
+  <Block left="643" top="2033" right="846" bottom="2050" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Dezember - 2005 </Text>
+  </Block>
+  <Block left="643" top="2050" right="846" bottom="2067" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>November - 2005 </Text>
+  </Block>
+  <Block left="643" top="2067" right="846" bottom="2084" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#dfe5ed" />
+      <Attribute name="realFontSize" value="8.4" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#444444" />
+    </Attributes>
+    <Text>Oktober - 2005 </Text>
+  </Block>
+
+</Page>

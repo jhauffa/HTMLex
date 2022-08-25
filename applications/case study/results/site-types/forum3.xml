@@ -1,0 +1,2677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Page [
+<!ELEMENT Page (Block)*>
+<!ELEMENT Block (Attributes, Text)>
+<!ATTLIST Block
+  left   CDATA   #REQUIRED
+  top    CDATA   #REQUIRED
+  right  CDATA   #REQUIRED
+  bottom CDATA   #REQUIRED
+  depth  CDATA   #REQUIRED
+>
+<!ELEMENT Attributes (Attribute)*>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+  name   NMTOKEN #REQUIRED
+  value  CDATA   #REQUIRED
+>
+<!ELEMENT Text (#PCDATA)>
+]>
+
+<Page>
+
+  <Block left="783" top="88" right="974" bottom="111" depth="14">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c0c0f0" />
+    </Attributes>
+    <Text>Schnellsuche:    </Text>
+  </Block>
+  <Block left="2" top="114" right="994" bottom="132" depth="6">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c0c0f0" />
+    </Attributes>
+    <Text>  FAQ | Suchen | Mitgliederliste | Benutzergruppen | Statistiken | Profil | Einloggen, um private Nachrichten zu lesen | Login | Registrieren </Text>
+  </Block>
+  <Block left="17" top="191" right="333" bottom="203" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Aktuelles Datum und Uhrzeit: Di März 11, 2008 8:57 am</Text>
+  </Block>
+  <Block left="17" top="203" right="226" bottom="216" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo Forums Foren-Übersicht</Text>
+  </Block>
+  <Block left="570" top="161" right="981" bottom="218" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Unbeantwortete Beiträge anzeigen
+Beiträge der letzten 24 Stunden anzeigen
+
+ </Text>
+  </Block>
+  <Block left="51" top="238" right="733" bottom="263" depth="12">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#46357c" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#efefef" />
+    </Attributes>
+    <Text>Neueste Meldungen</Text>
+  </Block>
+  <Block left="822" top="235" right="978" bottom="265" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#46357c" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#efefef" />
+    </Attributes>
+    <Text> Letzter Beitrag </Text>
+  </Block>
+  <Block left="51" top="270" right="333" bottom="283" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>[ GLSA 200803-18 ] Cacti: Multiple vulnerabilities</Text>
+  </Block>
+  <Block left="824" top="271" right="976" bottom="283" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 6:26 pm</Text>
+  </Block>
+  <Block left="51" top="293" right="353" bottom="306" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>[ GLSA 200803-17 ] PDFlib: Multiple buffer overflows</Text>
+  </Block>
+  <Block left="824" top="294" right="976" bottom="306" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 5:26 pm</Text>
+  </Block>
+  <Block left="51" top="316" right="363" bottom="329" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>[ GLSA 200803-16 ] MPlayer: Multiple buffer overflows</Text>
+  </Block>
+  <Block left="824" top="317" right="976" bottom="329" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 4:26 pm</Text>
+  </Block>
+  <Block left="18" top="354" right="681" bottom="382" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#46357c" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#efefef" />
+    </Attributes>
+    <Text> Forum </Text>
+  </Block>
+  <Block left="682" top="354" right="746" bottom="382" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#46357c" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#efefef" />
+    </Attributes>
+    <Text> Themen </Text>
+  </Block>
+  <Block left="747" top="354" right="814" bottom="382" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#46357c" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#efefef" />
+    </Attributes>
+    <Text> Beiträge </Text>
+  </Block>
+  <Block left="815" top="354" right="978" bottom="382" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#46357c" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#efefef" />
+    </Attributes>
+    <Text> Letzter Beitrag </Text>
+  </Block>
+  <Block left="21" top="390" right="100" bottom="404" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Assistance</Text>
+  </Block>
+  <Block left="74" top="417" right="233" bottom="431" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>News &amp; Announcements</Text>
+  </Block>
+  <Block left="74" top="431" right="439" bottom="444" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Read this before submitting your first post to any forum</Text>
+  </Block>
+  <Block left="74" top="444" right="238" bottom="456" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="431" right="728" bottom="443" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1624</Text>
+  </Block>
+  <Block left="766" top="431" right="794" bottom="443" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1674</Text>
+  </Block>
+  <Block left="820" top="425" right="972" bottom="449" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 6:26 pm
+GLSA </Text>
+  </Block>
+  <Block left="74" top="468" right="259" bottom="482" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Frequently Asked Questions</Text>
+  </Block>
+  <Block left="74" top="482" right="606" bottom="495" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Some of the most commonly heard questions in the Gentoo Community, along with answers.</Text>
+  </Block>
+  <Block left="74" top="495" right="238" bottom="507" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="707" top="482" right="721" bottom="494" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>81</Text>
+  </Block>
+  <Block left="770" top="482" right="791" bottom="494" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>102</Text>
+  </Block>
+  <Block left="821" top="476" right="971" bottom="500" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>So Jun 03, 2007 11:26 pm
+cynric </Text>
+  </Block>
+  <Block left="74" top="514" right="187" bottom="528" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Installing Gentoo</Text>
+  </Block>
+  <Block left="74" top="528" right="673" bottom="567" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Problems with the Installer? Having non-GUI problems with the Installation Guide? If you&apos;re still working your way through it, or just need some info before you start your install, this is the place. All other questions go elsewhere.</Text>
+  </Block>
+  <Block left="74" top="567" right="238" bottom="579" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="540" right="731" bottom="552" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>43874</Text>
+  </Block>
+  <Block left="759" top="540" right="801" bottom="552" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>272305</Text>
+  </Block>
+  <Block left="823" top="534" right="970" bottom="558" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 6:18 am
+gentoo_newguy </Text>
+  </Block>
+  <Block left="74" top="580" right="146" bottom="594" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Multimedia</Text>
+  </Block>
+  <Block left="74" top="594" right="671" bottom="620" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Help with creation, editing, or playback of sounds, images, or video. Amarok, audacious, mplayer, grip, cdparanoia and anything else that makes a sound or plays a video.</Text>
+  </Block>
+  <Block left="74" top="620" right="309" bottom="632" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren beandog, Global Moderators</Text>
+  </Block>
+  <Block left="696" top="600" right="731" bottom="612" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>36242</Text>
+  </Block>
+  <Block left="759" top="600" right="801" bottom="612" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>198649</Text>
+  </Block>
+  <Block left="823" top="594" right="970" bottom="618" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 7:19 am
+fuzzybee </Text>
+  </Block>
+  <Block left="74" top="633" right="222" bottom="647" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Desktop Environments</Text>
+  </Block>
+  <Block left="74" top="647" right="679" bottom="673" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Problems with GUI applications? Questions about X, KDE, Gnome, Fluxbox, etc.? Come on in. NOTE: For multimedia, go up one forum</Text>
+  </Block>
+  <Block left="74" top="673" right="238" bottom="685" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="653" right="731" bottom="665" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>73909</Text>
+  </Block>
+  <Block left="759" top="653" right="801" bottom="665" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>446295</Text>
+  </Block>
+  <Block left="823" top="647" right="970" bottom="671" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:24 am
+tomas.pulai </Text>
+  </Block>
+  <Block left="74" top="686" right="224" bottom="700" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Networking &amp; Security</Text>
+  </Block>
+  <Block left="74" top="700" right="668" bottom="726" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Having problems getting connected to the internet or running a server? Wondering about securing your box? Ask here.</Text>
+  </Block>
+  <Block left="74" top="726" right="238" bottom="738" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="706" right="731" bottom="718" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>58978</Text>
+  </Block>
+  <Block left="759" top="706" right="801" bottom="718" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>305337</Text>
+  </Block>
+  <Block left="823" top="700" right="970" bottom="724" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:00 am
+Freekazonid </Text>
+  </Block>
+  <Block left="74" top="739" right="201" bottom="753" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Kernel &amp; Hardware</Text>
+  </Block>
+  <Block left="74" top="753" right="679" bottom="779" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Kernel not recognizing your hardware? Problems with power management or PCMCIA? What hardware is compatible with Gentoo? See here. (Only for kernels supported by Gentoo.)</Text>
+  </Block>
+  <Block left="74" top="779" right="238" bottom="791" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="759" right="731" bottom="771" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>53020</Text>
+  </Block>
+  <Block left="759" top="759" right="801" bottom="771" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>305570</Text>
+  </Block>
+  <Block left="823" top="753" right="970" bottom="777" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:48 am
+marcogrego </Text>
+  </Block>
+  <Block left="74" top="792" right="233" bottom="806" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Portage &amp; Programming</Text>
+  </Block>
+  <Block left="74" top="806" right="647" bottom="832" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Problems with emerge or ebuilds? Have a basic programming question about C, PHP, Perl, BASH or something else?</Text>
+  </Block>
+  <Block left="74" top="832" right="238" bottom="844" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="812" right="731" bottom="824" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>68822</Text>
+  </Block>
+  <Block left="759" top="812" right="801" bottom="824" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>361836</Text>
+  </Block>
+  <Block left="823" top="806" right="970" bottom="830" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 7:29 am
+sammy2ooo </Text>
+  </Block>
+  <Block left="74" top="850" right="193" bottom="864" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gamers &amp; Players</Text>
+  </Block>
+  <Block left="74" top="864" right="673" bottom="877" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Having problems getting your favorite Linux game to work? Want to discuss strategies? This is the place!</Text>
+  </Block>
+  <Block left="74" top="877" right="238" bottom="889" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="864" right="731" bottom="876" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11469</Text>
+  </Block>
+  <Block left="763" top="864" right="798" bottom="876" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>90775</Text>
+  </Block>
+  <Block left="823" top="858" right="970" bottom="882" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 7:37 am
+gentoo_newguy </Text>
+  </Block>
+  <Block left="74" top="896" right="210" bottom="910" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Other Things Gentoo</Text>
+  </Block>
+  <Block left="74" top="910" right="670" bottom="936" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Still need help with Gentoo, and your question doesn&apos;t fit in the above forums? Here is your last bastion of hope.</Text>
+  </Block>
+  <Block left="74" top="936" right="238" bottom="948" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="916" right="731" bottom="928" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>32855</Text>
+  </Block>
+  <Block left="759" top="916" right="801" bottom="928" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>172750</Text>
+  </Block>
+  <Block left="823" top="910" right="970" bottom="934" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:49 am
+V-Li </Text>
+  </Block>
+  <Block left="74" top="949" right="223" bottom="963" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Unsupported Software</Text>
+  </Block>
+  <Block left="74" top="963" right="683" bottom="1002" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This forum covers all Gentoo-related software not officially supported by Gentoo. Ebuilds/software posted here might harm the health and stability of your system(s), and are not supported by Gentoo developers. Bugs/errors caused by ebuilds from overlays.gentoo.org are covered by this forum, too.</Text>
+  </Block>
+  <Block left="74" top="1002" right="238" bottom="1014" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="975" right="728" bottom="987" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>5113</Text>
+  </Block>
+  <Block left="763" top="975" right="798" bottom="987" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>96516</Text>
+  </Block>
+  <Block left="823" top="969" right="970" bottom="993" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:37 am
+goffrie </Text>
+  </Block>
+  <Block left="21" top="1022" right="233" bottom="1036" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Discussion &amp; Documentation</Text>
+  </Block>
+  <Block left="74" top="1049" right="266" bottom="1063" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Documentation, Tips &amp; Tricks</Text>
+  </Block>
+  <Block left="74" top="1063" right="611" bottom="1076" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Unofficial documentation for various parts of Gentoo Linux. Note: This is not a support forum.</Text>
+  </Block>
+  <Block left="74" top="1076" right="238" bottom="1088" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1063" right="728" bottom="1075" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2347</Text>
+  </Block>
+  <Block left="763" top="1063" right="798" bottom="1075" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>51919</Text>
+  </Block>
+  <Block left="823" top="1057" right="970" bottom="1081" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 5:29 am
+patrix_neo </Text>
+  </Block>
+  <Block left="74" top="1095" right="155" bottom="1109" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo Chat</Text>
+  </Block>
+  <Block left="74" top="1109" right="671" bottom="1135" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>For general linux questions, see Off The Wall. Opinions, ideas and thoughts about Gentoo. Anything and everything about Gentoo except support questions. </Text>
+  </Block>
+  <Block left="74" top="1135" right="238" bottom="1147" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1115" right="728" bottom="1127" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>8568</Text>
+  </Block>
+  <Block left="759" top="1115" right="801" bottom="1127" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>138825</Text>
+  </Block>
+  <Block left="823" top="1109" right="970" bottom="1133" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 6:57 am
+Aquiles </Text>
+  </Block>
+  <Block left="74" top="1148" right="241" bottom="1162" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo Forums Feedback</Text>
+  </Block>
+  <Block left="74" top="1162" right="656" bottom="1188" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Having a problem with the forums? Have a suggestion? Post here! Report spam, misplaced posts and forum guideline violations in this thread.</Text>
+  </Block>
+  <Block left="74" top="1188" right="238" bottom="1200" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1168" right="728" bottom="1180" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1323</Text>
+  </Block>
+  <Block left="763" top="1168" right="798" bottom="1180" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>13371</Text>
+  </Block>
+  <Block left="823" top="1162" right="970" bottom="1186" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 5:41 am
+yabbadabbadont </Text>
+  </Block>
+  <Block left="74" top="1201" right="154" bottom="1215" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Off the Wall</Text>
+  </Block>
+  <Block left="74" top="1215" right="657" bottom="1241" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Want to talk about Linux issues not related to Gentoo? Or anything else not related to Gentoo? Post it here.</Text>
+  </Block>
+  <Block left="74" top="1241" right="238" bottom="1253" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="1221" right="731" bottom="1233" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>33491</Text>
+  </Block>
+  <Block left="759" top="1221" right="801" bottom="1233" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>724854</Text>
+  </Block>
+  <Block left="823" top="1215" right="970" bottom="1239" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:51 am
+padoor </Text>
+  </Block>
+  <Block left="74" top="1259" right="193" bottom="1273" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Duplicate Threads</Text>
+  </Block>
+  <Block left="74" top="1273" right="549" bottom="1286" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Threads in this read-only forum cover topics discussed elsewhere in other forums. </Text>
+  </Block>
+  <Block left="74" top="1286" right="238" bottom="1298" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="696" top="1273" right="731" bottom="1285" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>12154</Text>
+  </Block>
+  <Block left="763" top="1273" right="798" bottom="1285" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>68538</Text>
+  </Block>
+  <Block left="821" top="1267" right="972" bottom="1291" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Do März 06, 2008 2:55 am
+desultory </Text>
+  </Block>
+  <Block left="74" top="1310" right="124" bottom="1324" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Dustbin</Text>
+  </Block>
+  <Block left="74" top="1324" right="353" bottom="1337" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>This read-only forum is primarily used for SPAM.</Text>
+  </Block>
+  <Block left="74" top="1337" right="238" bottom="1349" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1324" right="728" bottom="1336" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6644</Text>
+  </Block>
+  <Block left="763" top="1324" right="798" bottom="1336" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11648</Text>
+  </Block>
+  <Block left="823" top="1318" right="970" bottom="1342" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 6:52 am
+swasa33 </Text>
+  </Block>
+  <Block left="21" top="1363" right="225" bottom="1377" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>International Gentoo Users</Text>
+  </Block>
+  <Block left="74" top="1390" right="126" bottom="1404" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Chinese</Text>
+  </Block>
+  <Block left="74" top="1417" right="379" bottom="1429" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren EricHsu, r0bertz, akar, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="1404" right="724" bottom="1416" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>730</Text>
+  </Block>
+  <Block left="766" top="1404" right="794" bottom="1416" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3940</Text>
+  </Block>
+  <Block left="823" top="1398" right="970" bottom="1422" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 7:37 am
+chinatony </Text>
+  </Block>
+  <Block left="74" top="1441" right="112" bottom="1455" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Dutch</Text>
+  </Block>
+  <Block left="74" top="1455" right="413" bottom="1468" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Welkom op het Nederlands/Vlaamstalig Forum van Gentoo.</Text>
+  </Block>
+  <Block left="74" top="1468" right="328" bottom="1480" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren garo, nixnut, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1455" right="728" bottom="1467" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1414</Text>
+  </Block>
+  <Block left="763" top="1455" right="798" bottom="1467" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>10762</Text>
+  </Block>
+  <Block left="821" top="1449" right="971" bottom="1473" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>So März 09, 2008 4:57 pm
+BlackEdder </Text>
+  </Block>
+  <Block left="74" top="1492" right="121" bottom="1506" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Finnish</Text>
+  </Block>
+  <Block left="74" top="1506" right="373" bottom="1519" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Keskustelua Gentoo Linuxista suomeksi. Tervetuloa!</Text>
+  </Block>
+  <Block left="74" top="1519" right="361" bottom="1531" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Flammie, Mikessu, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="1506" right="724" bottom="1518" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>572</Text>
+  </Block>
+  <Block left="766" top="1506" right="794" bottom="1518" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3560</Text>
+  </Block>
+  <Block left="820" top="1500" right="972" bottom="1524" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 03, 2008 9:16 pm
+Flammie </Text>
+  </Block>
+  <Block left="74" top="1538" right="119" bottom="1552" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>French</Text>
+  </Block>
+  <Block left="74" top="1552" right="665" bottom="1578" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum dédié aux utilisateurs francophones de Gentoo. Retrouvez aussi Gentoo Linux en français sur le wiki ou encore sur gentoofr.org!</Text>
+  </Block>
+  <Block left="74" top="1578" right="433" bottom="1590" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren yoyo, kernelsensei, geekounet, Global Moderators</Text>
+  </Block>
+  <Block left="696" top="1558" right="731" bottom="1570" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>19076</Text>
+  </Block>
+  <Block left="759" top="1558" right="801" bottom="1570" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>200659</Text>
+  </Block>
+  <Block left="823" top="1552" right="970" bottom="1576" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:46 am
+Bapt </Text>
+  </Block>
+  <Block left="72" top="1591" right="321" bottom="1641" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Documentations, Astuces et Scripts</Text>
+  </Block>
+  <Block left="89" top="1605" right="641" bottom="1618" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Section dédiée documentation, merci de bien lire les consignes particulières avant de poster ici. </Text>
+  </Block>
+  <Block left="89" top="1618" right="448" bottom="1630" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren yoyo, kernelsensei, geekounet, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="1610" right="724" bottom="1622" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>291</Text>
+  </Block>
+  <Block left="766" top="1610" right="794" bottom="1622" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4344</Text>
+  </Block>
+  <Block left="820" top="1604" right="972" bottom="1628" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 7:35 am
+kwenspc </Text>
+  </Block>
+  <Block left="74" top="1642" right="258" bottom="1656" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Deutsches Forum (German)</Text>
+  </Block>
+  <Block left="74" top="1656" right="651" bottom="1708" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Support-Forum
+Diskussionen rund um Installation, Betrieb und Anpassungen von Gentoo und dessen Paketen sowie dabei auftretenden (technischen) Problemen.
+Deutsches Portal: www.gentoo.de</Text>
+  </Block>
+  <Block left="74" top="1708" right="470" bottom="1720" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Earthwings, Think4UrS11, Finswimmer, Global Moderators</Text>
+  </Block>
+  <Block left="696" top="1675" right="731" bottom="1687" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>34540</Text>
+  </Block>
+  <Block left="759" top="1675" right="801" bottom="1687" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>230818</Text>
+  </Block>
+  <Block left="823" top="1669" right="970" bottom="1693" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:52 am
+root_tux_linux </Text>
+  </Block>
+  <Block left="72" top="1721" right="206" bottom="1771" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Diskussionsforum</Text>
+  </Block>
+  <Block left="89" top="1735" right="619" bottom="1748" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Unterhaltung über Gentoo und andere Themen: Alles was nicht in ein Support-Forum gehört.</Text>
+  </Block>
+  <Block left="89" top="1748" right="485" bottom="1760" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Earthwings, Think4UrS11, Finswimmer, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1740" right="728" bottom="1752" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>3124</Text>
+  </Block>
+  <Block left="763" top="1740" right="798" bottom="1752" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>42523</Text>
+  </Block>
+  <Block left="823" top="1734" right="970" bottom="1758" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 6:55 am
+Anarcho </Text>
+  </Block>
+  <Block left="72" top="1772" right="254" bottom="1822" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Deutsche Dokumentation</Text>
+  </Block>
+  <Block left="89" top="1786" right="281" bottom="1799" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Dokumentation, Tipps und Tricks.</Text>
+  </Block>
+  <Block left="89" top="1799" right="485" bottom="1811" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Earthwings, Think4UrS11, Finswimmer, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="1791" right="724" bottom="1803" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>138</Text>
+  </Block>
+  <Block left="766" top="1791" right="794" bottom="1803" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2424</Text>
+  </Block>
+  <Block left="819" top="1785" right="974" bottom="1809" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mi März 05, 2008 12:23 pm
+mastacloak </Text>
+  </Block>
+  <Block left="74" top="1828" right="114" bottom="1842" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Greek</Text>
+  </Block>
+  <Block left="74" top="1842" right="352" bottom="1855" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Καλώs ήρθατε στο ελληνικό φόρουμ του Gentoo!</Text>
+  </Block>
+  <Block left="74" top="1855" right="389" bottom="1867" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Slammer, Deathwing00, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="1842" right="724" bottom="1854" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>297</Text>
+  </Block>
+  <Block left="766" top="1842" right="794" bottom="1854" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1700</Text>
+  </Block>
+  <Block left="824" top="1836" right="968" bottom="1860" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Do Jan 17, 2008 8:04 am
+region-g </Text>
+  </Block>
+  <Block left="74" top="1874" right="230" bottom="1888" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Forum italiano (Italian)</Text>
+  </Block>
+  <Block left="74" top="1888" right="653" bottom="1914" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Questa è la sezione italiana del forum gentoo destinata a fornire supporto all&apos;omonima distribuzione. www.gentoo.it www.gentoo-italia.net</Text>
+  </Block>
+  <Block left="74" top="1914" right="550" bottom="1926" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren randomaze, gutter, makoomba, !equilibrium, lavish, Global Moderators</Text>
+  </Block>
+  <Block left="696" top="1894" right="731" bottom="1906" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>19663</Text>
+  </Block>
+  <Block left="759" top="1894" right="801" bottom="1906" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>192262</Text>
+  </Block>
+  <Block left="823" top="1888" right="970" bottom="1912" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:39 am
+koma </Text>
+  </Block>
+  <Block left="72" top="1927" right="280" bottom="1977" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Forum di discussione italiano</Text>
+  </Block>
+  <Block left="89" top="1941" right="514" bottom="1954" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Tutte le discussioni direttamente correlabili all&apos;informatica e/o a GNU/*nix.</Text>
+  </Block>
+  <Block left="89" top="1954" right="565" bottom="1966" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren randomaze, gutter, makoomba, !equilibrium, lavish, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="1946" right="728" bottom="1958" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4136</Text>
+  </Block>
+  <Block left="763" top="1946" right="798" bottom="1958" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>59160</Text>
+  </Block>
+  <Block left="823" top="1940" right="970" bottom="1964" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 7:45 am
+bandreabis </Text>
+  </Block>
+  <Block left="72" top="1978" right="364" bottom="2028" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Risorse italiane (documentazione e tools)</Text>
+  </Block>
+  <Block left="89" top="1992" right="364" bottom="2005" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum riservato alla documentazione in italiano.</Text>
+  </Block>
+  <Block left="89" top="2005" right="565" bottom="2017" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren randomaze, gutter, makoomba, !equilibrium, lavish, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="1997" right="724" bottom="2009" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>591</Text>
+  </Block>
+  <Block left="763" top="1997" right="798" bottom="2009" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>10889</Text>
+  </Block>
+  <Block left="821" top="1991" right="971" bottom="2015" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>So März 09, 2008 6:05 am
+riverdragon </Text>
+  </Block>
+  <Block left="74" top="2029" right="114" bottom="2043" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Polish</Text>
+  </Block>
+  <Block left="74" top="2043" right="603" bottom="2069" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Witajcie na polskim forum użytkowników Gentoo! Opis instalacji i pracy z Gentoo. Pozostała dokumentacja Gentoo</Text>
+  </Block>
+  <Block left="74" top="2069" right="458" bottom="2081" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Poe, argasek, Kurt Steiner, Arfrever, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2049" right="728" bottom="2061" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>9549</Text>
+  </Block>
+  <Block left="763" top="2049" right="798" bottom="2061" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>74833</Text>
+  </Block>
+  <Block left="823" top="2043" right="970" bottom="2067" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:55 am
+Kurt Steiner </Text>
+  </Block>
+  <Block left="72" top="2082" right="208" bottom="2132" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Instalacja i sprzęt</Text>
+  </Block>
+  <Block left="89" top="2096" right="451" bottom="2109" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Pytania i problemy związane z instalacją Gentoo oraz sprzętem</Text>
+  </Block>
+  <Block left="89" top="2109" right="473" bottom="2121" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Poe, argasek, Kurt Steiner, Arfrever, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2101" right="728" bottom="2113" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1639</Text>
+  </Block>
+  <Block left="763" top="2101" right="798" bottom="2113" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11247</Text>
+  </Block>
+  <Block left="823" top="2095" right="970" bottom="2119" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:15 am
+ender74 </Text>
+  </Block>
+  <Block left="72" top="2133" right="166" bottom="2183" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Polish OTW</Text>
+  </Block>
+  <Block left="89" top="2147" right="311" bottom="2160" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Rozmowy nie związane ściśle z Gentoo</Text>
+  </Block>
+  <Block left="89" top="2160" right="473" bottom="2172" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Poe, argasek, Kurt Steiner, Arfrever, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2152" right="728" bottom="2164" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1277</Text>
+  </Block>
+  <Block left="763" top="2152" right="798" bottom="2164" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>15077</Text>
+  </Block>
+  <Block left="823" top="2146" right="970" bottom="2170" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:57 am
+Kurt Steiner </Text>
+  </Block>
+  <Block left="74" top="2189" right="149" bottom="2203" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Portuguese</Text>
+  </Block>
+  <Block left="74" top="2203" right="415" bottom="2216" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum para os utilizadores de Gentoo que falam Português.</Text>
+  </Block>
+  <Block left="74" top="2216" right="455" bottom="2228" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren RoadRunner, humpback, MetalGod, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2203" right="728" bottom="2215" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2382</Text>
+  </Block>
+  <Block left="763" top="2203" right="798" bottom="2215" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>15596</Text>
+  </Block>
+  <Block left="817" top="2197" right="976" bottom="2221" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 10:33 pm
+edbch </Text>
+  </Block>
+  <Block left="72" top="2235" right="330" bottom="2285" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#006699" />
+    </Attributes>
+    <Text> Documentação, Ferramentas e Dicas</Text>
+  </Block>
+  <Block left="89" top="2249" right="582" bottom="2262" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Fórum para a publicação de documentação, ferramentas e dicas no idioma português.</Text>
+  </Block>
+  <Block left="89" top="2262" right="470" bottom="2274" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren RoadRunner, humpback, MetalGod, Global Moderators</Text>
+  </Block>
+  <Block left="707" top="2254" right="721" bottom="2266" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>10</Text>
+  </Block>
+  <Block left="773" top="2254" right="787" bottom="2266" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>24</Text>
+  </Block>
+  <Block left="820" top="2248" right="973" bottom="2272" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo Okt 22, 2007 12:51 am
+Treco </Text>
+  </Block>
+  <Block left="74" top="2291" right="125" bottom="2305" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Russian</Text>
+  </Block>
+  <Block left="74" top="2318" right="397" bottom="2330" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Laitr Keiows, achumakov, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2305" right="728" bottom="2317" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4127</Text>
+  </Block>
+  <Block left="763" top="2305" right="798" bottom="2317" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>24617</Text>
+  </Block>
+  <Block left="820" top="2299" right="972" bottom="2323" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 1:00 pm
+Alen </Text>
+  </Block>
+  <Block left="74" top="2342" right="162" bottom="2356" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Scandinavian</Text>
+  </Block>
+  <Block left="74" top="2356" right="583" bottom="2369" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Gentoo Linux på dansk, norsk och svenska. Välkommen! www.gentoo.no www.gentoo.se</Text>
+  </Block>
+  <Block left="74" top="2369" right="238" bottom="2381" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2356" right="728" bottom="2368" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1230</Text>
+  </Block>
+  <Block left="766" top="2356" right="794" bottom="2368" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6393</Text>
+  </Block>
+  <Block left="824" top="2350" right="969" bottom="2374" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Do Feb 28, 2008 5:01 am
+andip </Text>
+  </Block>
+  <Block left="74" top="2393" right="126" bottom="2407" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Spanish</Text>
+  </Block>
+  <Block left="74" top="2407" right="504" bottom="2420" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Foro en español para los usuarios Hispanos de Gentoo. www.gentoo-es.org</Text>
+  </Block>
+  <Block left="74" top="2420" right="287" bottom="2432" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Stolz, Global Moderators</Text>
+  </Block>
+  <Block left="696" top="2407" right="731" bottom="2419" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11121</Text>
+  </Block>
+  <Block left="763" top="2407" right="798" bottom="2419" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>71019</Text>
+  </Block>
+  <Block left="823" top="2401" right="970" bottom="2425" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:51 am
+JotaCE </Text>
+  </Block>
+  <Block left="74" top="2444" right="187" bottom="2458" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Other Languages</Text>
+  </Block>
+  <Block left="74" top="2458" right="640" bottom="2471" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Don&apos;t speak English well? Want to talk to others in your native language? This is the forum for you.</Text>
+  </Block>
+  <Block left="74" top="2471" right="238" bottom="2483" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderator Global Moderators</Text>
+  </Block>
+  <Block left="703" top="2458" right="724" bottom="2470" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>404</Text>
+  </Block>
+  <Block left="766" top="2458" right="794" bottom="2470" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>4387</Text>
+  </Block>
+  <Block left="823" top="2452" right="970" bottom="2476" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 8:28 am
+c0r0 </Text>
+  </Block>
+  <Block left="21" top="2497" right="215" bottom="2511" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Architectures &amp; Platforms</Text>
+  </Block>
+  <Block left="74" top="2524" right="193" bottom="2538" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo on AMD64</Text>
+  </Block>
+  <Block left="74" top="2538" right="284" bottom="2551" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Have an x86-64 problem? Post here.</Text>
+  </Block>
+  <Block left="74" top="2551" right="374" bottom="2563" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren KingTaco, Kugelfang, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2538" right="728" bottom="2550" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>7397</Text>
+  </Block>
+  <Block left="763" top="2538" right="798" bottom="2550" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>57768</Text>
+  </Block>
+  <Block left="823" top="2532" right="970" bottom="2556" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 1:51 am
+UNIXgod </Text>
+  </Block>
+  <Block left="74" top="2575" right="172" bottom="2589" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo on PPC</Text>
+  </Block>
+  <Block left="74" top="2589" right="366" bottom="2602" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Have a PowerPC specific problem? This is the spot.</Text>
+  </Block>
+  <Block left="74" top="2602" right="442" bottom="2614" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren JoseJX, corsair, nixnut, rangerpb, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2589" right="728" bottom="2601" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>5990</Text>
+  </Block>
+  <Block left="763" top="2589" right="798" bottom="2601" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>36158</Text>
+  </Block>
+  <Block left="823" top="2583" right="970" bottom="2607" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 7:18 am
+gringo </Text>
+  </Block>
+  <Block left="74" top="2626" right="183" bottom="2640" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo on Sparc</Text>
+  </Block>
+  <Block left="74" top="2640" right="264" bottom="2653" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Have a Sparc system? Post here.</Text>
+  </Block>
+  <Block left="74" top="2653" right="411" bottom="2665" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Ferris, eradicator, gust4voz, Global Moderators</Text>
+  </Block>
+  <Block left="700" top="2640" right="728" bottom="2652" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>2126</Text>
+  </Block>
+  <Block left="763" top="2640" right="798" bottom="2652" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>11024</Text>
+  </Block>
+  <Block left="817" top="2634" right="976" bottom="2658" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 11:38 pm
+surrealillusion </Text>
+  </Block>
+  <Block left="74" top="2672" right="310" bottom="2686" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo on Alternative Architectures</Text>
+  </Block>
+  <Block left="74" top="2686" right="649" bottom="2712" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Post here for other supported architectures, or if you are interested in porting Gentoo to a currently unsupported architecture.</Text>
+  </Block>
+  <Block left="74" top="2712" right="357" bottom="2724" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren Kumba, rangerpb, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="2692" right="724" bottom="2704" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>988</Text>
+  </Block>
+  <Block left="766" top="2692" right="794" bottom="2704" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>6878</Text>
+  </Block>
+  <Block left="823" top="2686" right="970" bottom="2710" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Di März 11, 2008 4:59 am
+roarinelk </Text>
+  </Block>
+  <Block left="74" top="2730" right="371" bottom="2744" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#663399" />
+    </Attributes>
+    <Text>Gentoo for Mac OS X (Portage for Mac OS X)</Text>
+  </Block>
+  <Block left="74" top="2744" right="487" bottom="2757" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6.6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Running Portage on Mac OS X and need help with a problem? Post here.</Text>
+  </Block>
+  <Block left="74" top="2757" right="311" bottom="2769" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Moderatoren pvdabeel, Global Moderators</Text>
+  </Block>
+  <Block left="703" top="2744" right="724" bottom="2756" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>275</Text>
+  </Block>
+  <Block left="766" top="2744" right="794" bottom="2756" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>1424</Text>
+  </Block>
+  <Block left="820" top="2738" right="972" bottom="2762" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Mo März 10, 2008 6:30 pm
+Januszzz </Text>
+  </Block>
+  <Block left="795" top="2780" right="979" bottom="2792" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Alle Zeiten sind GMT - 5 Stunden</Text>
+  </Block>
+  <Block left="22" top="2805" right="135" bottom="2819" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Wer ist online?</Text>
+  </Block>
+  <Block left="71" top="2827" right="978" bottom="2877" depth="8">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#efefef" />
+      <Attribute name="realFontSize" value="12" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Unsere Benutzer haben insgesamt 4381200 Beiträge geschrieben.
+Wir haben 119152 registrierte Benutzer.
+Der neueste Benutzer ist Argsebas. </Text>
+  </Block>
+  <Block left="74" top="2881" right="955" bottom="2941" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Insgesamt sind 413 Benutzer online: 42 registrierte, 6 versteckte und 365 Gäste.   [ Administrator ]   [ Moderator ]   [ User Representative ]   [ Developer ] 
+Der Rekord liegt bei 1850 Benutzern am Do Dez 30, 2004 5:17 pm.
+Registrierte Benutzer: albert2004, aleph-muc, Anarcho, Arniepoo, atrus123, Boris27, cast0r, Cereza, cinek810, cklimt, CMoH, djinnZ, dusanc, Eleazar Anzola, EzInKy, firefly, freelight, Gabriel_Blake, geekounet, gentoo_newguy, IvanZD, Josef.95, krolden, largo3, makoomba, Malla, mario18, nbvcxz, Ooops, padoor, peakeyed, PietdeBoer, plbe, root_tux_linux, silentshaper, square_, star882, Tigerwalk, vad3r, Wojtek_, Xaero, XavierMiller</Text>
+  </Block>
+  <Block left="17" top="2949" right="374" bottom="2961" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Diese Daten zeigen an, wer in den letzten 5 Minuten online war.</Text>
+  </Block>
+  <Block left="22" top="2997" right="62" bottom="3011" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.2" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Login</Text>
+  </Block>
+  <Block left="168" top="3022" right="831" bottom="3043" depth="10">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Benutzername:     Passwort:       Bei jedem Besuch automatisch einloggen       </Text>
+  </Block>
+  <Block left="318" top="3100" right="396" bottom="3112" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Neue Beiträge</Text>
+  </Block>
+  <Block left="437" top="3100" right="557" bottom="3112" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Keine neuen Beiträge</Text>
+  </Block>
+  <Block left="598" top="3100" right="700" bottom="3112" depth="9">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#000000" />
+    </Attributes>
+    <Text>Forum ist gesperrt</Text>
+  </Block>
+  <Block left="2" top="3153" right="994" bottom="3171" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="7.5" />
+      <Attribute name="realFontWeight" value="700" />
+      <Attribute name="realTextColor" value="#c0c0f0" />
+    </Attributes>
+    <Text> Links: forums.gentoo.org | www.gentoo.org | bugs.gentoo.org | forum-mods@gentoo.org </Text>
+  </Block>
+  <Block left="2" top="3177" right="994" bottom="3189" depth="5">
+    <Attributes>
+      <Attribute name="realBackgroundColor" value="#ffffff" />
+      <Attribute name="realFontSize" value="6" />
+      <Attribute name="realFontWeight" value="400" />
+      <Attribute name="realTextColor" value="#999999" />
+    </Attributes>
+    <Text>Copyright 2001-2006 Gentoo Foundation, Inc. Designed by Kyle Manna © 2003; Style derived from original subSilver theme. Powered by phpBB 2.0.22-gentoo-p5 © 2001, 2002 phpBB Group</Text>
+  </Block>
+
+</Page>
